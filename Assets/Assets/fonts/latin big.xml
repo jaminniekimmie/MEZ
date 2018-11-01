@@ -1,0 +1,663 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SpriteFont width="128" height="172" hSpace="1.0" vSpace="22">
+  <Glyphs>
+    <Rectangle x="67" y="165" w="1" h="1"/>
+    <Rectangle x="70" y="165" w="1" h="1"/>
+    <Rectangle x="73" y="165" w="1" h="1"/>
+    <Rectangle x="119" y="83" w="2" h="10"/>
+    <Rectangle x="11" y="165" w="6" h="4"/>
+    <Rectangle x="83" y="83" w="10" h="10"/>
+    <Rectangle x="1" y="37" w="10" h="14"/>
+    <Rectangle x="95" y="83" w="10" h="10"/>
+    <Rectangle x="55" y="83" w="12" h="10"/>
+    <Rectangle x="125" y="151" w="2" h="4"/>
+    <Rectangle x="123" y="51" w="4" h="14"/>
+    <Rectangle x="95" y="53" w="4" h="14"/>
+    <Rectangle x="107" y="83" w="10" h="10"/>
+    <Rectangle x="19" y="95" w="10" h="10"/>
+    <Rectangle x="13" y="97" w="4" h="6"/>
+    <Rectangle x="57" y="165" w="8" h="2"/>
+    <Rectangle x="125" y="157" w="2" h="2"/>
+    <Rectangle x="31" y="95" w="10" h="10"/>
+    <Rectangle x="43" y="95" w="10" h="10"/>
+    <Rectangle x="123" y="131" w="4" h="10"/>
+    <Rectangle x="55" y="95" w="10" h="10"/>
+    <Rectangle x="67" y="95" w="10" h="10"/>
+    <Rectangle x="79" y="95" w="10" h="10"/>
+    <Rectangle x="91" y="95" w="10" h="10"/>
+    <Rectangle x="103" y="95" w="10" h="10"/>
+    <Rectangle x="73" y="131" w="8" h="10"/>
+    <Rectangle x="115" y="95" w="10" h="10"/>
+    <Rectangle x="1" y="97" w="10" h="10"/>
+    <Rectangle x="125" y="143" w="2" h="6"/>
+    <Rectangle x="113" y="37" w="4" h="12"/>
+    <Rectangle x="121" y="107" w="6" h="10"/>
+    <Rectangle x="115" y="163" w="10" h="6"/>
+    <Rectangle x="121" y="119" w="6" h="10"/>
+    <Rectangle x="83" y="131" w="8" h="10"/>
+    <Rectangle x="13" y="107" w="10" h="10"/>
+    <Rectangle x="25" y="107" w="10" h="10"/>
+    <Rectangle x="37" y="107" w="10" h="10"/>
+    <Rectangle x="49" y="107" w="10" h="10"/>
+    <Rectangle x="61" y="107" w="10" h="10"/>
+    <Rectangle x="73" y="107" w="10" h="10"/>
+    <Rectangle x="85" y="107" w="10" h="10"/>
+    <Rectangle x="97" y="107" w="10" h="10"/>
+    <Rectangle x="109" y="107" w="10" h="10"/>
+    <Rectangle x="83" y="143" w="2" h="10"/>
+    <Rectangle x="93" y="131" w="8" h="10"/>
+    <Rectangle x="1" y="109" w="10" h="10"/>
+    <Rectangle x="103" y="131" w="8" h="10"/>
+    <Rectangle x="13" y="119" w="10" h="10"/>
+    <Rectangle x="25" y="119" w="10" h="10"/>
+    <Rectangle x="37" y="119" w="10" h="10"/>
+    <Rectangle x="49" y="119" w="10" h="10"/>
+    <Rectangle x="1" y="69" w="10" h="12"/>
+    <Rectangle x="61" y="119" w="10" h="10"/>
+    <Rectangle x="73" y="119" w="10" h="10"/>
+    <Rectangle x="85" y="119" w="10" h="10"/>
+    <Rectangle x="97" y="119" w="10" h="10"/>
+    <Rectangle x="109" y="119" w="10" h="10"/>
+    <Rectangle x="39" y="83" w="14" h="10"/>
+    <Rectangle x="1" y="121" w="10" h="10"/>
+    <Rectangle x="13" y="131" w="10" h="10"/>
+    <Rectangle x="25" y="131" w="10" h="10"/>
+    <Rectangle x="101" y="53" w="4" h="14"/>
+    <Rectangle x="37" y="131" w="10" h="10"/>
+    <Rectangle x="107" y="53" w="4" h="14"/>
+    <Rectangle x="19" y="165" w="6" h="4"/>
+    <Rectangle x="33" y="165" w="10" h="2"/>
+    <Rectangle x="27" y="165" w="4" h="4"/>
+    <Rectangle x="115" y="143" w="8" h="8"/>
+    <Rectangle x="113" y="131" w="8" h="10"/>
+    <Rectangle x="1" y="145" w="8" h="8"/>
+    <Rectangle x="1" y="133" w="8" h="10"/>
+    <Rectangle x="115" y="153" w="8" h="8"/>
+    <Rectangle x="77" y="143" w="4" h="10"/>
+    <Rectangle x="13" y="69" w="8" h="12"/>
+    <Rectangle x="11" y="143" w="8" h="10"/>
+    <Rectangle x="87" y="143" w="2" h="10"/>
+    <Rectangle x="113" y="67" w="4" h="14"/>
+    <Rectangle x="21" y="143" w="8" h="10"/>
+    <Rectangle x="91" y="143" w="2" h="10"/>
+    <Rectangle x="99" y="143" w="14" h="8"/>
+    <Rectangle x="17" y="155" w="8" h="8"/>
+    <Rectangle x="27" y="155" w="8" h="8"/>
+    <Rectangle x="23" y="69" w="8" h="12"/>
+    <Rectangle x="33" y="69" w="8" h="12"/>
+    <Rectangle x="107" y="163" w="6" h="8"/>
+    <Rectangle x="37" y="155" w="8" h="8"/>
+    <Rectangle x="61" y="143" w="6" h="10"/>
+    <Rectangle x="47" y="155" w="8" h="8"/>
+    <Rectangle x="57" y="155" w="8" h="8"/>
+    <Rectangle x="99" y="153" w="14" h="8"/>
+    <Rectangle x="67" y="155" w="8" h="8"/>
+    <Rectangle x="43" y="69" w="8" h="12"/>
+    <Rectangle x="77" y="155" w="8" h="8"/>
+    <Rectangle x="71" y="53" w="6" h="14"/>
+    <Rectangle x="119" y="67" w="2" h="14"/>
+    <Rectangle x="79" y="53" w="6" h="14"/>
+    <Rectangle x="1" y="165" w="8" h="4"/>
+    <Rectangle x="76" y="165" w="1" h="1"/>
+    <Rectangle x="95" y="143" w="2" h="10"/>
+    <Rectangle x="31" y="143" w="8" h="10"/>
+    <Rectangle x="11" y="1" w="10" h="16"/>
+    <Rectangle x="23" y="1" w="10" h="16"/>
+    <Rectangle x="35" y="1" w="10" h="16"/>
+    <Rectangle x="47" y="1" w="10" h="16"/>
+    <Rectangle x="13" y="37" w="10" h="14"/>
+    <Rectangle x="59" y="1" w="10" h="16"/>
+    <Rectangle x="19" y="83" w="18" h="10"/>
+    <Rectangle x="25" y="37" w="10" h="14"/>
+    <Rectangle x="71" y="1" w="10" h="16"/>
+    <Rectangle x="83" y="1" w="10" h="16"/>
+    <Rectangle x="95" y="1" w="10" h="16"/>
+    <Rectangle x="37" y="37" w="10" h="14"/>
+    <Rectangle x="107" y="19" w="4" h="16"/>
+    <Rectangle x="113" y="19" w="4" h="16"/>
+    <Rectangle x="119" y="1" w="6" h="16"/>
+    <Rectangle x="87" y="53" w="6" h="14"/>
+    <Rectangle x="69" y="83" w="12" h="10"/>
+    <Rectangle x="107" y="1" w="10" h="16"/>
+    <Rectangle x="11" y="19" w="10" h="16"/>
+    <Rectangle x="23" y="19" w="10" h="16"/>
+    <Rectangle x="35" y="19" w="10" h="16"/>
+    <Rectangle x="47" y="19" w="10" h="16"/>
+    <Rectangle x="49" y="37" w="10" h="14"/>
+    <Rectangle x="87" y="155" w="8" h="8"/>
+    <Rectangle x="49" y="131" w="10" h="10"/>
+    <Rectangle x="59" y="19" w="10" h="16"/>
+    <Rectangle x="71" y="19" w="10" h="16"/>
+    <Rectangle x="83" y="19" w="10" h="16"/>
+    <Rectangle x="61" y="37" w="10" h="14"/>
+    <Rectangle x="95" y="19" w="10" h="16"/>
+    <Rectangle x="41" y="143" w="8" h="10"/>
+    <Rectangle x="51" y="143" w="8" h="10"/>
+    <Rectangle x="119" y="19" w="8" h="14"/>
+    <Rectangle x="1" y="21" w="8" h="14"/>
+    <Rectangle x="119" y="35" w="8" h="14"/>
+    <Rectangle x="73" y="37" w="8" h="14"/>
+    <Rectangle x="53" y="69" w="8" h="12"/>
+    <Rectangle x="63" y="69" w="8" h="12"/>
+    <Rectangle x="1" y="155" w="14" h="8"/>
+    <Rectangle x="73" y="69" w="8" h="12"/>
+    <Rectangle x="83" y="37" w="8" h="14"/>
+    <Rectangle x="93" y="37" w="8" h="14"/>
+    <Rectangle x="103" y="37" w="8" h="14"/>
+    <Rectangle x="83" y="69" w="8" h="12"/>
+    <Rectangle x="123" y="67" w="4" h="12"/>
+    <Rectangle x="123" y="81" w="4" h="12"/>
+    <Rectangle x="11" y="83" w="6" h="12"/>
+    <Rectangle x="69" y="143" w="6" h="10"/>
+    <Rectangle x="93" y="69" w="8" h="12"/>
+    <Rectangle x="113" y="51" w="8" h="14"/>
+    <Rectangle x="1" y="53" w="8" h="14"/>
+    <Rectangle x="11" y="53" w="8" h="14"/>
+    <Rectangle x="21" y="53" w="8" h="14"/>
+    <Rectangle x="31" y="53" w="8" h="14"/>
+    <Rectangle x="103" y="69" w="8" h="12"/>
+    <Rectangle x="61" y="131" w="10" h="10"/>
+    <Rectangle x="97" y="163" w="8" h="8"/>
+    <Rectangle x="41" y="53" w="8" h="14"/>
+    <Rectangle x="51" y="53" w="8" h="14"/>
+    <Rectangle x="61" y="53" w="8" h="14"/>
+    <Rectangle x="1" y="83" w="8" h="12"/>
+    <Rectangle x="1" y="1" w="8" h="18"/>
+    <Rectangle x="45" y="165" w="10" h="2"/>
+  </Glyphs>
+  <Cropping>
+    <Rectangle x="5" y="35" w="6" h="24"/>
+    <Rectangle x="5" y="35" w="6" h="24"/>
+    <Rectangle x="5" y="35" w="6" h="24"/>
+    <Rectangle x="0" y="8" w="2" h="24"/>
+    <Rectangle x="0" y="8" w="6" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="6" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="12" h="24"/>
+    <Rectangle x="0" y="8" w="2" h="24"/>
+    <Rectangle x="0" y="6" w="4" h="24"/>
+    <Rectangle x="0" y="6" w="4" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="16" w="4" h="24"/>
+    <Rectangle x="0" y="12" w="8" h="24"/>
+    <Rectangle x="0" y="16" w="2" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="4" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="10" w="2" h="24"/>
+    <Rectangle x="0" y="10" w="4" h="24"/>
+    <Rectangle x="0" y="8" w="6" h="24"/>
+    <Rectangle x="0" y="10" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="6" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="2" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="14" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="6" w="4" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="6" w="4" h="24"/>
+    <Rectangle x="0" y="8" w="6" h="24"/>
+    <Rectangle x="0" y="18" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="4" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="4" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="2" h="24"/>
+    <Rectangle x="0" y="8" w="4" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="2" h="24"/>
+    <Rectangle x="0" y="10" w="14" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="6" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="6" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="14" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="6" w="6" h="24"/>
+    <Rectangle x="0" y="6" w="2" h="24"/>
+    <Rectangle x="0" y="6" w="6" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="13" y="35" w="14" h="24"/>
+    <Rectangle x="0" y="8" w="2" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="4" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="18" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="4" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="4" h="24"/>
+    <Rectangle x="0" y="2" w="4" h="24"/>
+    <Rectangle x="0" y="2" w="6" h="24"/>
+    <Rectangle x="0" y="4" w="6" h="24"/>
+    <Rectangle x="0" y="8" w="12" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="4" w="10" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="4" w="10" h="24"/>
+    <Rectangle x="0" y="2" w="10" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="6" w="8" h="24"/>
+    <Rectangle x="0" y="6" w="8" h="24"/>
+    <Rectangle x="0" y="10" w="14" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="6" w="8" h="24"/>
+    <Rectangle x="0" y="6" w="4" h="24"/>
+    <Rectangle x="0" y="6" w="4" h="24"/>
+    <Rectangle x="0" y="6" w="6" h="24"/>
+    <Rectangle x="0" y="8" w="6" h="24"/>
+    <Rectangle x="0" y="6" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="6" w="8" h="24"/>
+    <Rectangle x="0" y="8" w="10" h="24"/>
+    <Rectangle x="0" y="10" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="6" w="8" h="24"/>
+    <Rectangle x="0" y="4" w="8" h="24"/>
+    <Rectangle x="0" y="16" w="10" h="24"/>
+  </Cropping>
+  <Kerning>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="12.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="14.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="14.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="14.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="14.0" z="0.0"/>
+    <Vector3 x="0.0" y="2.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="18.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="12.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="14.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="4.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="6.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="8.0" z="0.0"/>
+    <Vector3 x="0.0" y="10.0" z="0.0"/>
+  </Kerning>
+  <CharMap>
+    <Char c="&#10;"/>
+    <Char c="&#13;"/>
+    <Char c=" "/>
+    <Char c="!"/>
+    <Char c="&quot;"/>
+    <Char c="#"/>
+    <Char c="$"/>
+    <Char c="%"/>
+    <Char c="&amp;"/>
+    <Char c="'"/>
+    <Char c="("/>
+    <Char c=")"/>
+    <Char c="*"/>
+    <Char c="+"/>
+    <Char c=","/>
+    <Char c="-"/>
+    <Char c="."/>
+    <Char c="/"/>
+    <Char c="0"/>
+    <Char c="1"/>
+    <Char c="2"/>
+    <Char c="3"/>
+    <Char c="4"/>
+    <Char c="5"/>
+    <Char c="6"/>
+    <Char c="7"/>
+    <Char c="8"/>
+    <Char c="9"/>
+    <Char c=":"/>
+    <Char c=";"/>
+    <Char c="&lt;"/>
+    <Char c="="/>
+    <Char c="&gt;"/>
+    <Char c="?"/>
+    <Char c="@"/>
+    <Char c="A"/>
+    <Char c="B"/>
+    <Char c="C"/>
+    <Char c="D"/>
+    <Char c="E"/>
+    <Char c="F"/>
+    <Char c="G"/>
+    <Char c="H"/>
+    <Char c="I"/>
+    <Char c="J"/>
+    <Char c="K"/>
+    <Char c="L"/>
+    <Char c="M"/>
+    <Char c="N"/>
+    <Char c="O"/>
+    <Char c="P"/>
+    <Char c="Q"/>
+    <Char c="R"/>
+    <Char c="S"/>
+    <Char c="T"/>
+    <Char c="U"/>
+    <Char c="V"/>
+    <Char c="W"/>
+    <Char c="X"/>
+    <Char c="Y"/>
+    <Char c="Z"/>
+    <Char c="["/>
+    <Char c="\"/>
+    <Char c="]"/>
+    <Char c="^"/>
+    <Char c="_"/>
+    <Char c="`"/>
+    <Char c="a"/>
+    <Char c="b"/>
+    <Char c="c"/>
+    <Char c="d"/>
+    <Char c="e"/>
+    <Char c="f"/>
+    <Char c="g"/>
+    <Char c="h"/>
+    <Char c="i"/>
+    <Char c="j"/>
+    <Char c="k"/>
+    <Char c="l"/>
+    <Char c="m"/>
+    <Char c="n"/>
+    <Char c="o"/>
+    <Char c="p"/>
+    <Char c="q"/>
+    <Char c="r"/>
+    <Char c="s"/>
+    <Char c="t"/>
+    <Char c="u"/>
+    <Char c="v"/>
+    <Char c="w"/>
+    <Char c="x"/>
+    <Char c="y"/>
+    <Char c="z"/>
+    <Char c="{"/>
+    <Char c="|"/>
+    <Char c="}"/>
+    <Char c="~"/>
+    <Char c=" "/>
+    <Char c="¡"/>
+    <Char c="¿"/>
+    <Char c="À"/>
+    <Char c="Á"/>
+    <Char c="Â"/>
+    <Char c="Ã"/>
+    <Char c="Ä"/>
+    <Char c="Å"/>
+    <Char c="Æ"/>
+    <Char c="Ç"/>
+    <Char c="È"/>
+    <Char c="É"/>
+    <Char c="Ê"/>
+    <Char c="Ë"/>
+    <Char c="Ì"/>
+    <Char c="Í"/>
+    <Char c="Î"/>
+    <Char c="Ï"/>
+    <Char c="Ð"/>
+    <Char c="Ñ"/>
+    <Char c="Ò"/>
+    <Char c="Ó"/>
+    <Char c="Ô"/>
+    <Char c="Õ"/>
+    <Char c="Ö"/>
+    <Char c="×"/>
+    <Char c="Ø"/>
+    <Char c="Ù"/>
+    <Char c="Ú"/>
+    <Char c="Û"/>
+    <Char c="Ü"/>
+    <Char c="Ý"/>
+    <Char c="Þ"/>
+    <Char c="ß"/>
+    <Char c="à"/>
+    <Char c="á"/>
+    <Char c="â"/>
+    <Char c="ã"/>
+    <Char c="ä"/>
+    <Char c="å"/>
+    <Char c="æ"/>
+    <Char c="ç"/>
+    <Char c="è"/>
+    <Char c="é"/>
+    <Char c="ê"/>
+    <Char c="ë"/>
+    <Char c="ì"/>
+    <Char c="í"/>
+    <Char c="î"/>
+    <Char c="ï"/>
+    <Char c="ð"/>
+    <Char c="ñ"/>
+    <Char c="ò"/>
+    <Char c="ó"/>
+    <Char c="ô"/>
+    <Char c="õ"/>
+    <Char c="ö"/>
+    <Char c="÷"/>
+    <Char c="ø"/>
+    <Char c="ù"/>
+    <Char c="ú"/>
+    <Char c="û"/>
+    <Char c="ü"/>
+    <Char c="ý"/>
+    <Char c="…"/>
+  </CharMap>
+</SpriteFont>

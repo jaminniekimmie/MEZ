@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="GRAVE" background="GRAVE" windSpeed="0.600000023842" density="1.0" fogDensity="0.019999999553" verticalTiling="False" horizontalScrolling="True" layerBaseHeight="0.850000023842" interLayerVerticalDistance="0.10000000149" interLayerHorizontalDistance="0.10000000149" horizontalDistance="0.0" verticalDistance="0.10000000149" layerBaseSpacing="0.0" windParallax="1.0" windDistance="0.10000000149" cloudsParallax="1.0" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="True" layerBaseXOffset="0.0" stars="Stars">
+  <Layers>
+    <SkyLayer name="GRAVE_CLOUD_C" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="GRAVE_CLOUD_B" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="GRAVE_CLOUD_A" opacity="1.0" fogTint="0.0" inFront="False"/>
+  </Layers>
+  <Clouds/>
+</Sky>

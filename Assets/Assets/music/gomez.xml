@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Gomez" tempo="60" timeSignature="4" randomOrdering="False">
+  <Chord>G_maj</Chord>
+  <Notes>
+    <Note>G2</Note>
+    <Note>D2</Note>
+    <Note>E2</Note>
+    <Note>F2</Note>
+    <Note>A2</Note>
+    <Note>B2</Note>
+    <Note>D3</Note>
+    <Note>G3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Singles ^ Gomez" duration="52" loopTimesFrom="1" loopTimesTo="1" triggerFrom="100" triggerTo="100" delay="0" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

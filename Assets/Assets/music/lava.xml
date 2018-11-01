@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Lava" tempo="120" timeSignature="4" randomOrdering="False">
+  <Chord>E_maj</Chord>
+  <Notes>
+    <Note>E2</Note>
+    <Note>F2</Note>
+    <Note>G2</Note>
+    <Note>Gsharp2</Note>
+    <Note>Asharp2</Note>
+    <Note>B2</Note>
+    <Note>C3</Note>
+    <Note>D3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Singles ^ Lava" duration="116" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="0" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

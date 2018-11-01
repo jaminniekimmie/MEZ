@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AnimatedTexturePC width="128" height="64" actualWidth="12" actualHeight="12">
+  <Frames>
+    <FramePC duration="700000">
+      <Rectangle x="0" y="0" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="13" y="0" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="0" y="13" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="13" y="13" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="26" y="0" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="26" y="13" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="39" y="0" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="39" y="13" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="0" y="26" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="0" y="39" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="13" y="26" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="26" y="26" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="13" y="39" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="26" y="39" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="39" y="26" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="39" y="39" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="52" y="0" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="65" y="0" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="52" y="13" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="78" y="0" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="65" y="13" w="12" h="12"/>
+    </FramePC>
+    <FramePC duration="700000">
+      <Rectangle x="52" y="26" w="12" h="12"/>
+    </FramePC>
+  </Frames>
+</AnimatedTexturePC>

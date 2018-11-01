@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Sewers" tempo="85" timeSignature="4" randomOrdering="False">
+  <Chord>Dsharp_maj</Chord>
+  <Notes>
+    <Note>Dsharp2</Note>
+    <Note>Fsharp2</Note>
+    <Note>Csharp3</Note>
+    <Note>Dsharp3</Note>
+    <Note>E2</Note>
+    <Note>Gsharp3</Note>
+    <Note>Csharp3</Note>
+    <Note>Dsharp3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Singles ^ Sewers" duration="80" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

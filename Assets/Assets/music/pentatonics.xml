@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Pentatonics" tempo="70" timeSignature="4" randomOrdering="False">
+  <Chord>Fsharp_maj</Chord>
+  <Notes>
+    <Note>Fsharp2</Note>
+    <Note>Gsharp2</Note>
+    <Note>Asharp2</Note>
+    <Note>Csharp3</Note>
+    <Note>Dsharp3</Note>
+    <Note>Fsharp3</Note>
+    <Note>Gsharp3</Note>
+    <Note>Asharp3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Pentatonics ^ Day" duration="51" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="2" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="True" dawn="False"/>
+    <Loop name="Pentatonics ^ Night" duration="51" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="2" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="True"/>
+  </Loops>
+</TrackedSong>

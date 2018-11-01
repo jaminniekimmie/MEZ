@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AnimatedTexturePC width="64" height="64" actualWidth="9" actualHeight="9">
+  <Frames>
+    <FramePC duration="1500000">
+      <Rectangle x="0" y="0" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="10" y="0" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="20" y="0" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="0" y="10" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="10" y="10" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="0" y="20" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="10" y="20" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="20" y="10" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="20" y="20" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="30" y="0" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="30" y="10" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="40" y="0" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="30" y="20" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="40" y="10" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="50" y="0" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="50" y="10" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="40" y="20" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="50" y="20" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="0" y="30" w="9" h="9"/>
+    </FramePC>
+    <FramePC duration="1500000">
+      <Rectangle x="10" y="30" w="9" h="9"/>
+    </FramePC>
+  </Frames>
+</AnimatedTexturePC>

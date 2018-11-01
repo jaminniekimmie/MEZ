@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Mines" tempo="60" timeSignature="4" randomOrdering="False">
+  <Chord>Dsharp_maj</Chord>
+  <Notes>
+    <Note>Dsharp2</Note>
+    <Note>F2</Note>
+    <Note>Fsharp2</Note>
+    <Note>Gsharp2</Note>
+    <Note>Asharp2</Note>
+    <Note>Dsharp3</Note>
+    <Note>F3</Note>
+    <Note>Fsharp3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Mines ^ layer_one" duration="17" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Mines ^ layer_two" duration="17" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Mines ^ layer_three" duration="17" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Mines ^ layer_four" duration="17" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Mines ^ layer_five" duration="17" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

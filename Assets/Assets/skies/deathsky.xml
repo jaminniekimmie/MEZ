@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="DEATHSKY" background="OUTERSPACE_BACK" windSpeed="2.0" density="1.0" fogDensity="0.019999999553" verticalTiling="False" horizontalScrolling="True" layerBaseHeight="0.5" interLayerVerticalDistance="0.10000000149" interLayerHorizontalDistance="0.5" horizontalDistance="0.20000000298" verticalDistance="0.600000023842" layerBaseSpacing="-0.300000011921" windParallax="0.10000000149" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0500000007451">
+  <Layers>
+    <SkyLayer name="DEATHSKY_C" opacity="0.25" fogTint="0.300000011921" inFront="False"/>
+    <SkyLayer name="DEATHSKY_B" opacity="0.5" fogTint="0.20000000298" inFront="False"/>
+    <SkyLayer name="DEATHSKY_A" opacity="0.75" fogTint="0.10000000149" inFront="False"/>
+  </Layers>
+  <Clouds/>
+</Sky>

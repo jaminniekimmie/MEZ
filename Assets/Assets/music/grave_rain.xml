@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Grave" tempo="100" timeSignature="4" randomOrdering="False">
+  <Chord>F_maj</Chord>
+  <Notes>
+    <Note>F2</Note>
+    <Note>F2</Note>
+    <Note>F3</Note>
+    <Note>F2</Note>
+    <Note>F2</Note>
+    <Note>F2</Note>
+    <Note>F3</Note>
+    <Note>F2</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Grave ^ Rain" duration="38" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

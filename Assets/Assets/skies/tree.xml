@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="TREE" background="SkyBack" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="True" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.20000000298" interLayerHorizontalDistance="0.20000000298" horizontalDistance="0.20000000298" verticalDistance="0.20000000298" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="0.20000000298" shadowOpacity="1.0" foliageShadows="True" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0" shadows="TREE_SHADOWS" stars="Stars">
+  <Layers>
+    <SkyLayer name="TREE_FOLLIAGE_BG_2" opacity="1.0" fogTint="0.899999976158" inFront="False"/>
+    <SkyLayer name="TREE_FOLLIAGE_BG" opacity="1.0" fogTint="0.899999976158" inFront="False"/>
+    <SkyLayer name="TREE_BRANCHES_BG" opacity="1.0" fogTint="0.800000011921" inFront="False"/>
+  </Layers>
+  <Clouds>
+    <Cloud>SQUARE_CLOUD_1</Cloud>
+    <Cloud>SQUARE_CLOUD_2</Cloud>
+  </Clouds>
+</Sky>

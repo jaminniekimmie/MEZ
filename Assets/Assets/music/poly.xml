@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Poly" tempo="130" timeSignature="4" randomOrdering="False">
+  <Chord>D_maj</Chord>
+  <Notes>
+    <Note>D2</Note>
+    <Note>F2</Note>
+    <Note>G2</Note>
+    <Note>A2</Note>
+    <Note>B2</Note>
+    <Note>C3</Note>
+    <Note>D3</Note>
+    <Note>F3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Poly ^ Dorian" duration="57" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Poly ^ LydianDominant" duration="57" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+    <Loop name="Poly ^ Noise" duration="3" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

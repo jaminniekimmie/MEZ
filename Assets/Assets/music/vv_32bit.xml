@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="vv_32bit" tempo="60" timeSignature="4" randomOrdering="False">
+  <Chord>Dsharp_maj</Chord>
+  <Notes>
+    <Note>Dsharp2</Note>
+    <Note>F2</Note>
+    <Note>Fsharp2</Note>
+    <Note>Asharp2</Note>
+    <Note>C3</Note>
+    <Note>Dsharp3</Note>
+    <Note>Fsharp3</Note>
+    <Note>Asharp3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Singles ^ vv_32bit" duration="150" loopTimesFrom="1" loopTimesTo="1" triggerFrom="1000" triggerTo="1000" delay="0" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

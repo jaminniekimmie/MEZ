@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Dict>
+  <Entry key="">
+    <Dict>
+      <Entry key="Programming">Programming</Entry>
+      <Entry key="ProgrammingCredits">Renaud Bédard</Entry>
+      <Entry key="Animation">Animation</Entry>
+      <Entry key="AnimationCredits">Paul Robertson&#13;
+Adam Saltsman&#13;
+Annabelle Kennedy</Entry>
+      <Entry key="Music">Music And Ambience</Entry>
+      <Entry key="MusicCredits">Rich Vreeland (Disasterpeace)</Entry>
+      <Entry key="ArtLevelDesign">Art And Level Design</Entry>
+      <Entry key="ArtLevelDesignCredits">Phil Fish</Entry>
+      <Entry key="PhilSpecialThanks">Phil would like to thank</Entry>
+      <Entry key="PhilSpecialThanksCredits">Alxie&#13;
+Heather Kelley&#13;
+Tone Bone&#13;
+Raphie&#13;
+Valerie&#13;
+Jane Pinckard&#13;
+Ken Schachter&#13;
+Julia Pung&#13;
+Thomas Scott&#13;
+Samara Davis&#13;
+Mom &amp; Dad&#13;
+James &amp; Lisanne&#13;
+Ed &amp; Tommy&#13;
+Alec &amp; Derek&#13;
+Steph &amp; Tiff&#13;
+Raigan &amp; Mare&#13;
+Nathan Vella&#13;
+Kris Piotrowski&#13;
+Dan Vader&#13;
+Greg Georgiadis&#13;
+Superbrothers&#13;
+Shawn McGrath&#13;
+Jon Mak&#13;
+Brandon Boyer&#13;
+Matthew Kumar&#13;
+Ron Carmel&#13;
+Kelly Santiago&#13;
+Matthew Wegner&#13;
+Kyle Gabler&#13;
+Jon Blow&#13;
+Ryan O'Donnell&#13;
+Jenn Frank&#13;
+Jason Rohrer&#13;
+Jeff Roberts&#13;
+Leigh Alexander&#13;
+Bryan Lee O'Malley&#13;
+Ashly Burch&#13;
+Danny B&#13;
+Petri Purho&#13;
+Syed Salahuddin&#13;
+Kunal Gupta&#13;
+Adam Saltsman&#13;
+Annabelle Kennedy  &#13;
+Graham Lackey&#13;
+Brandon McCartin&#13;
+Paul Robertson&#13;
+Rich Vreeland&#13;
+Renaud Bédard</Entry>
+      <Entry key="SupportedBy">Supported By</Entry>
+      <Entry key="SupportedByCredits">Trapdoor Inc.&#13;
+The Fez Fund&#13;
+Telefilm Canada</Entry>
+      <Entry key="Design">Designed And Created By</Entry>
+      <Entry key="SoundEffects">Sound Effects</Entry>
+      <Entry key="SoundEffectsCredits">Brandon McCartin</Entry>
+      <Entry key="Producer">Producer</Entry>
+      <Entry key="ProducerCredits">Marie-Christine Bourdua</Entry>
+      <Entry key="XblaSpecialThanks">Xbox LIVE Arcade Special Thanks</Entry>
+      <Entry key="XblaSpecialThanksCredits">Thomas Scott&#13;
+Neil Widmaier&#13;
+Chad Long&#13;
+Kimberlee Lyles&#13;
+Robby Zinchak&#13;
+Stuart Platt&#13;
+Andrew Williams&#13;
+All Xtreme, Experis and VMC QA Testers&#13;
+EMEA Localization Team&#13;
+Asia Localization Team</Entry>
+      <Entry key="RenoSpecialThanks">Renaud would like to thank</Entry>
+      <Entry key="RenoSpecialThanksCredits">Marie-Christine&#13;
+Jason &amp; Kahori&#13;
+GameDS@Microsoft&#13;
+All XNA Bloggers&#13;
+All MonoGame Contributors&#13;
+Pieter and Matt&#13;
+Dominic Allaire&#13;
+Babel Media&#13;
+TIGSource&#13;
+The Mount Royal Gaming Society&#13;
+No Fun Games&#13;
+Aliceffekt&#13;
+The TV3D Community&#13;
+Jim &amp; Em&#13;
+Brandon Boyer&#13;
+Area5&#13;
+Chad Concelmo&#13;
+Graham Lackey&#13;
+Kris, Nathan, Greg &amp; Dan&#13;
+Maman, Papa, Seb &amp; Yan</Entry>
+      <Entry key="PolytronProduction">A Polytron Production</Entry>
+      <Entry key="ThirdParty">Third Party Libraries and Acknowledgements</Entry>
+      <Entry key="ThirdPartyCredits">FNA&#13;
+SDL2&#13;
+OpenAL Soft&#13;
+MojoShader&#13;
+Vorbisfile</Entry>
+      <Entry key="LicenseInfo">See LICENSE file for complete legal code</Entry>
+      <Entry key="PcQaTeam">Windows Version QA Team</Entry>
+      <Entry key="PcQaTeamCredits">Bennett Foddy&#13;
+Bryan Ma&#13;
+Charles Shrader&#13;
+Eric McQuigan&#13;
+Fernando Ramallo&#13;
+Jean-François Major&#13;
+Katelyn Gadd &#13;
+Laurent Dario&#13;
+Mario Von Rickenbach&#13;
+Mathieu Gagnon&#13;
+Michel Poisson&#13;
+Nick Rudzicz&#13;
+Petri Purho&#13;
+Pierre-Luc Poirier&#13;
+Rey B Quiles&#13;
+Shalev Moran&#13;
+Sven Bergstrom&#13;
+Vlad Micu&#13;
+William Hubbel&#13;
+Zoe Quinn</Entry>
+      <Entry key="PolytronFooter">Polytron Corporation 2013</Entry>
+      <Entry key="MacLinuxQaTeam">Mac/Linux QA Team</Entry>
+      <Entry key="MacLinuxQaTeamCredits">Cameron Hart&#13;
+David Gow&#13;
+Edward Shaw&#13;
+Federico Di Gregorio&#13;
+Jason Poole&#13;
+John Drinkwater&#13;
+Josh Hertel&#13;
+Kevin Becker&#13;
+Marcus Moeller&#13;
+Martin Hilpert&#13;
+Matthias Niess&#13;
+Phil Bordelon&#13;
+Rodrigo Oliveira&#13;
+Stefano Angeleri&#13;
+Stanislaw Gackowski</Entry>
+      <Entry key="MacLinuxDeveloper">Mac/Linux Developer</Entry>
+      <Entry key="MacLinuxDeveloperCredits">Ethan Lee</Entry>
+      <Entry key="EndMusicCredits">"Continuum" (Ending Music) is Prelude Op. 28, No. 4 in E minor,&#13;
+by Frederic Chopin</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="fr">
+    <Dict/>
+  </Entry>
+  <Entry key="it">
+    <Dict/>
+  </Entry>
+  <Entry key="de">
+    <Dict/>
+  </Entry>
+  <Entry key="es">
+    <Dict/>
+  </Entry>
+  <Entry key="pt">
+    <Dict/>
+  </Entry>
+  <Entry key="ja">
+    <Dict/>
+  </Entry>
+  <Entry key="ko">
+    <Dict/>
+  </Entry>
+  <Entry key="zh">
+    <Dict/>
+  </Entry>
+</Dict>

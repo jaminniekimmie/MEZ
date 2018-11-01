@@ -1,0 +1,2120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Dict>
+  <Entry key="">
+    <Dict>
+      <Entry key="SignInTitle">Sign In Required</Entry>
+      <Entry key="Loading">Loading, please wait...</Entry>
+      <Entry key="SplashStart">Press {A} to start</Entry>
+      <Entry key="SplashExit">Press {BACK} to Return to Game Library</Entry>
+      <Entry key="Achievements">ACHIEVEMENTS</Entry>
+      <Entry key="Controls">CONTROLS</Entry>
+      <Entry key="Credits">CREDITS</Entry>
+      <Entry key="HelpOptions">HELP &amp; OPTIONS</Entry>
+      <Entry key="HowToPlay">HOW TO PLAY</Entry>
+      <Entry key="Leaderboards">LEADERBOARDS</Entry>
+      <Entry key="PauseMenuTitle">GAME PAUSED</Entry>
+      <Entry key="ResumeGame">RESUME GAME</Entry>
+      <Entry key="StartNewGame">START NEW GAME</Entry>
+      <Entry key="StartNewGameTextLine">ALL YOUR PRIOR &#13;
+GAME PROGRESS&#13;
+WILL BE LOST.</Entry>
+      <Entry key="StartNewGameTitle">START NEW GAME</Entry>
+      <Entry key="ExitChoiceYes">{A} EXIT GAME</Entry>
+      <Entry key="ExitConfirmationTitle">EXIT GAME</Entry>
+      <Entry key="LeaderboardsTitle">OVERALL LEADERBOARDS</Entry>
+      <Entry key="SignInOptionYes">OK</Entry>
+      <Entry key="CurrentLeaderboardView">Current View : {0}</Entry>
+      <Entry key="FriendsLeaderboardView">Friends</Entry>
+      <Entry key="LeaderboardEntriesCount">{0} players in total</Entry>
+      <Entry key="LoadingLeaderboard">Loading entries, please wait...</Entry>
+      <Entry key="MyScoreLeaderboardView">My Score</Entry>
+      <Entry key="LeaderboardsNeedLIVE">You need to be connected to the Internet&#13;
+to access the leaderboards.</Entry>
+      <Entry key="OverallLeaderboardView">Overall</Entry>
+      <Entry key="MenuBackWithGlyph">{B} BACK</Entry>
+      <Entry key="UnlockFullGame">UNLOCK FULL GAME</Entry>
+      <Entry key="NoEntriesLeaderboard">There are no entries to view in this leaderboard.</Entry>
+      <Entry key="NotRankedInLeaderboard">You are not ranked in this leaderboard.</Entry>
+      <Entry key="ControlsJump">Jump</Entry>
+      <Entry key="ControlsAction">Action</Entry>
+      <Entry key="ControlsRotateLeft">Rotate Left</Entry>
+      <Entry key="ControlsRotateRight">Rotate Right</Entry>
+      <Entry key="ControlsMove">Move</Entry>
+      <Entry key="AchievementInTrialResume">Press {A} To Continue</Entry>
+      <Entry key="AchievementInTrialSellText">Thankfully, you can press {X} to buy it now and start playing for REAL!</Entry>
+      <Entry key="AchievementInTrialText">If you had the full version, you would be awarded your first FEZ achievement.</Entry>
+      <Entry key="AchievementInTrialTitle">Achievement Unlocked!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} UNLOCK FULL GAME</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} START NEW GAME</Entry>
+      <Entry key="Brightness">BRIGHTNESS : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">CHANGE STORAGE DEVICE</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} SAVE</Entry>
+      <Entry key="ResetToDefault">RESET TO DEFAULT</Entry>
+      <Entry key="MenuCube_Artifacts">Artifacts</Entry>
+      <Entry key="MenuCube_CubeShards">Cube Shards</Entry>
+      <Entry key="MenuCube_Maps">Treasure Maps</Entry>
+      <Entry key="Map_Title">World Map</Entry>
+      <Entry key="ReturnToArcade">EXIT GAME</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} CHANGE PROFILE</Entry>
+      <Entry key="ChangeProfileTitle">CHANGE PROFILE</Entry>
+      <Entry key="ChangeProfileTextLine">ALL UNSAVED PROGRESS&#13;
+WILL BE LOST.&#13;
+&#13;
+(signed-in as {0})</Entry>
+      <Entry key="ContinueGame">CONTINUE GAME</Entry>
+      <Entry key="FullGameUnlocked">FULL GAME ENABLED</Entry>
+      <Entry key="ReturnToArcadeTextLine">DO YOU REALLY WANT TO EXIT FEZ?</Entry>
+      <Entry key="MainMenu">MAIN MENU</Entry>
+      <Entry key="BackToMainMenuTitle">EXIT TO MAIN MENU</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} RETURN TO MAIN MENU</Entry>
+      <Entry key="BackToMainMenuTextLine">ALL UNSAVED&#13;
+GAME PROGRESS&#13;
+WILL BE LOST.</Entry>
+      <Entry key="SellTitle">THANKS&#13;
+FOR&#13;
+PLAYING</Entry>
+      <Entry key="SellButtons">CONTINUE {A}&#13;
+BACK {B}&#13;
+UNLOCK FULL GAME {X}</Entry>
+      <Entry key="MapPan">PAN</Entry>
+      <Entry key="MapZoom">ZOOM</Entry>
+      <Entry key="MapSpin">SPIN</Entry>
+      <Entry key="MapLook">LOOK</Entry>
+      <Entry key="MapBack">BACK</Entry>
+      <Entry key="SellButtonsEndTrial">QUIT {A}&#13;
+BACK {B}&#13;
+UNLOCK FULL GAME {X}</Entry>
+      <Entry key="SaveIndicator">FEZ uses an auto-save mechanism.&#13;
+&#13;
+As long as this icon appears,&#13;
+do not exit the game.</Entry>
+      <Entry key="MenuCube_AntiCubes">Anti Cubes</Entry>
+      <Entry key="SaveOverwriteWarningTitle">Save Overwrite Warning</Entry>
+      <Entry key="Stereo3DOn">STEREOSCOPY : ON</Entry>
+      <Entry key="Stereo3DOff">STEREOSCOPY : OFF</Entry>
+      <Entry key="SettingsTitle">SETTINGS</Entry>
+      <Entry key="SoundVolume">SOUND VOLUME : {0:P0}</Entry>
+      <Entry key="MusicVolume">MUSIC VOLUME : {0:P0}</Entry>
+      <Entry key="UnlockNeedsLIVE">You must be connected to the Internet in order to unlock the full game</Entry>
+      <Entry key="UnlockNeedsLIVETitle">Connection to Internet Required</Entry>
+      <Entry key="CorruptedFileTitle">Save File Corrupted</Entry>
+      <Entry key="CorruptedFile">The save file appears to be damaged and cannot be loaded.&#13;
+&#13;
+Would you like to overwrite?</Entry>
+      <Entry key="CorruptedFileYes">Yes, Overwrite with a new game</Entry>
+      <Entry key="CorruptedFileNo">No, choose another save slot</Entry>
+      <Entry key="SellButtonsPublicDemo">RESTART {A}</Entry>
+      <Entry key="TrialModeNotice">TRIAL&#13;
+VERSION</Entry>
+      <Entry key="ControlsPause">Pause</Entry>
+      <Entry key="ControlsTalk">Cancel/Talk</Entry>
+      <Entry key="ControlsLook">Look</Entry>
+      <Entry key="ControlsInventory">Inventory</Entry>
+      <Entry key="MapLegendSmallGate">SMALL GATE</Entry>
+      <Entry key="MapLegendWarpGate">WARP GATE</Entry>
+      <Entry key="MapLegendTreasure">TREASURE</Entry>
+      <Entry key="MapLegendSecret">SECRET</Entry>
+      <Entry key="MapLegendBits">BITS</Entry>
+      <Entry key="MapLegendCube">CUBE</Entry>
+      <Entry key="MapLegendLockedDoor">LOCKED DOOR</Entry>
+      <Entry key="ShowGamerCard">{A} GAMER CARD</Entry>
+      <Entry key="VideoSettings">VIDEO SETTINGS</Entry>
+      <Entry key="AudioSettings">AUDIO SETTINGS</Entry>
+      <Entry key="GameSettings">GAME SETTINGS</Entry>
+      <Entry key="Language">LANGUAGE : {0}</Entry>
+      <Entry key="LanguageEnglish">English</Entry>
+      <Entry key="LanguageFrench">French</Entry>
+      <Entry key="LanguageItalian">Italian</Entry>
+      <Entry key="LanguageGerman">German</Entry>
+      <Entry key="LanguageSpanish">Spanish</Entry>
+      <Entry key="LanguagePortuguese">Portuguese</Entry>
+      <Entry key="LanguageChinese">Chinese</Entry>
+      <Entry key="LanguageJapanese">Japanese</Entry>
+      <Entry key="LanguageKorean">Korean</Entry>
+      <Entry key="StartNewGamePlus">START NEW GAME+</Entry>
+      <Entry key="Resolution">Resolution : {0}</Entry>
+      <Entry key="ScreenMode">Screen Mode : {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} APPLY</Entry>
+      <Entry key="Fullscreen">Fullscreen</Entry>
+      <Entry key="Windowed">Windowed</Entry>
+      <Entry key="XboxGamepad">Xbox 360 Controller</Entry>
+      <Entry key="Keyboard">Keyboard</Entry>
+      <Entry key="ChangeMapping">&lt;Press key&gt;</Entry>
+      <Entry key="ControlsToggleFpView">First-Person View</Entry>
+      <Entry key="ControlsClampLook">Reset Look</Entry>
+      <Entry key="ControlsMapZoomIn">Zoom In (Map)</Entry>
+      <Entry key="ControlsZoomOut">Zoom Out (Map)</Entry>
+      <Entry key="KeyboardRightShift">R Shift</Entry>
+      <Entry key="KeyboardArrows">Arrows</Entry>
+      <Entry key="KeyboardLeftControl">L Control</Entry>
+      <Entry key="KeyboardEnter">Enter</Entry>
+      <Entry key="KeyboardEscape">Escape</Entry>
+      <Entry key="KeyboardCapsLock">Caps Lock</Entry>
+      <Entry key="KeyboardTab">Tab</Entry>
+      <Entry key="KeyboardDelete">Delete</Entry>
+      <Entry key="KeyboardLeftShift">L Shift</Entry>
+      <Entry key="KeyboardRightControl">R Control</Entry>
+      <Entry key="KeyboardBack">Backspace</Entry>
+      <Entry key="ChangeWithGlyph">{A} CHANGE</Entry>
+      <Entry key="KeyboardLeftAlt">L Alt</Entry>
+      <Entry key="KeyboardRightAlt">R Alt</Entry>
+      <Entry key="SaveSlotTitle">CHOOSE A SAVE SLOT</Entry>
+      <Entry key="NewSlot">&lt;EMPTY SLOT&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} CHOOSE</Entry>
+      <Entry key="SaveSlotPrefix">SLOT</Entry>
+      <Entry key="SaveManagementTitle">SAVE MANAGEMENT</Entry>
+      <Entry key="SaveClearTitle">CLEAR A SLOT</Entry>
+      <Entry key="SaveCopyTitle">COPY A SAVE</Entry>
+      <Entry key="SaveChangeSlot">CHANGE SLOT</Entry>
+      <Entry key="SaveChangeWarning">NOTE : Changing to another slot will end the current game and return to the splash screen.</Entry>
+      <Entry key="SaveCopyWarning">WARNING : The contents of the destination slot will be overwritten.</Entry>
+      <Entry key="SaveCopySourceTitle">SAVE SLOT TO COPY</Entry>
+      <Entry key="SaveCopyDestTitle">DESTINATION SLOT</Entry>
+      <Entry key="SaveClearWarning">WARNING : The save file data will be permanently lost.</Entry>
+      <Entry key="RecommendedResolution">* RECOMMENDED RESOLUTION</Entry>
+      <Entry key="ExitWithGlyph">{B} EXIT GAME</Entry>
+      <Entry key="OtherGamepad">Other Gamepad</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;Press button&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="KeyboardNone">None</Entry>
+      <Entry key="KeyboardTilde">~</Entry>
+      <Entry key="KeyboardLeftWindows">Left Windows</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">|</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">Question Mark</Entry>
+      <Entry key="KeyboardInsert">Insert</Entry>
+      <Entry key="KeyboardHome">Home</Entry>
+      <Entry key="KeyboardEnd">End</Entry>
+      <Entry key="KeyboardPageUp">Page Up</Entry>
+      <Entry key="KeyboardPageDown">Page Down</Entry>
+      <Entry key="KeyboardNumLock">Num Lock</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">Pause</Entry>
+      <Entry key="KeyboardQuotes">Quotes</Entry>
+      <Entry key="KeyboardRightWindows">Right Windows</Entry>
+      <Entry key="KeyboardScroll">Scroll</Entry>
+      <Entry key="KeyboardSpace">Space</Entry>
+      <Entry key="KeyboardNumPad0">Num Pad 0</Entry>
+      <Entry key="KeyboardNumPad1">Num Pad 1</Entry>
+      <Entry key="KeyboardNumPad2">Num Pad 2</Entry>
+      <Entry key="KeyboardNumPad3">Num Pad 3</Entry>
+      <Entry key="KeyboardNumPad4">Num Pad 4</Entry>
+      <Entry key="KeyboardNumPad5">Num Pad 5</Entry>
+      <Entry key="KeyboardNumPad6">Num Pad 6</Entry>
+      <Entry key="KeyboardNumPad7">Num Pad 7</Entry>
+      <Entry key="KeyboardNumPad8">Num Pad 8</Entry>
+      <Entry key="KeyboardNumPad9">Num Pad 9</Entry>
+      <Entry key="Vibration">VIBRATION : {0}</Entry>
+      <Entry key="Borderless">BORDERLESS WINDOW</Entry>
+      <Entry key="On">ON</Entry>
+      <Entry key="Off">OFF</Entry>
+      <Entry key="HardwareInstancing">HARDWARE INSTANCING : {0}</Entry>
+      <Entry key="VSync">Vertical Sync : {0}</Entry>
+      <Entry key="Lighting">Lighting : {0}</Entry>
+      <Entry key="MSAA">Anti-Aliasing : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">Pause on lost focus : {0}</Entry>
+      <Entry key="Singlethreaded">Singlethreaded : {0}</Entry>
+      <Entry key="RequiresRestart">* RESTART REQUIRED</Entry>
+      <Entry key="ControllerSupport">Controller support : {0}</Entry>
+      <Entry key="Controller">Controller</Entry>
+      <Entry key="DeadZone">DEAD ZONE : {0}</Entry>
+      <Entry key="Supersampling">Supersampled</Entry>
+      <Entry key="PixelPerfect">Pixel-Perfect</Entry>
+      <Entry key="FullAspect">Full Aspect</Entry>
+      <Entry key="ScaleMode">Scaling Mode : {0}</Entry>
+      <Entry key="HiDpiMode">HI-DPI MODE : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="fr">
+    <Dict>
+      <Entry key="SignInTitle">Connexion requise</Entry>
+      <Entry key="Loading">Chargement en cours, veuillez patienter...</Entry>
+      <Entry key="SplashExit">Appuyer sur {BACK} pour revenir à la Bibliothèque de Jeux</Entry>
+      <Entry key="Achievements">SUCCÈS</Entry>
+      <Entry key="Controls">COMMANDES</Entry>
+      <Entry key="Credits">CRÉDITS</Entry>
+      <Entry key="HelpOptions">AIDE ET OPTIONS</Entry>
+      <Entry key="HowToPlay">COMMENT JOUER</Entry>
+      <Entry key="Leaderboards">CLASSEMENTS</Entry>
+      <Entry key="PauseMenuTitle">JEU EN PAUSE</Entry>
+      <Entry key="ResumeGame">REPRENDRE LE JEU</Entry>
+      <Entry key="StartNewGame">NOUVELLE PARTIE</Entry>
+      <Entry key="StartNewGameTextLine">TOUTE VOTRE PROGRESSION &#13;
+ANTÉRIEURE&#13;
+SERA PERDUE.</Entry>
+      <Entry key="StartNewGameTitle">NOUVELLE PARTIE</Entry>
+      <Entry key="LeaderboardsTitle">CLASSEMENTS GLOBAUX</Entry>
+      <Entry key="SignInOptionYes">OK</Entry>
+      <Entry key="CurrentLeaderboardView">Vue actuelle: {0}</Entry>
+      <Entry key="FriendsLeaderboardView">Amis</Entry>
+      <Entry key="LeaderboardEntriesCount">{0} joueurs au total</Entry>
+      <Entry key="LoadingLeaderboard">Chargement des entrées, veuillez patienter...</Entry>
+      <Entry key="MyScoreLeaderboardView">Mon score</Entry>
+      <Entry key="OverallLeaderboardView">Global</Entry>
+      <Entry key="MenuBackWithGlyph">{B} RETOUR</Entry>
+      <Entry key="UnlockFullGame">DÉVERROUILLER LE JEU COMPLET</Entry>
+      <Entry key="NoEntriesLeaderboard">Aucune entrée à consulter dans ce classement.</Entry>
+      <Entry key="NotRankedInLeaderboard">Vous n'êtes pas dans ce classement.</Entry>
+      <Entry key="ControlsJump">Sauter</Entry>
+      <Entry key="ControlsAction">Action</Entry>
+      <Entry key="ControlsRotateLeft">Pivoter à gauche</Entry>
+      <Entry key="ControlsRotateRight">Pivoter à droite</Entry>
+      <Entry key="ControlsMove">Se déplacer</Entry>
+      <Entry key="AchievementInTrialResume">Appuie sur {A} pour continuer</Entry>
+      <Entry key="AchievementInTrialSellText">Heureusement, tu peux appuyer sur {X} pour l'acheter maintenant et jouer pour de VRAI!</Entry>
+      <Entry key="AchievementInTrialText">Si tu avais la version complète, tu aurais reçu ton premier succès FEZ.</Entry>
+      <Entry key="AchievementInTrialTitle">Succès déverrouillé!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} DÉVERROUILLER LE JEU COMPLET</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} COMMENCER UNE NOUVELLE PARTIE</Entry>
+      <Entry key="Brightness">LUMINOSITÉ : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">CHANGER LE PÉRIPHÉRIQUE DE STOCKAGE</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} SAUVEGARDER</Entry>
+      <Entry key="ResetToDefault">RÉINITIALISER</Entry>
+      <Entry key="MenuCube_Artifacts">Artefacts</Entry>
+      <Entry key="MenuCube_CubeShards">Fragments de cube</Entry>
+      <Entry key="MenuCube_Maps">Cartes de trésor</Entry>
+      <Entry key="Map_Title">Carte du monde</Entry>
+      <Entry key="ReturnToArcade">QUITTER LE JEU</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} CHANGER LE PROFIL</Entry>
+      <Entry key="ChangeProfileTitle">CHANGER LE PROFIL</Entry>
+      <Entry key="ChangeProfileTextLine">TOUTE LA PROGRESSION NON SAUVEGARDÉE&#13;
+SERA PERDUE.&#13;
+&#13;
+(connecté en tant que {0})</Entry>
+      <Entry key="ContinueGame">CONTINUER LA PARTIE</Entry>
+      <Entry key="FullGameUnlocked">JEU COMPLET ACTIVÉ</Entry>
+      <Entry key="MainMenu">MENU PRINCIPAL</Entry>
+      <Entry key="BackToMainMenuTitle">REVENIR AU MENU PRINCIPAL</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} REVENIR AU MENU PRINCIPAL</Entry>
+      <Entry key="BackToMainMenuTextLine">TOUTE LA PROGRESSION&#13;
+NON SAUVEGARDÉE&#13;
+SERA PERDUE.</Entry>
+      <Entry key="SellTitle">MERCI&#13;
+DE&#13;
+JOUER</Entry>
+      <Entry key="SellButtons">CONTINUER {A}&#13;
+RETOUR {B}&#13;
+DÉVERROUILLER LE JEU COMPLET {X}</Entry>
+      <Entry key="MapPan">PANORAMIQUE</Entry>
+      <Entry key="MapZoom">ZOOM</Entry>
+      <Entry key="MapSpin">TOURNER</Entry>
+      <Entry key="MapLook">VUE</Entry>
+      <Entry key="MapBack">RETOUR</Entry>
+      <Entry key="SellButtonsEndTrial">QUITTER {A}&#13;
+RETOUR {B}&#13;
+DÉVERROUILLER LE JEU COMPLET {X}</Entry>
+      <Entry key="MenuCube_AntiCubes">Anti-cubes</Entry>
+      <Entry key="SaveOverwriteWarningTitle">Avertissement d'écrasement de données</Entry>
+      <Entry key="Stereo3DOn">STÉRÉOSCOPIE: ACTIVÉE</Entry>
+      <Entry key="Stereo3DOff">STÉRÉOSCOPIE: DÉSACTIVÉE</Entry>
+      <Entry key="SettingsTitle">PARAMÈTRES</Entry>
+      <Entry key="SoundVolume">VOLUME SON : {0:P0}</Entry>
+      <Entry key="MusicVolume">VOLUME MUSIQUE : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">Fichier de sauvegarde corrompu</Entry>
+      <Entry key="CorruptedFile">Le fichier de sauvegarde semble endommagé et ne peut être chargé.&#13;
+&#13;
+Voulez-vous l'écraser?</Entry>
+      <Entry key="CorruptedFileYes">Oui, écraser avec une nouvelle partie</Entry>
+      <Entry key="SellButtonsPublicDemo">REDÉMARRER {A}</Entry>
+      <Entry key="TrialModeNotice">VERSION&#13;
+D'ESSAI</Entry>
+      <Entry key="ControlsPause">Pause</Entry>
+      <Entry key="ControlsLook">Regarder</Entry>
+      <Entry key="ControlsInventory">Inventaire</Entry>
+      <Entry key="MapLegendSmallGate">PETIT PORTAIL</Entry>
+      <Entry key="MapLegendWarpGate">PORTAIL DE TÉLÉPORTATION</Entry>
+      <Entry key="MapLegendTreasure">TRÉSOR</Entry>
+      <Entry key="MapLegendSecret">SECRET</Entry>
+      <Entry key="MapLegendBits">MORCEAUX</Entry>
+      <Entry key="MapLegendCube">CUBE</Entry>
+      <Entry key="MapLegendLockedDoor">PORTE FERMÉE</Entry>
+      <Entry key="ShowGamerCard">{A} CARTE DU JOUEUR</Entry>
+      <Entry key="StartNewGamePlus">NOUVELLE PARTIE+</Entry>
+      <Entry key="SplashStart">Appuyer sur {A} &#13;
+pour commencer</Entry>
+      <Entry key="ExitChoiceYes">{A} SORTIR DU JEU</Entry>
+      <Entry key="ExitConfirmationTitle">SORTIR DU JEU</Entry>
+      <Entry key="LeaderboardsNeedLIVE">Vous devez être connecté à internet&#13;
+pour accéder aux Classements.</Entry>
+      <Entry key="ReturnToArcadeTextLine">SOUHAITEZ-VOUS VRAIMENT QUITTER FEZ ?</Entry>
+      <Entry key="SaveIndicator">FEZ dispose de sauvegardes automatiques.&#13;
+&#13;
+Veuillez ne pas sortir du jeu&#13;
+tant que cette icône demeure visible.</Entry>
+      <Entry key="UnlockNeedsLIVE">Vous devez être connecté à internet pour débloquer le jeu complet.&#13;
+</Entry>
+      <Entry key="UnlockNeedsLIVETitle">Connexion à internet requise</Entry>
+      <Entry key="CorruptedFileNo">Non, veuillez choisir un autre emplacement.</Entry>
+      <Entry key="ControlsTalk">Annuler/Parler</Entry>
+      <Entry key="VideoSettings">PARAMÈTRES VIDÉO</Entry>
+      <Entry key="AudioSettings">PARAMÈTRES AUDIO</Entry>
+      <Entry key="GameSettings">PARAMÈTRES DE JEU</Entry>
+      <Entry key="Language">LANGUE : {0}</Entry>
+      <Entry key="LanguageEnglish">Anglais</Entry>
+      <Entry key="LanguageFrench">Français</Entry>
+      <Entry key="LanguageItalian">Italien</Entry>
+      <Entry key="LanguageGerman">Allemand</Entry>
+      <Entry key="LanguageSpanish">Espagnol</Entry>
+      <Entry key="LanguagePortuguese">Portugais</Entry>
+      <Entry key="LanguageChinese">Chinois</Entry>
+      <Entry key="LanguageJapanese">Japonais</Entry>
+      <Entry key="LanguageKorean">Coréen</Entry>
+      <Entry key="Resolution">Résolution : {0}</Entry>
+      <Entry key="ScreenMode">Mode d'écran : {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} APPLIQUER</Entry>
+      <Entry key="Fullscreen">Plein écran</Entry>
+      <Entry key="Windowed">Fenêtre</Entry>
+      <Entry key="XboxGamepad">Manette Xbox 360</Entry>
+      <Entry key="Keyboard">Clavier</Entry>
+      <Entry key="ChangeMapping">&lt;Pressez une touche&gt;</Entry>
+      <Entry key="ControlsToggleFpView">Vue subjective</Entry>
+      <Entry key="ControlsClampLook">Réinit. vue</Entry>
+      <Entry key="ControlsMapZoomIn">Zoom avant (carte)</Entry>
+      <Entry key="ControlsZoomOut">Zoom arrière (carte)</Entry>
+      <Entry key="KeyboardRightShift">Maj. Droite</Entry>
+      <Entry key="KeyboardArrows">Flèches</Entry>
+      <Entry key="KeyboardLeftControl">Ctrl Gauche</Entry>
+      <Entry key="KeyboardEnter">Entrée</Entry>
+      <Entry key="KeyboardEscape">Échap.</Entry>
+      <Entry key="KeyboardCapsLock">Verr. maj.</Entry>
+      <Entry key="KeyboardTab">Tab</Entry>
+      <Entry key="KeyboardDelete">Suppr.</Entry>
+      <Entry key="KeyboardLeftShift">Maj. Gauche</Entry>
+      <Entry key="KeyboardRightControl">Ctrl Droite</Entry>
+      <Entry key="KeyboardBack">Retour arrière</Entry>
+      <Entry key="ChangeWithGlyph">{A} CHANGER</Entry>
+      <Entry key="KeyboardLeftAlt">Alt. G</Entry>
+      <Entry key="KeyboardRightAlt">Alt. D</Entry>
+      <Entry key="SaveSlotTitle">CHOIX DE L'EMPLACEMENT</Entry>
+      <Entry key="NewSlot">&lt;EMPLACEMENT VIDE&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} CHOISIR</Entry>
+      <Entry key="SaveSlotPrefix">EMPLACEMENT</Entry>
+      <Entry key="SaveManagementTitle">GESTION DES SAUVEGARDES</Entry>
+      <Entry key="SaveClearTitle">VIDER UN EMPLACEMENT</Entry>
+      <Entry key="SaveCopyTitle">COPIER UNE SAUVEGARDE</Entry>
+      <Entry key="SaveChangeSlot">CHANGER D'EMPLACEMENT</Entry>
+      <Entry key="SaveChangeWarning">NOTE : Changer d'emplacement causera la fin de la partie en cours et le retour à l'écran d'accueil.</Entry>
+      <Entry key="SaveCopyWarning">AVERTISSEMENT : Les données de l'emplacement de destination seront écrasées.</Entry>
+      <Entry key="SaveCopySourceTitle">SAUVEGARDE À COPIER</Entry>
+      <Entry key="SaveCopyDestTitle">EMPLACEMENT DE DESTINATION</Entry>
+      <Entry key="SaveClearWarning">AVERTISSEMENT : La sauvegarde sera effacée et ne pourra être restaurée.</Entry>
+      <Entry key="ExitWithGlyph">{B} SORTIR DU JEU</Entry>
+      <Entry key="OtherGamepad">Autre manette</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;Pressez un bouton&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* RÉSOLUTION RECOMMANDÉE</Entry>
+      <Entry key="KeyboardNone">Aucune</Entry>
+      <Entry key="KeyboardTilde">~</Entry>
+      <Entry key="KeyboardLeftWindows">Windows Gauche</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">|</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">Point d'interrogation</Entry>
+      <Entry key="KeyboardInsert">Inser</Entry>
+      <Entry key="KeyboardHome">Début</Entry>
+      <Entry key="KeyboardEnd">Ende</Entry>
+      <Entry key="KeyboardPageUp">Page précédente</Entry>
+      <Entry key="KeyboardPageDown">Page suivante</Entry>
+      <Entry key="KeyboardNumLock">Verr Num</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">Pause</Entry>
+      <Entry key="KeyboardQuotes">Guillemets</Entry>
+      <Entry key="KeyboardRightWindows">Windows Droite</Entry>
+      <Entry key="KeyboardScroll">Arrêt défilement</Entry>
+      <Entry key="KeyboardSpace">Barre d'espace</Entry>
+      <Entry key="KeyboardNumPad0">0 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad1">1 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad2">2 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad3">3 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad4">4 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad5">5 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad6">6 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad7">7 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad8">8 du pavé num.</Entry>
+      <Entry key="KeyboardNumPad9">9 du pavé num.</Entry>
+      <Entry key="Vibration">VIBRATION: {0}</Entry>
+      <Entry key="Borderless">FENÊTRE SANS BORDURE</Entry>
+      <Entry key="On">ACTIF</Entry>
+      <Entry key="Off">INACTIF</Entry>
+      <Entry key="HardwareInstancing">INSTANCIATION MATÉRIELLE : {0}</Entry>
+      <Entry key="VSync">Synchronisation Verticale : {0}</Entry>
+      <Entry key="Lighting">Éclairage : {0}</Entry>
+      <Entry key="MSAA">Anticrénelage : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">Pause en arrière-plan : {0}</Entry>
+      <Entry key="Singlethreaded">Un seul fil d'exécution : {0}</Entry>
+      <Entry key="RequiresRestart">* REDÉMARRAGE REQUIS</Entry>
+      <Entry key="ControllerSupport">Support manette : {0}</Entry>
+      <Entry key="Controller">Manette</Entry>
+      <Entry key="DeadZone">ZONE MORTE : {0}</Entry>
+      <Entry key="Supersampling">Suréchantillonage</Entry>
+      <Entry key="PixelPerfect">Pixel-perfect</Entry>
+      <Entry key="FullAspect">Aspect complet</Entry>
+      <Entry key="ScaleMode">Mode de présentation : {0}</Entry>
+      <Entry key="HiDpiMode">MODE HI-DPI : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="it">
+    <Dict>
+      <Entry key="SignInTitle">Accesso richiesto</Entry>
+      <Entry key="Loading">Caricamento...</Entry>
+      <Entry key="SplashExit">Premi {BACK} per tornare al catalogo giochi</Entry>
+      <Entry key="Achievements">OBIETTIVI</Entry>
+      <Entry key="Controls">COMANDI</Entry>
+      <Entry key="Credits">RICONOSCIMENTI</Entry>
+      <Entry key="HelpOptions">GUIDA E OPZIONI</Entry>
+      <Entry key="HowToPlay">COME GIOCARE</Entry>
+      <Entry key="Leaderboards">CLASSIFICHE</Entry>
+      <Entry key="PauseMenuTitle">GIOCO IN PAUSA</Entry>
+      <Entry key="ResumeGame">RIPRENDI GIOCO</Entry>
+      <Entry key="StartNewGame">AVVIA NUOVA PARTITA</Entry>
+      <Entry key="StartNewGameTextLine">TUTTI I PROGRESSI &#13;
+PRECEDENTI&#13;
+ANDRANNO PERSI.</Entry>
+      <Entry key="StartNewGameTitle">AVVIA NUOVA PARTITA</Entry>
+      <Entry key="LeaderboardsTitle">CLASSIFICHE GENERALI</Entry>
+      <Entry key="SignInOptionYes">OK</Entry>
+      <Entry key="CurrentLeaderboardView">Visualizzazione corrente: {0}</Entry>
+      <Entry key="FriendsLeaderboardView">Amici</Entry>
+      <Entry key="LeaderboardEntriesCount">{0} giocatori tot.</Entry>
+      <Entry key="LoadingLeaderboard">Caricamento voci...</Entry>
+      <Entry key="MyScoreLeaderboardView">Mio punteggio</Entry>
+      <Entry key="OverallLeaderboardView">Generale</Entry>
+      <Entry key="MenuBackWithGlyph">{B} INDIETRO</Entry>
+      <Entry key="UnlockFullGame">SBLOCCA GIOCO COMPLETO</Entry>
+      <Entry key="NoEntriesLeaderboard">Non ci sono elementi in questa classifica.</Entry>
+      <Entry key="NotRankedInLeaderboard">Non sei presente in questa classifica.</Entry>
+      <Entry key="ControlsJump">Salta</Entry>
+      <Entry key="ControlsAction">Azione</Entry>
+      <Entry key="ControlsRotateLeft">Ruota a sinistra</Entry>
+      <Entry key="ControlsRotateRight">Ruota a destra</Entry>
+      <Entry key="ControlsMove">Sposta</Entry>
+      <Entry key="AchievementInTrialResume">Premi {A} per continuare</Entry>
+      <Entry key="AchievementInTrialSellText">Fortunatamente, puoi premere {X} per comprarla adesso e cominciare a giocare SUL SERIO!</Entry>
+      <Entry key="AchievementInTrialText">Nella versione completa, avresti conseguito il primo obiettivo di FEZ.</Entry>
+      <Entry key="AchievementInTrialTitle">Obiettivo sbloccato!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} SBLOCCA GIOCO COMPLETO</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} AVVIA NUOVA PARTITA</Entry>
+      <Entry key="Brightness">LUMINOSITÀ : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">CAMBIA PERIFERICA DI MEMORIZZAZIONE</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} SALVA</Entry>
+      <Entry key="ResetToDefault">RIPRISTINA PREDEFINITI</Entry>
+      <Entry key="MenuCube_Artifacts">Manufatti</Entry>
+      <Entry key="MenuCube_CubeShards">Schegge di cubo</Entry>
+      <Entry key="MenuCube_Maps">Mappe del tesoro</Entry>
+      <Entry key="Map_Title">Mappa del mondo</Entry>
+      <Entry key="ReturnToArcade">ESCI DAL GIOCO</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} CAMBIA PROFILO</Entry>
+      <Entry key="ChangeProfileTitle">CAMBIA PROFILO</Entry>
+      <Entry key="ChangeProfileTextLine">I PROGRESSI NON SALVATI&#13;
+ANDRANNO PERSI.&#13;
+&#13;
+(connesso come {0})</Entry>
+      <Entry key="ContinueGame">CONTINUA IL GIOCO</Entry>
+      <Entry key="FullGameUnlocked">GIOCO COMPLETO ABILITATO</Entry>
+      <Entry key="MainMenu">MENU PRINCIPALE</Entry>
+      <Entry key="BackToMainMenuTitle">TORNA AL MENU PRINCIPALE</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} TORNA AL MENU PRINCIPALE</Entry>
+      <Entry key="BackToMainMenuTextLine">I PROGRESSI&#13;
+NON SALVATI&#13;
+ANDRANNO PERSI.</Entry>
+      <Entry key="SellTitle">GRAZIE&#13;
+PER AVER&#13;
+GIOCATO</Entry>
+      <Entry key="SellButtons">CONTINUA {A}&#13;
+INDIETRO {B}&#13;
+SBLOCCA GIOCO COMPLETO {X}</Entry>
+      <Entry key="MapPan">PANORAMICA</Entry>
+      <Entry key="MapZoom">ZOOM</Entry>
+      <Entry key="MapSpin">RUOTA</Entry>
+      <Entry key="MapLook">GUARDA</Entry>
+      <Entry key="MapBack">INDIETRO</Entry>
+      <Entry key="SellButtonsEndTrial">ESCI {A}&#13;
+INDIETRO {B}&#13;
+SBLOCCA GIOCO COMPLETO {X}</Entry>
+      <Entry key="MenuCube_AntiCubes">Anticubi</Entry>
+      <Entry key="SaveOverwriteWarningTitle">Avviso sovrascrittura salvataggio</Entry>
+      <Entry key="Stereo3DOn">STEREOSCOPIA: SÌ</Entry>
+      <Entry key="Stereo3DOff">STEREOSCOPIA: NO</Entry>
+      <Entry key="SettingsTitle">IMPOSTAZIONI</Entry>
+      <Entry key="SoundVolume">VOLUME AUDIO : {0:P0}</Entry>
+      <Entry key="MusicVolume">VOLUME MUSICA : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">Salvataggio danneggiato</Entry>
+      <Entry key="CorruptedFile">I dati salvati sono danneggiati e non possono essere caricati.&#13;
+&#13;
+Vuoi sovrascriverli?</Entry>
+      <Entry key="CorruptedFileYes">Sì, sovrascrivi con una nuova partita</Entry>
+      <Entry key="SellButtonsPublicDemo">RIAVVIA {A}</Entry>
+      <Entry key="TrialModeNotice">VERSIONE&#13;
+DI PROVA</Entry>
+      <Entry key="ControlsPause">Pausa</Entry>
+      <Entry key="ControlsLook">Guarda</Entry>
+      <Entry key="ControlsInventory">Inventario</Entry>
+      <Entry key="MapLegendSmallGate">PORTALE PICCOLO</Entry>
+      <Entry key="MapLegendWarpGate">PORTALE DI TELETRASPORTO</Entry>
+      <Entry key="MapLegendTreasure">TESORO</Entry>
+      <Entry key="MapLegendSecret">SEGRETO</Entry>
+      <Entry key="MapLegendBits">FRAMMENTI</Entry>
+      <Entry key="MapLegendCube">CUBO</Entry>
+      <Entry key="MapLegendLockedDoor">PORTA CHIUSA</Entry>
+      <Entry key="ShowGamerCard">{A} SCHEDA GIOCATORE</Entry>
+      <Entry key="StartNewGamePlus">AVVIA NUOVA PARTITA+</Entry>
+      <Entry key="SplashStart">Premi {A} per iniziare</Entry>
+      <Entry key="ExitChoiceYes">{A} ESCI DAL GIOCO</Entry>
+      <Entry key="ExitConfirmationTitle">ESCI DAL GIOCO</Entry>
+      <Entry key="LeaderboardsNeedLIVE">Per accedere alle classifiche &#13;
+è necessaria una connessione Internet.</Entry>
+      <Entry key="ReturnToArcadeTextLine">VUOI DAVVERO USCIRE DA FEZ?</Entry>
+      <Entry key="SaveIndicator">FEZ usa una funzione di autosalvataggio.&#13;
+&#13;
+Quando quest'icona è visibile &#13;
+ non uscire dal gioco.</Entry>
+      <Entry key="UnlockNeedsLIVE">Per sbloccare il gioco completo devi essere connesso ad Internet</Entry>
+      <Entry key="UnlockNeedsLIVETitle">Connessione Internet necessaria</Entry>
+      <Entry key="CorruptedFileNo">No, scegli un altro slot di salvataggio</Entry>
+      <Entry key="ControlsTalk">Cancella/Parla</Entry>
+      <Entry key="VideoSettings">IMPOSTAZIONI VIDEO</Entry>
+      <Entry key="AudioSettings">IMPOSTAZIONI AUDIO</Entry>
+      <Entry key="GameSettings">IMPOSTAZIONI GIOCO</Entry>
+      <Entry key="Language">LINGUA : {0}</Entry>
+      <Entry key="LanguageEnglish">Inglese</Entry>
+      <Entry key="LanguageFrench">Francese</Entry>
+      <Entry key="LanguageItalian">Italiano</Entry>
+      <Entry key="LanguageGerman">Tedesco</Entry>
+      <Entry key="LanguageSpanish">Spagnolo</Entry>
+      <Entry key="LanguagePortuguese">Portoghese</Entry>
+      <Entry key="LanguageChinese">Cinese</Entry>
+      <Entry key="LanguageJapanese">Giapponese</Entry>
+      <Entry key="LanguageKorean">Coreano</Entry>
+      <Entry key="Resolution">Risoluzione: {0}</Entry>
+      <Entry key="ScreenMode">Modalità schermo : {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} APPLICA</Entry>
+      <Entry key="Fullscreen">Schermo intero</Entry>
+      <Entry key="Windowed">Finestra</Entry>
+      <Entry key="XboxGamepad">Controller Xbox 360</Entry>
+      <Entry key="Keyboard">Tastiera</Entry>
+      <Entry key="ChangeMapping">&lt;Premi tasto&gt;</Entry>
+      <Entry key="ControlsToggleFpView">In prima persona</Entry>
+      <Entry key="ControlsClampLook">Reimposta visuale</Entry>
+      <Entry key="ControlsMapZoomIn">Zoom avanti (Mappa)</Entry>
+      <Entry key="ControlsZoomOut">Zoom indietro (Mappa)</Entry>
+      <Entry key="KeyboardRightShift">Shift dx.</Entry>
+      <Entry key="KeyboardArrows">Frecce</Entry>
+      <Entry key="KeyboardLeftControl">Control sn.</Entry>
+      <Entry key="KeyboardEnter">Invio</Entry>
+      <Entry key="KeyboardEscape">Esc</Entry>
+      <Entry key="KeyboardCapsLock">Bloc Maiusc</Entry>
+      <Entry key="KeyboardTab">Tab</Entry>
+      <Entry key="KeyboardDelete">Cancella</Entry>
+      <Entry key="KeyboardLeftShift">Shift sn.</Entry>
+      <Entry key="KeyboardRightControl">Control dx.</Entry>
+      <Entry key="KeyboardBack">Indietro</Entry>
+      <Entry key="ChangeWithGlyph">{A} CAMBIA</Entry>
+      <Entry key="KeyboardLeftAlt">Alt sn.</Entry>
+      <Entry key="KeyboardRightAlt">Alt dx.</Entry>
+      <Entry key="SaveSlotTitle">SCEGLI SLOT DI SALVATAGGIO</Entry>
+      <Entry key="NewSlot">&lt;SLOT VUOTO&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} SCEGLI</Entry>
+      <Entry key="SaveSlotPrefix">SLOT</Entry>
+      <Entry key="SaveManagementTitle">GESTIONE SALVATAGGI</Entry>
+      <Entry key="SaveClearTitle">SVUOTA SLOT</Entry>
+      <Entry key="SaveCopyTitle">COPIA SALVATAGGIO</Entry>
+      <Entry key="SaveChangeSlot">CAMBIA SLOT</Entry>
+      <Entry key="SaveChangeWarning">NOTA : Cambiando slot interromperai la partita attuale e sarai riportato allo schermo di caricamento.</Entry>
+      <Entry key="SaveCopyWarning">ATTENZIONE : il contenuto dello slot di destinazione sarà sovrascritto.</Entry>
+      <Entry key="SaveCopySourceTitle">SLOT DI SALVATAGGIO DA COPIARE</Entry>
+      <Entry key="SaveCopyDestTitle">SLOT DESTINAZIONE</Entry>
+      <Entry key="SaveClearWarning">ATTENZIONE:  i dati salvati andranno persi per sempre.</Entry>
+      <Entry key="ExitWithGlyph">{B} ESCI DAL GIOCO</Entry>
+      <Entry key="OtherGamepad">Altri gamepad</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;Premi pulsante&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* RISOLUZIONE CONSIGLIATA</Entry>
+      <Entry key="KeyboardNone">Nessuno</Entry>
+      <Entry key="KeyboardTilde">~</Entry>
+      <Entry key="KeyboardLeftWindows">Tasto Windows sx</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">|</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">Punto interrogativo</Entry>
+      <Entry key="KeyboardInsert">Insert</Entry>
+      <Entry key="KeyboardHome">Home</Entry>
+      <Entry key="KeyboardEnd">Fin</Entry>
+      <Entry key="KeyboardPageUp">Pagina Su</Entry>
+      <Entry key="KeyboardPageDown">Pagina Giù</Entry>
+      <Entry key="KeyboardNumLock">Bloc Num</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">Pausa</Entry>
+      <Entry key="KeyboardQuotes">Virgolette</Entry>
+      <Entry key="KeyboardRightWindows">Tasto Windows dx</Entry>
+      <Entry key="KeyboardScroll">Bloc Scorr</Entry>
+      <Entry key="KeyboardSpace">Barra Spaziatrice</Entry>
+      <Entry key="KeyboardNumPad0">Tast. Num. 0</Entry>
+      <Entry key="KeyboardNumPad1">Tast. Num. 1</Entry>
+      <Entry key="KeyboardNumPad2">Tast. Num. 2</Entry>
+      <Entry key="KeyboardNumPad3">Tast. Num. 3</Entry>
+      <Entry key="KeyboardNumPad4">Tast. Num. 4</Entry>
+      <Entry key="KeyboardNumPad5">Tast. Num. 5</Entry>
+      <Entry key="KeyboardNumPad6">Tast. Num. 6</Entry>
+      <Entry key="KeyboardNumPad7">Tast. Num. 7</Entry>
+      <Entry key="KeyboardNumPad8">Tast. Num. 8</Entry>
+      <Entry key="KeyboardNumPad9">Tast. Num. 9</Entry>
+      <Entry key="Vibration">VIBRAZIONE: {0}</Entry>
+      <Entry key="Borderless">finestra senza bordi</Entry>
+      <Entry key="On">SÍ</Entry>
+      <Entry key="Off">NO</Entry>
+      <Entry key="HardwareInstancing">GPU INSTANCING : {0}</Entry>
+      <Entry key="VSync">V-Sync : {0}</Entry>
+      <Entry key="Lighting">Illuminazione : {0}</Entry>
+      <Entry key="MSAA">Antialiasing : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">Pausa quando in background : {0}</Entry>
+      <Entry key="Singlethreaded">Singlethreaded : {0}</Entry>
+      <Entry key="RequiresRestart">* riavvio richiesto</Entry>
+      <Entry key="ControllerSupport">supporto del controller : {0}</Entry>
+      <Entry key="Controller">Controller</Entry>
+      <Entry key="DeadZone">ZONA MORTA : {0}</Entry>
+      <Entry key="Supersampling">supersampling</Entry>
+      <Entry key="PixelPerfect">pixel-perfect</Entry>
+      <Entry key="FullAspect">aspetto completa</Entry>
+      <Entry key="ScaleMode">modalità di scala : {0}</Entry>
+      <Entry key="HiDpiMode">MODALITÀ HI-DPI : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="de">
+    <Dict>
+      <Entry key="SignInTitle">Anmeldung erforderlich</Entry>
+      <Entry key="Loading">Wird geladen. Bitte warten ...</Entry>
+      <Entry key="SplashExit">Drücke {BACK}, um zur Spielebibliothek zurückzukehren</Entry>
+      <Entry key="Achievements">ERFOLGE</Entry>
+      <Entry key="Controls">STEUERUNG</Entry>
+      <Entry key="Credits">MITWIRKENDE</Entry>
+      <Entry key="HelpOptions">HILFE UND OPTIONEN</Entry>
+      <Entry key="HowToPlay">SO WIRD GESPIELT</Entry>
+      <Entry key="Leaderboards">BESTENLISTEN</Entry>
+      <Entry key="PauseMenuTitle">SPIEL ANGEHALTEN</Entry>
+      <Entry key="ResumeGame">SPIEL FORTSETZEN</Entry>
+      <Entry key="StartNewGame">NEUES SPIEL STARTEN</Entry>
+      <Entry key="StartNewGameTextLine">DEIN VORHERIGER &#13;
+SPIELFORTSCHRITT&#13;
+GEHT VERLOREN.</Entry>
+      <Entry key="StartNewGameTitle">NEUES SPIEL STARTEN</Entry>
+      <Entry key="LeaderboardsTitle">GESAMTBESTENLISTEN</Entry>
+      <Entry key="SignInOptionYes">OK</Entry>
+      <Entry key="CurrentLeaderboardView">Aktuelle Ansicht: {0}</Entry>
+      <Entry key="FriendsLeaderboardView">Freunde</Entry>
+      <Entry key="LeaderboardEntriesCount">{0} Spieler insgesamt</Entry>
+      <Entry key="LoadingLeaderboard">Einträge werden geladen. Bitte warten ...</Entry>
+      <Entry key="MyScoreLeaderboardView">Meine Punkte</Entry>
+      <Entry key="OverallLeaderboardView">Insgesamt</Entry>
+      <Entry key="MenuBackWithGlyph">{B} ZURÜCK</Entry>
+      <Entry key="UnlockFullGame">VOLLSTÄNDIGES SPIEL FREISCHALTEN</Entry>
+      <Entry key="NoEntriesLeaderboard">In dieser Bestenliste sind keine Einträge vorhanden.</Entry>
+      <Entry key="NotRankedInLeaderboard">Du wirst in dieser Bestenliste nicht geführt.</Entry>
+      <Entry key="ControlsJump">Springen</Entry>
+      <Entry key="ControlsAction">Aktion</Entry>
+      <Entry key="ControlsRotateLeft">Nach links drehen</Entry>
+      <Entry key="ControlsRotateRight">Nach rechts drehen</Entry>
+      <Entry key="ControlsMove">Bewegen</Entry>
+      <Entry key="AchievementInTrialResume">Drücke {A}, um fortzufahren.</Entry>
+      <Entry key="AchievementInTrialSellText">Glücklicherweise kannst du es jetzt mit {X} kaufen und RICHTIG spielen!</Entry>
+      <Entry key="AchievementInTrialText">Wenn du das vollständige Spiel hättest, würdest du jetzt deinen ersten FEZ-Erfolg erhalten.</Entry>
+      <Entry key="AchievementInTrialTitle">Erfolg freigeschaltet!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} VOLLSTÄNDIGES SPIEL FREISCHALTEN</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} NEUES SPIEL STARTEN</Entry>
+      <Entry key="Brightness">HELLIGKEIT : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">SPEICHERGERÄT WECHSELN</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} SPEICHERN</Entry>
+      <Entry key="ResetToDefault">AUF STANDARDEINSTELLUNGEN ZURÜCKSETZEN</Entry>
+      <Entry key="MenuCube_Artifacts">Artefakte</Entry>
+      <Entry key="MenuCube_CubeShards">Würfelscherben</Entry>
+      <Entry key="MenuCube_Maps">Schatzkarten</Entry>
+      <Entry key="Map_Title">Weltkarte</Entry>
+      <Entry key="ReturnToArcade">SPIEL VERLASSEN</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} PROFIL WECHSELN</Entry>
+      <Entry key="ChangeProfileTitle">PROFIL WECHSELN</Entry>
+      <Entry key="ChangeProfileTextLine">UNGESPEICHERTER SPIELFORTSCHRITT&#13;
+GEHT VERLOREN.&#13;
+&#13;
+(angemeldet als {0})</Entry>
+      <Entry key="ContinueGame">FORTFAHREN</Entry>
+      <Entry key="FullGameUnlocked">VOLLVERSION FREISCHALTEN</Entry>
+      <Entry key="MainMenu">HAUPTMENÜ</Entry>
+      <Entry key="BackToMainMenuTitle">ZUM HAUPTMENÜ ZURÜCKKEHREN</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} ZURÜCK ZUM HAUPTMENÜ</Entry>
+      <Entry key="BackToMainMenuTextLine">UNGESPEICHERTER&#13;
+SPIELFORTSCHRITT&#13;
+GEHT VERLOREN.</Entry>
+      <Entry key="SellTitle">DANKE&#13;
+FÜRS&#13;
+MITSPIELEN</Entry>
+      <Entry key="SellButtons">WEITER {A}&#13;
+ZURÜCK {B}&#13;
+VOLLSTÄNDIGES SPIEL FREISCHALTEN {X}</Entry>
+      <Entry key="MapPan">SCHWENKEN</Entry>
+      <Entry key="MapZoom">ZOOMEN</Entry>
+      <Entry key="MapSpin">DREHEN</Entry>
+      <Entry key="MapLook">UMSEHEN</Entry>
+      <Entry key="MapBack">ZURÜCK</Entry>
+      <Entry key="SellButtonsEndTrial">BEENDEN {A}&#13;
+ZURÜCK{B}&#13;
+VOLLSTÄNDIGES SPIEL FREISCHALTEN {X}</Entry>
+      <Entry key="MenuCube_AntiCubes">Antiwürfel</Entry>
+      <Entry key="SaveOverwriteWarningTitle">Save Overwrite Warning</Entry>
+      <Entry key="Stereo3DOn">STEREOSKOPIE: EIN</Entry>
+      <Entry key="Stereo3DOff">STEREOSKOPIE: AUS</Entry>
+      <Entry key="SettingsTitle">EINSTELLUNGEN</Entry>
+      <Entry key="SoundVolume">SOUNDLAUTSTÄRKE : {0:P0}</Entry>
+      <Entry key="MusicVolume">MUSIKLAUTSTÄRKE : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">Speicherdatei fehlerhaft</Entry>
+      <Entry key="CorruptedFile">Die Speicherdatei ist fehlerhaft und kann nicht geladen werden.&#13;
+&#13;
+Möchtest du sie überschreiben?</Entry>
+      <Entry key="CorruptedFileYes">Ja, mit einem neuen Spiel überschreiben</Entry>
+      <Entry key="SellButtonsPublicDemo">NEUSTARTEN {A}</Entry>
+      <Entry key="TrialModeNotice">DEMO-&#13;
+VERSION</Entry>
+      <Entry key="ControlsPause">Anhalten</Entry>
+      <Entry key="ControlsLook">Ansehen</Entry>
+      <Entry key="ControlsInventory">Inventar</Entry>
+      <Entry key="MapLegendSmallGate">KLEINES TOR</Entry>
+      <Entry key="MapLegendWarpGate">ZEITREISE-TOR</Entry>
+      <Entry key="MapLegendTreasure">SCHATZ</Entry>
+      <Entry key="MapLegendSecret">GEHEIM</Entry>
+      <Entry key="MapLegendBits">SCHERBEN</Entry>
+      <Entry key="MapLegendCube">WÜRFEL</Entry>
+      <Entry key="MapLegendLockedDoor">VERSCHLOSSENE TÜR</Entry>
+      <Entry key="ShowGamerCard">{A} SPIELERKARTE</Entry>
+      <Entry key="StartNewGamePlus">NEUES SPIEL+ STARTEN</Entry>
+      <Entry key="SplashStart">{A} drücken</Entry>
+      <Entry key="ExitChoiceYes">{A} SPIEL VERLASSEN</Entry>
+      <Entry key="ExitConfirmationTitle">SPIEL VERLASSEN</Entry>
+      <Entry key="LeaderboardsNeedLIVE">Du musst mit dem Internet verbunden sein,&#13;
+um die Bestenlisten aufzurufen.</Entry>
+      <Entry key="ReturnToArcadeTextLine">MÖCHTEST DU FEZ WIRKLICH VERLASSEN?</Entry>
+      <Entry key="SaveIndicator">FEZ verwendet eine automatische Speicherfunktion.&#13;
+&#13;
+Bitte verlasse das Spiel nicht,&#13;
+solange dieses Symbol angezeigt wird.</Entry>
+      <Entry key="UnlockNeedsLIVE">Du musst mit dem Internet verbunden sein, um das vollständige Spiel freizuschalten.</Entry>
+      <Entry key="UnlockNeedsLIVETitle">Internetverbindung erforderlich</Entry>
+      <Entry key="CorruptedFileNo">Nein, wähle einen anderen Speicherplatz.</Entry>
+      <Entry key="ControlsTalk">Abbrechen/Sprechen</Entry>
+      <Entry key="VideoSettings">GRAFIKEINSTELLUNGEN</Entry>
+      <Entry key="AudioSettings">AUDIOEINSTELLUNGEN</Entry>
+      <Entry key="GameSettings">SPIELEINSTELLUNGEN</Entry>
+      <Entry key="Language">SPRACHE : {0}</Entry>
+      <Entry key="LanguageEnglish">Englisch</Entry>
+      <Entry key="LanguageFrench">Französisch</Entry>
+      <Entry key="LanguageItalian">Italienisch</Entry>
+      <Entry key="LanguageGerman">Deutsch</Entry>
+      <Entry key="LanguageSpanish">Spanisch</Entry>
+      <Entry key="LanguagePortuguese">Portugiesisch</Entry>
+      <Entry key="LanguageChinese">Chinesisch</Entry>
+      <Entry key="LanguageJapanese">Japanisch</Entry>
+      <Entry key="LanguageKorean">Koreanisch</Entry>
+      <Entry key="Resolution">Auflösung : {0}</Entry>
+      <Entry key="ScreenMode">Bildschirmmodus : {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} ANWENDEN</Entry>
+      <Entry key="Fullscreen">Vollbild</Entry>
+      <Entry key="Windowed">Fenster</Entry>
+      <Entry key="XboxGamepad">Xbox 360 Controller</Entry>
+      <Entry key="Keyboard">Tastatur</Entry>
+      <Entry key="ChangeMapping">&lt;Taste drücken&gt;</Entry>
+      <Entry key="ControlsToggleFpView">Egoperspektive</Entry>
+      <Entry key="ControlsClampLook">Standardansicht</Entry>
+      <Entry key="ControlsMapZoomIn">Zoom + (Karte)</Entry>
+      <Entry key="ControlsZoomOut">Zoom - (Karte)</Entry>
+      <Entry key="KeyboardRightShift">R. Umschalttaste</Entry>
+      <Entry key="KeyboardArrows">Pfeiltasten</Entry>
+      <Entry key="KeyboardLeftControl">L. Strg</Entry>
+      <Entry key="KeyboardEnter">Eingabe</Entry>
+      <Entry key="KeyboardEscape">Escape</Entry>
+      <Entry key="KeyboardCapsLock">Feststelltaste</Entry>
+      <Entry key="KeyboardTab">Tab</Entry>
+      <Entry key="KeyboardDelete">Entf</Entry>
+      <Entry key="KeyboardLeftShift">L. Umschalttaste</Entry>
+      <Entry key="KeyboardRightControl">R. Strg</Entry>
+      <Entry key="KeyboardBack">Rücktaste</Entry>
+      <Entry key="ChangeWithGlyph">{A} ÄNDERN</Entry>
+      <Entry key="KeyboardLeftAlt">L. Alt</Entry>
+      <Entry key="KeyboardRightAlt">R. Alt</Entry>
+      <Entry key="SaveSlotTitle">SPEICHERPLATZ WÄHLEN</Entry>
+      <Entry key="NewSlot">&lt;LEERER PLATZ&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} WÄHLEN</Entry>
+      <Entry key="SaveSlotPrefix">PLATZ</Entry>
+      <Entry key="SaveManagementTitle">SPIELSTANDVERWALTUNG</Entry>
+      <Entry key="SaveClearTitle">PLATZ LÖSCHEN</Entry>
+      <Entry key="SaveCopyTitle">SPIELSTAND KOPIEREN</Entry>
+      <Entry key="SaveChangeSlot">PLATZ WECHSELN</Entry>
+      <Entry key="SaveChangeWarning">HINWEIS : Wenn du den Platz wechselst, wird das aktuelle Spiel beendet und du kehrst zum Startbildschirm zurück.</Entry>
+      <Entry key="SaveCopyWarning">WARNUNG : Der Inhalt des Zielplatzes wird überschrieben.</Entry>
+      <Entry key="SaveCopySourceTitle">SPEICHERPLATZ KOPIEREN</Entry>
+      <Entry key="SaveCopyDestTitle">ZIELPLATZ</Entry>
+      <Entry key="SaveClearWarning">WARNUNG : Die Speicherdaten werden unwiderruflich gelöscht.</Entry>
+      <Entry key="ExitWithGlyph">{B} SPIEL VERLASSEN</Entry>
+      <Entry key="OtherGamepad">Anderes Gamepad</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;Taste drücken&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* EMPFOHLENE AUFLÖSUNG</Entry>
+      <Entry key="KeyboardNone">Keine</Entry>
+      <Entry key="KeyboardTilde">~</Entry>
+      <Entry key="KeyboardLeftWindows">L. Windowstaste</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">|</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">Fragezeichen</Entry>
+      <Entry key="KeyboardInsert">Einfg</Entry>
+      <Entry key="KeyboardHome">Pos1</Entry>
+      <Entry key="KeyboardEnd">Fin</Entry>
+      <Entry key="KeyboardPageUp">Bild hoch</Entry>
+      <Entry key="KeyboardPageDown">Bild runter</Entry>
+      <Entry key="KeyboardNumLock">Num-Lock-Taste</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">Pause</Entry>
+      <Entry key="KeyboardQuotes">Anführungszeichen</Entry>
+      <Entry key="KeyboardRightWindows">R. Windowstaste</Entry>
+      <Entry key="KeyboardScroll">Rollen</Entry>
+      <Entry key="KeyboardSpace">Leertaste</Entry>
+      <Entry key="KeyboardNumPad0">Ziffernblock 0</Entry>
+      <Entry key="KeyboardNumPad1">Ziffernblock 1</Entry>
+      <Entry key="KeyboardNumPad2">Ziffernblock 2</Entry>
+      <Entry key="KeyboardNumPad3">Ziffernblock 3</Entry>
+      <Entry key="KeyboardNumPad4">Ziffernblock 4</Entry>
+      <Entry key="KeyboardNumPad5">Ziffernblock 5</Entry>
+      <Entry key="KeyboardNumPad6">Ziffernblock 6</Entry>
+      <Entry key="KeyboardNumPad7">Ziffernblock 7</Entry>
+      <Entry key="KeyboardNumPad8">Ziffernblock 8</Entry>
+      <Entry key="KeyboardNumPad9">Ziffernblock 9</Entry>
+      <Entry key="Vibration">VIBRATION: {0}</Entry>
+      <Entry key="Borderless">randlose Fenster</Entry>
+      <Entry key="On">EIN</Entry>
+      <Entry key="Off">AUS</Entry>
+      <Entry key="HardwareInstancing">GPU INSTANCING : {0}</Entry>
+      <Entry key="VSync">Vertikale Synchronisation : {0}</Entry>
+      <Entry key="Lighting">Beleuchtung : {0}</Entry>
+      <Entry key="MSAA">Antialiasing : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">Pause wenn der Fokus verloren : {0}</Entry>
+      <Entry key="Singlethreaded">Singlethreaded : {0}</Entry>
+      <Entry key="RequiresRestart">* Neustart erforderlich</Entry>
+      <Entry key="ControllerSupport">Controller-Unterstützung : {0}</Entry>
+      <Entry key="Controller">Controller</Entry>
+      <Entry key="DeadZone">TODESZONE : {0}</Entry>
+      <Entry key="Supersampling">Supersampling</Entry>
+      <Entry key="PixelPerfect">pixelgenaue</Entry>
+      <Entry key="FullAspect">Ganzseiten</Entry>
+      <Entry key="ScaleMode">Skalierungsmodus : {0}</Entry>
+      <Entry key="HiDpiMode">HI-DPI-MODUS : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="es">
+    <Dict>
+      <Entry key="SignInTitle">Es necesario iniciar sesión</Entry>
+      <Entry key="Loading">Cargando entradas, espera por favor...</Entry>
+      <Entry key="SplashExit">Pulsa {BACK} para volver a la Biblioteca de juegos</Entry>
+      <Entry key="Achievements">LOGROS</Entry>
+      <Entry key="Controls">CONTROLES</Entry>
+      <Entry key="Credits">CRÉDITOS</Entry>
+      <Entry key="HelpOptions">AYUDA Y OPCIONES</Entry>
+      <Entry key="HowToPlay">CÓMO SE JUEGA</Entry>
+      <Entry key="Leaderboards">MARCADORES</Entry>
+      <Entry key="PauseMenuTitle">JUEGO EN PAUSA</Entry>
+      <Entry key="ResumeGame">REANUDAR JUEGO</Entry>
+      <Entry key="StartNewGame">JUEGO NUEVO</Entry>
+      <Entry key="StartNewGameTextLine">SE PERDERÁ TODO&#13;
+EL PROGRESO DE&#13;
+JUEGO ANTERIOR.</Entry>
+      <Entry key="StartNewGameTitle">JUEGO NUEVO</Entry>
+      <Entry key="LeaderboardsTitle">MARCADORES GENERALES</Entry>
+      <Entry key="SignInOptionYes">ACEPTAR</Entry>
+      <Entry key="CurrentLeaderboardView">Vista actual: {0}</Entry>
+      <Entry key="FriendsLeaderboardView">Amigos</Entry>
+      <Entry key="LeaderboardEntriesCount">{0} jugadores en total</Entry>
+      <Entry key="LoadingLeaderboard">Cargando, espera por favor...</Entry>
+      <Entry key="MyScoreLeaderboardView">Mi puntuación</Entry>
+      <Entry key="OverallLeaderboardView">General</Entry>
+      <Entry key="MenuBackWithGlyph">{B} ATRÁS</Entry>
+      <Entry key="UnlockFullGame">DESBLOQUEAR JUEGO COMPLETO</Entry>
+      <Entry key="NoEntriesLeaderboard">No hay entradas que ver en este marcador.</Entry>
+      <Entry key="NotRankedInLeaderboard">No estás clasificado en este marcador.</Entry>
+      <Entry key="ControlsJump">Saltar</Entry>
+      <Entry key="ControlsAction">Acción</Entry>
+      <Entry key="ControlsRotateLeft">Girar a la izquierda</Entry>
+      <Entry key="ControlsRotateRight">Girar a la derecha</Entry>
+      <Entry key="ControlsMove">Mover</Entry>
+      <Entry key="AchievementInTrialResume">Pulsa {A} para continuar.</Entry>
+      <Entry key="AchievementInTrialSellText">¡Por suerte, puedes pulsar {X} para comprarlo ahora y empezar a jugar DE VERDAD!</Entry>
+      <Entry key="AchievementInTrialText">Si tuvieses la versión completa, serías recompensado con tu primer logro en FEZ.</Entry>
+      <Entry key="AchievementInTrialTitle">¡Logro desbloqueado!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} DESBLOQUEAR JUEGO COMPLETO</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} INICIAR UN JUEGO NUEVO</Entry>
+      <Entry key="Brightness">BRILLO : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">CAMBIAR DISPOSITIVO DE ALMACENAMIENTO</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} GUARDAR</Entry>
+      <Entry key="ResetToDefault">VALORES PREDETERMINADOS</Entry>
+      <Entry key="MenuCube_Artifacts">Artefactos</Entry>
+      <Entry key="MenuCube_CubeShards">Fragmentos de cubo</Entry>
+      <Entry key="MenuCube_Maps">Mapas del tesoro</Entry>
+      <Entry key="Map_Title">Mapa del mundo</Entry>
+      <Entry key="ReturnToArcade">SALIR DEL JUEGO</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} CAMBIAR PERFIL</Entry>
+      <Entry key="ChangeProfileTitle">CAMBIAR PERFIL</Entry>
+      <Entry key="ChangeProfileTextLine">SE PERDERÁ TODO EL&#13;
+PROGRESO QUE NO&#13;
+HAYAS GUARDADO.&#13;
+&#13;
+(has iniciado sesión como {0})</Entry>
+      <Entry key="ContinueGame">CONTINUAR EL JUEGO</Entry>
+      <Entry key="FullGameUnlocked">JUEGO COMPLETO ACTIVADO</Entry>
+      <Entry key="MainMenu">MENÚ PRINCIPAL</Entry>
+      <Entry key="BackToMainMenuTitle">SALIR AL MENÚ PRINCIPAL</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} VOLVER AL MENÚ PRINCIPAL</Entry>
+      <Entry key="BackToMainMenuTextLine">SE PERDERÁ&#13;
+TODO EL PROGRESO&#13;
+QUE NO HAYAS&#13;
+GUARDADO.</Entry>
+      <Entry key="SellTitle">GRACIAS&#13;
+POR&#13;
+JUGAR</Entry>
+      <Entry key="SellButtons">CONTINUAR {A}&#13;
+ATRÁS {B}&#13;
+DESBLOQUEAR JUEGO COMPLETO {X}</Entry>
+      <Entry key="MapPan">PANORÁMICA</Entry>
+      <Entry key="MapZoom">ZOOM</Entry>
+      <Entry key="MapSpin">GIRAR</Entry>
+      <Entry key="MapLook">MIRAR</Entry>
+      <Entry key="MapBack">ATRÁS</Entry>
+      <Entry key="SellButtonsEndTrial">SALIR {A}&#13;
+ATRÁS {B}&#13;
+DESBLOQUEAR JUEGO COMPLETO {X}</Entry>
+      <Entry key="MenuCube_AntiCubes">Anticubos</Entry>
+      <Entry key="SaveOverwriteWarningTitle">Aviso de sobrescritura</Entry>
+      <Entry key="Stereo3DOn">ESTEREOSCOPIO: SÍ</Entry>
+      <Entry key="Stereo3DOff">ESTEREOSCOPIO: NO</Entry>
+      <Entry key="SettingsTitle">CONFIGURACIÓN</Entry>
+      <Entry key="SoundVolume">VOLUMEN DEL SONIDO : {0:P0}</Entry>
+      <Entry key="MusicVolume">VOLUMEN DE LA MÚSICA : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">Archivo de guardado dañado.</Entry>
+      <Entry key="CorruptedFile">El archivo de guardado parece estar dañado y no puede cargarse.&#13;
+&#13;
+¿Quieres sobrescribirlo?</Entry>
+      <Entry key="CorruptedFileYes">Si, sobrescribir con un juego nuevo.</Entry>
+      <Entry key="SellButtonsPublicDemo">REINICIAR {A}</Entry>
+      <Entry key="TrialModeNotice">VERSIÓN&#13;
+DE PRUEBA</Entry>
+      <Entry key="ControlsPause">Pausa</Entry>
+      <Entry key="ControlsLook">Mirar</Entry>
+      <Entry key="ControlsInventory">Inventario</Entry>
+      <Entry key="MapLegendSmallGate">PUERTA PEQUEÑA</Entry>
+      <Entry key="MapLegendWarpGate">PUERTA ESTELAR</Entry>
+      <Entry key="MapLegendTreasure">TESORO</Entry>
+      <Entry key="MapLegendSecret">SECRETO</Entry>
+      <Entry key="MapLegendBits">TROZOS</Entry>
+      <Entry key="MapLegendCube">CUBO</Entry>
+      <Entry key="MapLegendLockedDoor">PUERTA BLOQUEADA</Entry>
+      <Entry key="ShowGamerCard">{A} TARJETA DE JUGADOR</Entry>
+      <Entry key="StartNewGamePlus">JUEGO NUEVO+</Entry>
+      <Entry key="SplashStart">Pulsa {A} para empezar</Entry>
+      <Entry key="ExitChoiceYes">{A} SALIR DEL JUEGO</Entry>
+      <Entry key="ExitConfirmationTitle">SALIR DEL JUEGO</Entry>
+      <Entry key="LeaderboardsNeedLIVE">Para consultar los marcadores&#13;
+tienes que estar conectado a internet.</Entry>
+      <Entry key="ReturnToArcadeTextLine">¿DE VERDAD QUIERES SALIR DE FEZ?</Entry>
+      <Entry key="SaveIndicator">FEZ usa un sistema de guardado automático.&#13;
+&#13;
+No salgas del juego&#13;
+mientras aparezca este icono.</Entry>
+      <Entry key="UnlockNeedsLIVE">Para desbloquear el juego completo tienes que estar conectado a internet.</Entry>
+      <Entry key="UnlockNeedsLIVETitle">Se necesita una conexión a internet.</Entry>
+      <Entry key="CorruptedFileNo">No, elegir otra ranura</Entry>
+      <Entry key="ControlsTalk">Cancelar/Hablar</Entry>
+      <Entry key="VideoSettings">AJUSTES DE VÍDEO</Entry>
+      <Entry key="AudioSettings">AJUSTES DE AUDIO</Entry>
+      <Entry key="GameSettings">AJUSTES DE JUEGO</Entry>
+      <Entry key="Language">IDIOMA: {0}</Entry>
+      <Entry key="LanguageEnglish">Inglés</Entry>
+      <Entry key="LanguageFrench">Francés</Entry>
+      <Entry key="LanguageItalian">Italiano</Entry>
+      <Entry key="LanguageGerman">Alemán</Entry>
+      <Entry key="LanguageSpanish">Español</Entry>
+      <Entry key="LanguagePortuguese">Portugués</Entry>
+      <Entry key="LanguageChinese">Chino</Entry>
+      <Entry key="LanguageJapanese">Japonés</Entry>
+      <Entry key="LanguageKorean">Coreano</Entry>
+      <Entry key="Resolution">Resolución: {0}</Entry>
+      <Entry key="ScreenMode">Modo de pantalla : {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} APLICAR</Entry>
+      <Entry key="Fullscreen">Pantalla completa</Entry>
+      <Entry key="Windowed">En ventana</Entry>
+      <Entry key="XboxGamepad">Mando Xbox 360</Entry>
+      <Entry key="Keyboard">Teclado</Entry>
+      <Entry key="ChangeMapping">&lt;Pulsar tecla&gt;</Entry>
+      <Entry key="ControlsToggleFpView">Vista en primera persona</Entry>
+      <Entry key="ControlsClampLook">Restaurar vista</Entry>
+      <Entry key="ControlsMapZoomIn">Acercar (mapa)</Entry>
+      <Entry key="ControlsZoomOut">Alejar (mapa)</Entry>
+      <Entry key="KeyboardRightShift">Mayús derecha</Entry>
+      <Entry key="KeyboardArrows">Flechas</Entry>
+      <Entry key="KeyboardLeftControl">Control izquierda</Entry>
+      <Entry key="KeyboardEnter">Enter</Entry>
+      <Entry key="KeyboardEscape">Esc</Entry>
+      <Entry key="KeyboardCapsLock">Bloq Mayús</Entry>
+      <Entry key="KeyboardTab">Tab</Entry>
+      <Entry key="KeyboardDelete">Suprimir</Entry>
+      <Entry key="KeyboardLeftShift">Mayús izquierda</Entry>
+      <Entry key="KeyboardRightControl">Control derecha</Entry>
+      <Entry key="KeyboardBack">Retroceso</Entry>
+      <Entry key="ChangeWithGlyph">{A} CAMBIAR</Entry>
+      <Entry key="KeyboardLeftAlt">Alt izquierda</Entry>
+      <Entry key="KeyboardRightAlt">Alt derecha</Entry>
+      <Entry key="SaveSlotTitle">ELIGE UNA RANURA DE GUARDADO</Entry>
+      <Entry key="NewSlot">&lt;VACÍA&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} ELEGIR</Entry>
+      <Entry key="SaveSlotPrefix">RANURA</Entry>
+      <Entry key="SaveManagementTitle">GESTIÓN DATOS GUARDADOS</Entry>
+      <Entry key="SaveClearTitle">VACIAR UNA RANURA</Entry>
+      <Entry key="SaveCopyTitle">COPIAR DATOS</Entry>
+      <Entry key="SaveChangeSlot">CAMBIAR DE RANURA</Entry>
+      <Entry key="SaveChangeWarning">AVISO: Cambiar a otra ranura finalizará la partida en curso y te hará volver a la pantalla inicial.</Entry>
+      <Entry key="SaveCopyWarning">AVISO: Se sobrescribirán los datos de la ranura de destino.</Entry>
+      <Entry key="SaveCopySourceTitle">GUARDA LA RANURA PARA COPIARLA</Entry>
+      <Entry key="SaveCopyDestTitle">RANURA DE DESTINO</Entry>
+      <Entry key="SaveClearWarning">AVISO: Los datos guardados se perderán de manera permanente.</Entry>
+      <Entry key="ExitWithGlyph">{B} SALIR DEL JUEGO</Entry>
+      <Entry key="OtherGamepad">Otro mando</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;Pulsar botón&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* RESOLUCIÓN RECOMENDADA</Entry>
+      <Entry key="KeyboardNone">Ninguna</Entry>
+      <Entry key="KeyboardTilde">~</Entry>
+      <Entry key="KeyboardLeftWindows">Windows izquierda</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">|</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">Signo de interrogación</Entry>
+      <Entry key="KeyboardInsert">Insert</Entry>
+      <Entry key="KeyboardHome">Inicio</Entry>
+      <Entry key="KeyboardEnd">Fine</Entry>
+      <Entry key="KeyboardPageUp">Re Pág</Entry>
+      <Entry key="KeyboardPageDown">Av Pág</Entry>
+      <Entry key="KeyboardNumLock">Bloq Num</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">Pausa</Entry>
+      <Entry key="KeyboardQuotes">Comillas</Entry>
+      <Entry key="KeyboardRightWindows">Windows derecha</Entry>
+      <Entry key="KeyboardScroll">Bloq Despl</Entry>
+      <Entry key="KeyboardSpace">Barra espaciadora</Entry>
+      <Entry key="KeyboardNumPad0">Tec num 0</Entry>
+      <Entry key="KeyboardNumPad1">Tec num 1</Entry>
+      <Entry key="KeyboardNumPad2">Tec num 2</Entry>
+      <Entry key="KeyboardNumPad3">Tec num 3</Entry>
+      <Entry key="KeyboardNumPad4">Tec num 4</Entry>
+      <Entry key="KeyboardNumPad5">Tec num 5</Entry>
+      <Entry key="KeyboardNumPad6">Tec num 6</Entry>
+      <Entry key="KeyboardNumPad7">Tec num 7</Entry>
+      <Entry key="KeyboardNumPad8">Tec num 8</Entry>
+      <Entry key="KeyboardNumPad9">Tec num 9</Entry>
+      <Entry key="Vibration">VIBRACIÓN: {0}</Entry>
+      <Entry key="Borderless">ventana sin bordes</Entry>
+      <Entry key="On">SÍ</Entry>
+      <Entry key="Off">NO</Entry>
+      <Entry key="HardwareInstancing">INSTANCIAS GPU : {0}</Entry>
+      <Entry key="VSync">V-Sync : {0}</Entry>
+      <Entry key="Lighting">Iluminación : {0}</Entry>
+      <Entry key="MSAA">Antialiasing : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">Pausa cuando el enfoque perdió : {0}</Entry>
+      <Entry key="Singlethreaded">De un único subproceso : {0}</Entry>
+      <Entry key="RequiresRestart">* Reinicio requerido</Entry>
+      <Entry key="ControllerSupport">apoyo Mando : {0}</Entry>
+      <Entry key="Controller">Mando</Entry>
+      <Entry key="DeadZone">ZONA MUERTA : {0}</Entry>
+      <Entry key="Supersampling">supermuestreo</Entry>
+      <Entry key="PixelPerfect">pixel-perfect</Entry>
+      <Entry key="FullAspect">aspecto completo</Entry>
+      <Entry key="ScaleMode">modo de escala : {0}</Entry>
+      <Entry key="HiDpiMode">MODO HI-DPI : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="pt">
+    <Dict>
+      <Entry key="SignInTitle">Requer Iniciar Sessão</Entry>
+      <Entry key="Loading">A carregar, aguarde...</Entry>
+      <Entry key="SplashExit">Prime {BACK} para Voltar à Biblioteca de Jogos</Entry>
+      <Entry key="Achievements">FEITOS</Entry>
+      <Entry key="Controls">CONTROLOS</Entry>
+      <Entry key="Credits">FICHA TÉCNICA</Entry>
+      <Entry key="HelpOptions">AJUDA E OPÇÕES</Entry>
+      <Entry key="HowToPlay">INSTRUÇÕES DE JOGO</Entry>
+      <Entry key="Leaderboards">CLASSIFICAÇÕES</Entry>
+      <Entry key="PauseMenuTitle">JOGO EM PAUSA</Entry>
+      <Entry key="ResumeGame">RETOMAR JOGO</Entry>
+      <Entry key="StartNewGame">INICIAR NOVO JOGO</Entry>
+      <Entry key="StartNewGameTextLine">O TEU PROGRESSO DE JOGO &#13;
+ANTERIOR&#13;
+SERÁ PERDIDO.</Entry>
+      <Entry key="StartNewGameTitle">INICIAR NOVO JOGO</Entry>
+      <Entry key="LeaderboardsTitle">CLASSIFICAÇÕES GERAIS</Entry>
+      <Entry key="SignInOptionYes">OK</Entry>
+      <Entry key="CurrentLeaderboardView">Vista actual : {0}</Entry>
+      <Entry key="FriendsLeaderboardView">Amigos</Entry>
+      <Entry key="LeaderboardEntriesCount">{0} jogadores no total</Entry>
+      <Entry key="LoadingLeaderboard">A carregar entradas, aguarde...</Entry>
+      <Entry key="MyScoreLeaderboardView">A minha Pontuação</Entry>
+      <Entry key="OverallLeaderboardView">Geral</Entry>
+      <Entry key="MenuBackWithGlyph">{B} ANTERIOR</Entry>
+      <Entry key="UnlockFullGame">DESBLOQUEAR JOGO COMPLETO</Entry>
+      <Entry key="NoEntriesLeaderboard">Esta classificação não tem entradas.</Entry>
+      <Entry key="NotRankedInLeaderboard">Não estás listado nesta classificação.</Entry>
+      <Entry key="ControlsJump">Saltar</Entry>
+      <Entry key="ControlsAction">Acção</Entry>
+      <Entry key="ControlsRotateLeft">Rodar à esquerda</Entry>
+      <Entry key="ControlsRotateRight">Rodar à direita</Entry>
+      <Entry key="ControlsMove">Andar</Entry>
+      <Entry key="AchievementInTrialResume">Prime {A} Para Continuar</Entry>
+      <Entry key="AchievementInTrialSellText">Felizmente, podes premir {X} para o comprares agora e começares a jogar a SÉRIO!</Entry>
+      <Entry key="AchievementInTrialText">Se tivesses a versão completa, receberias o teu primeiro feito FEZ.</Entry>
+      <Entry key="AchievementInTrialTitle">Feito Desbloqueado!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} DESBLOQUEAR JOGO COMPLETO</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} INICIAR NOVO JOGO</Entry>
+      <Entry key="Brightness">LUMINOSIDADE : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">ALTERAR DISPOSITIVO DE ARMAZENAMENTO</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} GUARDAR</Entry>
+      <Entry key="ResetToDefault">REPOR PREDEFINIÇÃO</Entry>
+      <Entry key="MenuCube_Artifacts">Artefactos</Entry>
+      <Entry key="MenuCube_CubeShards">Fragmentos de Cubo</Entry>
+      <Entry key="MenuCube_Maps">Mapas do Tesouro</Entry>
+      <Entry key="Map_Title">Mapa-Mundo</Entry>
+      <Entry key="ReturnToArcade">SAIR DO JOGO</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} ALTERAR PERFIL</Entry>
+      <Entry key="ChangeProfileTitle">ALTERAR PERFIL</Entry>
+      <Entry key="ChangeProfileTextLine">O PROGRESSO NÃO GUARDADO&#13;
+SERÁ PERDIDO.&#13;
+&#13;
+(sessão iniciada como {0})</Entry>
+      <Entry key="ContinueGame">RETOMAR JOGO</Entry>
+      <Entry key="FullGameUnlocked">JOGO COMPLETO ACTIVADO</Entry>
+      <Entry key="MainMenu">MENU PRINCIPAL</Entry>
+      <Entry key="BackToMainMenuTitle">SAIR PARA O MENU PRINCIPAL</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} VOLTAR AO MENU PRINCIPAL</Entry>
+      <Entry key="BackToMainMenuTextLine">O PROGRESSO DE JOGO&#13;
+NÃO GUARDADO&#13;
+SERÁ PERDIDO.</Entry>
+      <Entry key="SellTitle">OBRIGADO &#13;
+POR &#13;
+JOGARES</Entry>
+      <Entry key="SellButtons">CONTINUAR {A}&#13;
+VOLTAR {B}&#13;
+DESBLOQUEAR JOGO COMPLETO {X}</Entry>
+      <Entry key="MapPan">DESLOCA</Entry>
+      <Entry key="MapZoom">ZOOM</Entry>
+      <Entry key="MapSpin">RODAR</Entry>
+      <Entry key="MapLook">VER</Entry>
+      <Entry key="MapBack">ANTERIOR</Entry>
+      <Entry key="SellButtonsEndTrial">SAIR {A}&#13;
+VOLTAR {B}&#13;
+DESBLOQUEAR JOGO COMPLETO {X}</Entry>
+      <Entry key="MenuCube_AntiCubes">Anticubos</Entry>
+      <Entry key="SaveOverwriteWarningTitle">Aviso de Substituição de Dados Guardados</Entry>
+      <Entry key="Stereo3DOn">ESTEREOSCOPIA : ACTIVADA</Entry>
+      <Entry key="Stereo3DOff">ESTEREOSCOPIA: DESACTIVADA</Entry>
+      <Entry key="SettingsTitle">DEFINIÇÕES</Entry>
+      <Entry key="SoundVolume">VOLUME DO SOM : {0:P0}</Entry>
+      <Entry key="MusicVolume">VOLUME DA MÚSICA : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">Ficheiro Guardado Danificado</Entry>
+      <Entry key="CorruptedFile">O ficheiro guardado parece estar danificado e não pode ser carregado.&#13;
+&#13;
+Queres substituir?</Entry>
+      <Entry key="CorruptedFileYes">Sim, substituir por um jogo novo</Entry>
+      <Entry key="SellButtonsPublicDemo">REINICIAR {A}</Entry>
+      <Entry key="TrialModeNotice">VERSÃO &#13;
+DE &#13;
+AVALIAÇÃO</Entry>
+      <Entry key="ControlsPause">Pausa</Entry>
+      <Entry key="ControlsLook">Olhar</Entry>
+      <Entry key="ControlsInventory">Inventário</Entry>
+      <Entry key="MapLegendSmallGate">PEQUENO PORTAL</Entry>
+      <Entry key="MapLegendWarpGate">PORTAL DE TRANSPORTE</Entry>
+      <Entry key="MapLegendTreasure">TESOURO</Entry>
+      <Entry key="MapLegendSecret">SECRETA</Entry>
+      <Entry key="MapLegendBits">PARTES</Entry>
+      <Entry key="MapLegendCube">CUBO</Entry>
+      <Entry key="MapLegendLockedDoor">PORTA FECHADA</Entry>
+      <Entry key="ShowGamerCard">{A} GAMERCARD (CARTÃO DE JOGADOR)</Entry>
+      <Entry key="StartNewGamePlus">INICIAR NOVO JOGO+</Entry>
+      <Entry key="SaveSlotPrefix"> SLOT</Entry>
+      <Entry key="SplashStart">Pressiona {A} para iniciar</Entry>
+      <Entry key="ExitChoiceYes">{A} SAIR DO JOGO</Entry>
+      <Entry key="ExitConfirmationTitle">SAIR DO JOGO</Entry>
+      <Entry key="LeaderboardsNeedLIVE">Tens de estar ligado à Internet&#13;
+para acederes aos quadros de classificação.</Entry>
+      <Entry key="ReturnToArcadeTextLine">QUERES MESMO SAIR DO FEZ?</Entry>
+      <Entry key="SaveIndicator">O FEZ utiliza um mecanismo de gravação automática.&#13;
+&#13;
+Enquanto este ícone estiver visível,&#13;
+não deves sair do jogo.</Entry>
+      <Entry key="UnlockNeedsLIVE">Tens de estar ligado à Internet para desbloqueares o jogo completo</Entry>
+      <Entry key="UnlockNeedsLIVETitle">Ligação à Internet necessária</Entry>
+      <Entry key="CorruptedFileNo">Não, escolher outra slot de gravação</Entry>
+      <Entry key="ControlsTalk">Cancelar/Falar</Entry>
+      <Entry key="VideoSettings">DEFINIÇÕES DE VÍDEO</Entry>
+      <Entry key="AudioSettings">DEFINIÇÕES DE ÁUDIO</Entry>
+      <Entry key="GameSettings">DEFINIÇÕES DE JOGO</Entry>
+      <Entry key="Language">IDIOMA: {0}</Entry>
+      <Entry key="LanguageEnglish">Inglês</Entry>
+      <Entry key="LanguageFrench">Francês</Entry>
+      <Entry key="LanguageItalian">Italiano</Entry>
+      <Entry key="LanguageGerman">Alemão</Entry>
+      <Entry key="LanguageSpanish">Castelhano</Entry>
+      <Entry key="LanguagePortuguese">Português</Entry>
+      <Entry key="LanguageChinese">Chinês</Entry>
+      <Entry key="LanguageJapanese">Japonês</Entry>
+      <Entry key="LanguageKorean">Coreano</Entry>
+      <Entry key="Resolution">Resolução: {0}</Entry>
+      <Entry key="ScreenMode">Modo do ecrã: {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} APLICAR</Entry>
+      <Entry key="Fullscreen">Ecrã completo</Entry>
+      <Entry key="Windowed">Janela</Entry>
+      <Entry key="XboxGamepad">Comando Xbox 360</Entry>
+      <Entry key="Keyboard">Teclado</Entry>
+      <Entry key="ChangeMapping">&lt;Prime a tecla&gt;</Entry>
+      <Entry key="ControlsToggleFpView">Vista de primeira pessoa</Entry>
+      <Entry key="ControlsClampLook">Repor vista</Entry>
+      <Entry key="ControlsMapZoomIn">Aproximar (Mapa)</Entry>
+      <Entry key="ControlsZoomOut">Afastar (Mapa)</Entry>
+      <Entry key="KeyboardRightShift">Shift dir.</Entry>
+      <Entry key="KeyboardArrows">Setas</Entry>
+      <Entry key="KeyboardLeftControl">Control esq.</Entry>
+      <Entry key="KeyboardEnter">Enter</Entry>
+      <Entry key="KeyboardEscape">Escape</Entry>
+      <Entry key="KeyboardCapsLock">Caps Lock</Entry>
+      <Entry key="KeyboardTab">Tab</Entry>
+      <Entry key="KeyboardDelete">Delete</Entry>
+      <Entry key="KeyboardLeftShift">Shift esq.</Entry>
+      <Entry key="KeyboardRightControl">Control dir.</Entry>
+      <Entry key="KeyboardBack">Backspace</Entry>
+      <Entry key="ChangeWithGlyph">{A} ALTERAR</Entry>
+      <Entry key="KeyboardLeftAlt">Alt esq.</Entry>
+      <Entry key="KeyboardRightAlt">Alt dir.</Entry>
+      <Entry key="SaveSlotTitle">ESCOLHE UMA SLOT DE GRAVAÇÃO</Entry>
+      <Entry key="NewSlot">&lt;SLOT VAZIA&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} ESCOLHER</Entry>
+      <Entry key="SaveManagementTitle">GESTÃO DE GRAVAÇÕES</Entry>
+      <Entry key="SaveClearTitle">APAGAR SLOT</Entry>
+      <Entry key="SaveCopyTitle">COPIAR UMA GRAVAÇÃO</Entry>
+      <Entry key="SaveChangeSlot">ALTERAR SLOT</Entry>
+      <Entry key="SaveChangeWarning">NOTA: Mudar para outra slot vai parar o jogo actual e regressar ao ecrã inicial.</Entry>
+      <Entry key="SaveCopyWarning">AVISO: Os conteúdos existentes na slot de destino serão substituídos.</Entry>
+      <Entry key="SaveCopySourceTitle">SLOT DE GRAVAÇÃO A COPIAR</Entry>
+      <Entry key="SaveCopyDestTitle">SLOT DE DESTINO</Entry>
+      <Entry key="SaveClearWarning">AVISO: Os dados do ficheiro de gravação serão perdidos permanentemente.</Entry>
+      <Entry key="ExitWithGlyph">{B} SAIR DO JOGO</Entry>
+      <Entry key="OtherGamepad">Outro comando</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;Pressiona o botão&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* RESOLUÇÃO RECOMENDADA</Entry>
+      <Entry key="KeyboardNone">Nenhum</Entry>
+      <Entry key="KeyboardTilde">~</Entry>
+      <Entry key="KeyboardLeftWindows">Windows Esq.</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">|</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">P. de Interrogação</Entry>
+      <Entry key="KeyboardInsert">Insert</Entry>
+      <Entry key="KeyboardHome">Home</Entry>
+      <Entry key="KeyboardPageUp">Page Up</Entry>
+      <Entry key="KeyboardPageDown">Page Down</Entry>
+      <Entry key="KeyboardNumLock">Num Lock</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">Pause</Entry>
+      <Entry key="KeyboardEnd">End</Entry>
+      <Entry key="KeyboardQuotes">Aspas</Entry>
+      <Entry key="KeyboardRightWindows">Windows Dir.</Entry>
+      <Entry key="KeyboardScroll">Scroll</Entry>
+      <Entry key="KeyboardSpace">B. de Espaço</Entry>
+      <Entry key="KeyboardNumPad0">Tec Num 0</Entry>
+      <Entry key="KeyboardNumPad1">Tec Num 1</Entry>
+      <Entry key="KeyboardNumPad2">Tec Num 2</Entry>
+      <Entry key="KeyboardNumPad3">Tec Num 3</Entry>
+      <Entry key="KeyboardNumPad4">Tec Num 4</Entry>
+      <Entry key="KeyboardNumPad5">Tec Num 5</Entry>
+      <Entry key="KeyboardNumPad6">Tec Num 6</Entry>
+      <Entry key="KeyboardNumPad7">Tec Num 7</Entry>
+      <Entry key="KeyboardNumPad8">Tec Num 8</Entry>
+      <Entry key="KeyboardNumPad9">Tec Num 9</Entry>
+      <Entry key="Vibration">VIBRAÇÃO: {0}</Entry>
+      <Entry key="Borderless">janela sem bordas</Entry>
+      <Entry key="On">ACTIVADA</Entry>
+      <Entry key="Off">DESACTIVADA</Entry>
+      <Entry key="HardwareInstancing">GPU INSTANCING : {0}</Entry>
+      <Entry key="VSync">V-Sync : {0}</Entry>
+      <Entry key="Lighting">Iluminação : {0}</Entry>
+      <Entry key="MSAA">Anti-aliasing : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">Pausa no fundo : {0}</Entry>
+      <Entry key="Singlethreaded">Singlethreaded : {0}</Entry>
+      <Entry key="RequiresRestart">* reinício necessário</Entry>
+      <Entry key="ControllerSupport">suporte do Comando : {0}</Entry>
+      <Entry key="Controller">Comando</Entry>
+      <Entry key="DeadZone">ZONA MORTA : {0}</Entry>
+      <Entry key="Supersampling">supersampling</Entry>
+      <Entry key="PixelPerfect">pixel-perfeito</Entry>
+      <Entry key="FullAspect">aspecto completa</Entry>
+      <Entry key="ScaleMode">modo de escala : {0}</Entry>
+      <Entry key="HiDpiMode">MODO HI-DPI : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="ja">
+    <Dict>
+      <Entry key="SignInTitle">サインインしてください</Entry>
+      <Entry key="Loading">ロード中...</Entry>
+      <Entry key="SplashExit">{BACK} ゲーム ライブラリーに戻る</Entry>
+      <Entry key="Achievements">実績</Entry>
+      <Entry key="Controls">操作方法</Entry>
+      <Entry key="Credits">クレジット</Entry>
+      <Entry key="HelpOptions">遊び方 &amp; オプション</Entry>
+      <Entry key="HowToPlay">遊び方</Entry>
+      <Entry key="Leaderboards">ランキング</Entry>
+      <Entry key="PauseMenuTitle">ポーズ中</Entry>
+      <Entry key="ResumeGame">ゲームに戻る</Entry>
+      <Entry key="StartNewGame">新しいゲームを始める</Entry>
+      <Entry key="StartNewGameTextLine">ここまでの&#13;
+ゲーム進行は&#13;
+失われます</Entry>
+      <Entry key="StartNewGameTitle">新しいゲームを始める</Entry>
+      <Entry key="LeaderboardsTitle">総合ランキング</Entry>
+      <Entry key="SignInOptionYes">OK</Entry>
+      <Entry key="CurrentLeaderboardView">{0}</Entry>
+      <Entry key="FriendsLeaderboardView">フレンド</Entry>
+      <Entry key="LeaderboardEntriesCount">合計 {0} プレイヤー</Entry>
+      <Entry key="LoadingLeaderboard">エントリーをロード中...</Entry>
+      <Entry key="MyScoreLeaderboardView">マイスコア</Entry>
+      <Entry key="OverallLeaderboardView">総合</Entry>
+      <Entry key="MenuBackWithGlyph">{B} 戻る</Entry>
+      <Entry key="UnlockFullGame">完全版を購入</Entry>
+      <Entry key="NoEntriesLeaderboard">ランキングに表示可能なエントリーはありません</Entry>
+      <Entry key="NotRankedInLeaderboard">このランキングではランクインしていません</Entry>
+      <Entry key="ControlsJump">ジャンプ</Entry>
+      <Entry key="ControlsAction">アクション</Entry>
+      <Entry key="ControlsRotateLeft">左に切替</Entry>
+      <Entry key="ControlsRotateRight">右に切替</Entry>
+      <Entry key="ControlsMove">移動</Entry>
+      <Entry key="AchievementInTrialResume">続けるには {A} を押してください</Entry>
+      <Entry key="AchievementInTrialSellText">{X} で完全版を購入できます。今すぐ FEZ の世界に飛び込もう!</Entry>
+      <Entry key="AchievementInTrialText">完全版を購入すると FEZ の最初の実績が解除されます</Entry>
+      <Entry key="AchievementInTrialTitle">実績が解除されました!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} 完全版を購入</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} 新しいゲームを始める</Entry>
+      <Entry key="Brightness">明るさ : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">データ保存機器を変更</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} セーブ</Entry>
+      <Entry key="ResetToDefault">初期設定を使用</Entry>
+      <Entry key="MenuCube_Artifacts">道具</Entry>
+      <Entry key="MenuCube_CubeShards">キューブ</Entry>
+      <Entry key="MenuCube_Maps">お宝マップ</Entry>
+      <Entry key="Map_Title">ワールドマップ</Entry>
+      <Entry key="ReturnToArcade">ゲームを終了</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} ゲーマー プロフィール変更</Entry>
+      <Entry key="ChangeProfileTitle">ゲーマー プロフィール変更</Entry>
+      <Entry key="ChangeProfileTextLine">すべてのセーブされていない&#13;
+ゲーム進行は失われます&#13;
+&#13;
+({0} としてサインイン中)</Entry>
+      <Entry key="ContinueGame">ゲームを続ける</Entry>
+      <Entry key="FullGameUnlocked">完全版を購入済み</Entry>
+      <Entry key="MainMenu">メインメニュー</Entry>
+      <Entry key="BackToMainMenuTitle">メインメニューに戻る</Entry>
+      <Entry key="BackToMenuWithGlyph">メインメニューに戻るには {A} を押してください</Entry>
+      <Entry key="BackToMainMenuTextLine">すべてのセーブされていない&#13;
+ゲームの進行は&#13;
+失われます</Entry>
+      <Entry key="SellTitle">THANKS&#13;
+FOR&#13;
+PLAYING</Entry>
+      <Entry key="SellButtons">{A} 続ける&#13;
+{B} 戻る&#13;
+{X} 完全版を購入</Entry>
+      <Entry key="MapPan">カメラを回す</Entry>
+      <Entry key="MapZoom">ズーム</Entry>
+      <Entry key="MapSpin">回転する</Entry>
+      <Entry key="MapLook">表示</Entry>
+      <Entry key="MapBack">戻る</Entry>
+      <Entry key="SellButtonsEndTrial">{A} 終了&#13;
+{B} 戻る&#13;
+{X} 完全版を購入</Entry>
+      <Entry key="MenuCube_AntiCubes">アンチキューブ</Entry>
+      <Entry key="SaveOverwriteWarningTitle">注意: セーブ上書き</Entry>
+      <Entry key="Stereo3DOn">立体鏡: 入</Entry>
+      <Entry key="Stereo3DOff">立体鏡: 切</Entry>
+      <Entry key="SettingsTitle">設定</Entry>
+      <Entry key="SoundVolume">SFX 音量 : {0:P0}</Entry>
+      <Entry key="MusicVolume">BGM 音量 : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">セーブ データ破損</Entry>
+      <Entry key="CorruptedFile">セーブデータが破損しているためロードできません。&#13;
+&#13;
+上書きしますか?</Entry>
+      <Entry key="CorruptedFileYes">はい。新しいデータで上書きします</Entry>
+      <Entry key="SellButtonsPublicDemo">はじめから {A}</Entry>
+      <Entry key="TrialModeNotice">お試し&#13;
+版</Entry>
+      <Entry key="ControlsPause">ポーズ</Entry>
+      <Entry key="ControlsLook">見る</Entry>
+      <Entry key="ControlsInventory">持ち物</Entry>
+      <Entry key="MapLegendSmallGate">小さなゲート</Entry>
+      <Entry key="MapLegendWarpGate">ワープゲート</Entry>
+      <Entry key="MapLegendTreasure">宝物</Entry>
+      <Entry key="MapLegendSecret">秘密</Entry>
+      <Entry key="MapLegendBits">欠片</Entry>
+      <Entry key="MapLegendCube">キューブ</Entry>
+      <Entry key="MapLegendLockedDoor">ロックされたドア</Entry>
+      <Entry key="ShowGamerCard">{A} ゲーマー カード</Entry>
+      <Entry key="StartNewGamePlus">新しいゲームを始める+</Entry>
+      <Entry key="SplashStart">{A}を押してスタート</Entry>
+      <Entry key="ExitChoiceYes">{A} ゲーム終了</Entry>
+      <Entry key="ExitConfirmationTitle">ゲームを終了</Entry>
+      <Entry key="LeaderboardsNeedLIVE">ランキングにアクセスするには&#13;
+インターネット接続が必要です。</Entry>
+      <Entry key="ReturnToArcadeTextLine">FEZを本当に終了しますか？</Entry>
+      <Entry key="SaveIndicator">FEZにはオートセーブ機能がついています。&#13;
+&#13;
+このアイコンが表示されている間は&#13;
+ゲームを終了しないでください。</Entry>
+      <Entry key="UnlockNeedsLIVE">完全版のゲームをアンロックするにはインターネット接続が必要です。</Entry>
+      <Entry key="UnlockNeedsLIVETitle">インターネット接続が必要です</Entry>
+      <Entry key="CorruptedFileNo">別のセーブスロットを選択してください</Entry>
+      <Entry key="ControlsTalk">キャンセル/トーク</Entry>
+      <Entry key="VideoSettings">ビデオ設定</Entry>
+      <Entry key="AudioSettings">オーディオ設定</Entry>
+      <Entry key="GameSettings">ゲーム設定</Entry>
+      <Entry key="Language">言語 : {0}</Entry>
+      <Entry key="LanguageEnglish">英語</Entry>
+      <Entry key="LanguageFrench">フランス語</Entry>
+      <Entry key="LanguageItalian">イタリア語</Entry>
+      <Entry key="LanguageGerman">ドイツ語</Entry>
+      <Entry key="LanguageSpanish">スペイン語</Entry>
+      <Entry key="LanguagePortuguese">ポルトガル語</Entry>
+      <Entry key="LanguageChinese">中国語</Entry>
+      <Entry key="LanguageJapanese">日本語</Entry>
+      <Entry key="LanguageKorean">韓国語</Entry>
+      <Entry key="Resolution">解像度 : {0}</Entry>
+      <Entry key="ScreenMode">画面モード : {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} 適用する</Entry>
+      <Entry key="Fullscreen">フルスクリーン</Entry>
+      <Entry key="Windowed">ウィンドウモード</Entry>
+      <Entry key="XboxGamepad">Xbox 360 コントローラー</Entry>
+      <Entry key="Keyboard">キーボード</Entry>
+      <Entry key="ChangeMapping">&lt;キーを押す&gt;</Entry>
+      <Entry key="ControlsToggleFpView">一人称視点</Entry>
+      <Entry key="ControlsClampLook">表示のリセット</Entry>
+      <Entry key="ControlsMapZoomIn">ズームイン (マップ)</Entry>
+      <Entry key="ControlsZoomOut">ズームアウト (マップ)</Entry>
+      <Entry key="KeyboardRightShift">右Shift</Entry>
+      <Entry key="KeyboardArrows">矢印</Entry>
+      <Entry key="KeyboardLeftControl">左Ctrl</Entry>
+      <Entry key="KeyboardEnter">Enter</Entry>
+      <Entry key="KeyboardEscape">Esp</Entry>
+      <Entry key="KeyboardCapsLock">Caps Lock</Entry>
+      <Entry key="KeyboardTab">タブ</Entry>
+      <Entry key="KeyboardDelete">削除</Entry>
+      <Entry key="KeyboardLeftShift">左Shift</Entry>
+      <Entry key="KeyboardRightControl">右Ctrl</Entry>
+      <Entry key="KeyboardBack">Backspace</Entry>
+      <Entry key="ChangeWithGlyph">{A} 変更</Entry>
+      <Entry key="KeyboardLeftAlt">左Alt</Entry>
+      <Entry key="KeyboardRightAlt">右Alt</Entry>
+      <Entry key="SaveSlotTitle">セーブスロットを選択</Entry>
+      <Entry key="NewSlot">&lt;空スロット&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} 選択</Entry>
+      <Entry key="SaveSlotPrefix">スロット</Entry>
+      <Entry key="SaveManagementTitle">セーブ管理</Entry>
+      <Entry key="SaveClearTitle">スロットをクリアにする</Entry>
+      <Entry key="SaveCopyTitle">セーブをコピー</Entry>
+      <Entry key="SaveChangeSlot">スロットを変更</Entry>
+      <Entry key="SaveChangeWarning">注意 : 他のスロットに変更すると現在のゲームは終了されて、スプラッシュ画面に戻ります。</Entry>
+      <Entry key="SaveCopyWarning">警告 : 保存先スロットの内容は上書きされます。</Entry>
+      <Entry key="SaveCopySourceTitle">スロットをセーブしてコピー</Entry>
+      <Entry key="SaveCopyDestTitle">保存先スロット</Entry>
+      <Entry key="SaveClearWarning">警告 : セーブファイルデータは完全に失われます。</Entry>
+      <Entry key="ExitWithGlyph">{B} ゲーム終了</Entry>
+      <Entry key="OtherGamepad">他のゲームパッド</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;ボタンを押す&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* 推奨される解像度</Entry>
+      <Entry key="KeyboardNone">空</Entry>
+      <Entry key="KeyboardTilde">‘</Entry>
+      <Entry key="KeyboardLeftWindows">左Windows</Entry>
+      <Entry key="KeyboardMinus">ー</Entry>
+      <Entry key="KeyboardPlus">＝</Entry>
+      <Entry key="KeyboardOpenBrackets">「</Entry>
+      <Entry key="KeyboardCloseBrackets">」</Entry>
+      <Entry key="KeyboardSemicolon">；</Entry>
+      <Entry key="KeyboardPipe">￥</Entry>
+      <Entry key="KeyboardComma">、</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">・</Entry>
+      <Entry key="KeyboardInsert">Insert</Entry>
+      <Entry key="KeyboardHome">Home</Entry>
+      <Entry key="KeyboardEnd">End</Entry>
+      <Entry key="KeyboardPageUp">Page Up</Entry>
+      <Entry key="KeyboardPageDown">Page Down</Entry>
+      <Entry key="KeyboardNumLock">Num Lock</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">。</Entry>
+      <Entry key="KeyboardPause">Pause</Entry>
+      <Entry key="KeyboardQuotes">’</Entry>
+      <Entry key="KeyboardRightWindows">右Windows</Entry>
+      <Entry key="KeyboardScroll">Scroll</Entry>
+      <Entry key="KeyboardSpace">Space</Entry>
+      <Entry key="KeyboardNumPad0">NUMパッド0</Entry>
+      <Entry key="KeyboardNumPad1">NUMパッド1</Entry>
+      <Entry key="KeyboardNumPad2">NUMパッド2</Entry>
+      <Entry key="KeyboardNumPad3">NUMパッド3</Entry>
+      <Entry key="KeyboardNumPad4">NUMパッド4</Entry>
+      <Entry key="KeyboardNumPad5">NUMパッド5</Entry>
+      <Entry key="KeyboardNumPad6">NUMパッド6</Entry>
+      <Entry key="KeyboardNumPad7">NUMパッド7</Entry>
+      <Entry key="KeyboardNumPad8">NUMパッド8</Entry>
+      <Entry key="KeyboardNumPad9">NUMパッド9</Entry>
+      <Entry key="Vibration">振動: {0}</Entry>
+      <Entry key="Borderless">ボーダレスウィンドウ</Entry>
+      <Entry key="On">入</Entry>
+      <Entry key="Off">切</Entry>
+      <Entry key="HardwareInstancing">GPUのインスタンス化 : {0}</Entry>
+      <Entry key="VSync">V-Sync : {0}</Entry>
+      <Entry key="Lighting">照明 : {0}</Entry>
+      <Entry key="MSAA">アンチエイリアス : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">バックグラウンドでの一時停止 : {0}</Entry>
+      <Entry key="Singlethreaded">シングルスレッド : {0}</Entry>
+      <Entry key="RequiresRestart">* 再起動の必要</Entry>
+      <Entry key="ControllerSupport">ゲームパッド : {0}</Entry>
+      <Entry key="Controller">コントローラー</Entry>
+      <Entry key="DeadZone">デッドゾーン: {0}</Entry>
+      <Entry key="Supersampling">スーパーサンプリング</Entry>
+      <Entry key="PixelPerfect">ピクセル完璧</Entry>
+      <Entry key="FullAspect">完全な側面</Entry>
+      <Entry key="ScaleMode">スケーリングモード : {0}</Entry>
+      <Entry key="HiDpiMode">HI-DPIモード : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="ko">
+    <Dict>
+      <Entry key="SignInTitle">로그인 필요</Entry>
+      <Entry key="Loading">불러오는 중입니다. 잠시만 기다리십시오...</Entry>
+      <Entry key="SplashExit">{BACK} 단추를 눌러 게임 라이브러리로 돌아갑니다.</Entry>
+      <Entry key="Achievements">도전 과제</Entry>
+      <Entry key="Controls">컨트롤</Entry>
+      <Entry key="Credits">제작진</Entry>
+      <Entry key="HelpOptions">도움말 및 옵션</Entry>
+      <Entry key="HowToPlay">게임 방법</Entry>
+      <Entry key="Leaderboards">순위표</Entry>
+      <Entry key="PauseMenuTitle">일시 중지됨</Entry>
+      <Entry key="ResumeGame">게임 계속하기</Entry>
+      <Entry key="StartNewGame">새 게임 시작</Entry>
+      <Entry key="StartNewGameTextLine">이전 &#13;
+진행 내용을&#13;
+모두 잃게 됩니다.</Entry>
+      <Entry key="StartNewGameTitle">새 게임 시작</Entry>
+      <Entry key="LeaderboardsTitle">종합 순위표</Entry>
+      <Entry key="SignInOptionYes">확인</Entry>
+      <Entry key="CurrentLeaderboardView">현재 시점 : {0}</Entry>
+      <Entry key="FriendsLeaderboardView">친구</Entry>
+      <Entry key="LeaderboardEntriesCount">총 {0}명의 플레이어</Entry>
+      <Entry key="LoadingLeaderboard">항목을 불러오는 중입니다. 잠시만 기다리십시오...</Entry>
+      <Entry key="MyScoreLeaderboardView">내 점수</Entry>
+      <Entry key="OverallLeaderboardView">전체</Entry>
+      <Entry key="MenuBackWithGlyph">{B} 뒤로</Entry>
+      <Entry key="UnlockFullGame">정식 버전 게임 구매</Entry>
+      <Entry key="NoEntriesLeaderboard">이 순위표에 등록된 항목이 없습니다.</Entry>
+      <Entry key="NotRankedInLeaderboard">이 순위표에 등록되지 않았습니다.</Entry>
+      <Entry key="ControlsJump">점프</Entry>
+      <Entry key="ControlsAction">행동</Entry>
+      <Entry key="ControlsRotateLeft">왼쪽으로 회전</Entry>
+      <Entry key="ControlsRotateRight">오른쪽으로 회전</Entry>
+      <Entry key="ControlsMove">이동</Entry>
+      <Entry key="AchievementInTrialResume">계속하려면 {A} 단추를 누르십시오.</Entry>
+      <Entry key="AchievementInTrialSellText">{X} 단추를 누르면 지금 바로 정식 버전 게임을 구매할 수 있습니다.</Entry>
+      <Entry key="AchievementInTrialText">정식 버전 게임을 구매하면 첫 번째 FEZ 도전 과제의 잠금이 해제됩니다.</Entry>
+      <Entry key="AchievementInTrialTitle">도전 과제 잠금 해제!</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} 정식 버전 게임 구매</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} 새 게임 시작</Entry>
+      <Entry key="Brightness">밝기 : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">저장 장치 변경</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} 저장</Entry>
+      <Entry key="ResetToDefault">기본 설정으로 다시 설정</Entry>
+      <Entry key="MenuCube_Artifacts">유물</Entry>
+      <Entry key="MenuCube_CubeShards">큐브</Entry>
+      <Entry key="MenuCube_Maps">보물 지도</Entry>
+      <Entry key="Map_Title">세계 지도</Entry>
+      <Entry key="ReturnToArcade">게임 나가기</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} 단추로 프로필 변경</Entry>
+      <Entry key="ChangeProfileTitle">프로필 변경</Entry>
+      <Entry key="ChangeProfileTextLine">저장하지 않은 내용을&#13;
+잃게 됩니다.&#13;
+&#13;
+({0}(으)로 로그인한 상태)</Entry>
+      <Entry key="ContinueGame">게임 계속하기</Entry>
+      <Entry key="FullGameUnlocked">정식 버전이 활성화됨</Entry>
+      <Entry key="MainMenu">주 메뉴</Entry>
+      <Entry key="BackToMainMenuTitle">주 메뉴로 나가기</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} 단추를 눌러 주 메뉴로 나가기</Entry>
+      <Entry key="BackToMainMenuTextLine">저장하지 않은&#13;
+모든 내용을&#13;
+잃게 됩니다.</Entry>
+      <Entry key="SellTitle">플레이해주셔서&#13;
+감사합니다.</Entry>
+      <Entry key="SellButtons">계속 {A}&#13;
+뒤로 {B}&#13;
+정식 버전 게임 구매 {X}</Entry>
+      <Entry key="MapPan">가로 이동</Entry>
+      <Entry key="MapZoom">줌</Entry>
+      <Entry key="MapSpin">회전</Entry>
+      <Entry key="MapLook">보기</Entry>
+      <Entry key="MapBack">뒤로</Entry>
+      <Entry key="SellButtonsEndTrial">종료 {A}&#13;
+뒤로 {B}&#13;
+정식 버전 게임 구매 {X}</Entry>
+      <Entry key="MenuCube_AntiCubes">안티 큐브</Entry>
+      <Entry key="SaveOverwriteWarningTitle">저장 덮어씌움 경고</Entry>
+      <Entry key="Stereo3DOn">입체 영상 : 켜짐</Entry>
+      <Entry key="Stereo3DOff">입체 영상 : 꺼짐</Entry>
+      <Entry key="SettingsTitle">설정</Entry>
+      <Entry key="SoundVolume">소리 볼륨 : {0:P0}</Entry>
+      <Entry key="MusicVolume">음악 볼륨 : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">저장 파일 손상</Entry>
+      <Entry key="CorruptedFile">저장 파일이 손상되어 불러올 수 없습니다.&#13;
+&#13;
+덮어쓰시겠습니까?</Entry>
+      <Entry key="CorruptedFileYes">예, 덮어쓰고 새로 시작합니다.</Entry>
+      <Entry key="SellButtonsPublicDemo">다시 시작 {A}</Entry>
+      <Entry key="TrialModeNotice">평가판&#13;
+게임</Entry>
+      <Entry key="ControlsPause">일시 중지</Entry>
+      <Entry key="ControlsLook">보기</Entry>
+      <Entry key="ControlsInventory">인벤토리</Entry>
+      <Entry key="MapLegendSmallGate">작은 문</Entry>
+      <Entry key="MapLegendWarpGate">워프 게이트</Entry>
+      <Entry key="MapLegendTreasure">보물</Entry>
+      <Entry key="MapLegendSecret">비밀</Entry>
+      <Entry key="MapLegendBits">작은 큐브</Entry>
+      <Entry key="MapLegendCube">큐브</Entry>
+      <Entry key="MapLegendLockedDoor">잠긴 문</Entry>
+      <Entry key="ShowGamerCard">{A} 게이머 카드</Entry>
+      <Entry key="StartNewGamePlus">새 게임 시작+</Entry>
+      <Entry key="SplashStart">{A} 를 눌러서 시작</Entry>
+      <Entry key="ExitChoiceYes">{A} 게임 나가기</Entry>
+      <Entry key="ExitConfirmationTitle">게임 나가기</Entry>
+      <Entry key="LeaderboardsNeedLIVE">순위표에 접속하려면 인터넷에 연결해야&#13;
+합니다.</Entry>
+      <Entry key="ReturnToArcadeTextLine">정말 FEZ에서 나갈까요?</Entry>
+      <Entry key="SaveIndicator">FEZ는 자동 저장 메커니즘을 사용합니다.&#13;
+&#13;
+이 아이콘이 나타나면&#13;
+게임에서 나가지 말아야 합니다.</Entry>
+      <Entry key="UnlockNeedsLIVE">인터넷에 연결해야만 정식 버전 게임을 구매할 수 있습니다.</Entry>
+      <Entry key="UnlockNeedsLIVETitle">인터넷 연결이 필요합니다</Entry>
+      <Entry key="CorruptedFileNo">아니오, 다른 저장 슬롯을 선택하십시오</Entry>
+      <Entry key="ControlsTalk">취소/말하기</Entry>
+      <Entry key="VideoSettings">비디오 설정</Entry>
+      <Entry key="AudioSettings">오디오 설정</Entry>
+      <Entry key="GameSettings">게임 설정</Entry>
+      <Entry key="Language">언어 : {0}</Entry>
+      <Entry key="LanguageEnglish">영어</Entry>
+      <Entry key="LanguageFrench">프랑스어</Entry>
+      <Entry key="LanguageItalian">이탈리아어</Entry>
+      <Entry key="LanguageGerman">독일어</Entry>
+      <Entry key="LanguageSpanish">스페인어</Entry>
+      <Entry key="LanguagePortuguese">포르투갈어</Entry>
+      <Entry key="LanguageChinese">중국어</Entry>
+      <Entry key="LanguageJapanese">일본어</Entry>
+      <Entry key="LanguageKorean">한국어</Entry>
+      <Entry key="Resolution">해상도 : {0}</Entry>
+      <Entry key="ScreenMode">화면 모드 : {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} 적용</Entry>
+      <Entry key="Fullscreen">전체 화면</Entry>
+      <Entry key="Windowed">창</Entry>
+      <Entry key="XboxGamepad">Xbox 360 컨트롤러</Entry>
+      <Entry key="Keyboard">키보드</Entry>
+      <Entry key="ChangeMapping">&lt;키 누르기&gt;</Entry>
+      <Entry key="ControlsToggleFpView">1인칭 시점</Entry>
+      <Entry key="ControlsClampLook">시점 초기화</Entry>
+      <Entry key="ControlsMapZoomIn">확대(지도)</Entry>
+      <Entry key="ControlsZoomOut">축소(지도)</Entry>
+      <Entry key="KeyboardRightShift">오른쪽 Shift</Entry>
+      <Entry key="KeyboardArrows">화살표</Entry>
+      <Entry key="KeyboardLeftControl">왼쪽 Ctrl</Entry>
+      <Entry key="KeyboardEnter">Enter</Entry>
+      <Entry key="KeyboardEscape">Escape</Entry>
+      <Entry key="KeyboardCapsLock">Caps Lock</Entry>
+      <Entry key="KeyboardTab">Tab</Entry>
+      <Entry key="KeyboardDelete">Delete</Entry>
+      <Entry key="KeyboardLeftShift">왼쪽 Shift</Entry>
+      <Entry key="KeyboardRightControl">오른쪽 Control</Entry>
+      <Entry key="KeyboardBack">Backspace</Entry>
+      <Entry key="ChangeWithGlyph">{A} 변경</Entry>
+      <Entry key="KeyboardLeftAlt">왼쪽 Alt</Entry>
+      <Entry key="KeyboardRightAlt">오른쪽 Alt</Entry>
+      <Entry key="SaveSlotTitle">저장 슬롯 선택하기</Entry>
+      <Entry key="NewSlot">&lt;빈 슬롯&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} 선택</Entry>
+      <Entry key="SaveSlotPrefix">슬롯</Entry>
+      <Entry key="SaveManagementTitle">저장 관리</Entry>
+      <Entry key="SaveClearTitle">슬롯 비우기</Entry>
+      <Entry key="SaveCopyTitle">저장 복사하기</Entry>
+      <Entry key="SaveChangeSlot">슬롯 변경</Entry>
+      <Entry key="SaveChangeWarning">참고 : 다른 슬롯으로 바꾸면 현재 게임을 끝내고 시작 화면으로 돌아갑니다.</Entry>
+      <Entry key="SaveCopyWarning">경고 : 대상 슬롯의 내용을 덮어씁니다.</Entry>
+      <Entry key="SaveCopySourceTitle">복사할 저장 슬롯</Entry>
+      <Entry key="SaveCopyDestTitle">대상 슬롯</Entry>
+      <Entry key="SaveClearWarning">경고 : 저장 파일 데이터를 영구히 잃게 됩니다.</Entry>
+      <Entry key="ExitWithGlyph">{B} 게임 나가기</Entry>
+      <Entry key="OtherGamepad">다른 게임패드</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;버튼 누르기&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* 권장 해상도</Entry>
+      <Entry key="KeyboardNone">없음</Entry>
+      <Entry key="KeyboardTilde">`</Entry>
+      <Entry key="KeyboardLeftWindows">왼쪽 Windows</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">\</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">/</Entry>
+      <Entry key="KeyboardInsert">Insert</Entry>
+      <Entry key="KeyboardHome">Home</Entry>
+      <Entry key="KeyboardPageUp">Page Up</Entry>
+      <Entry key="KeyboardPageDown">Page Down</Entry>
+      <Entry key="KeyboardNumLock">Num Lock</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">Pause</Entry>
+      <Entry key="KeyboardEnd">End</Entry>
+      <Entry key="KeyboardRightWindows">오른쪽 Windows</Entry>
+      <Entry key="KeyboardScroll">Scroll</Entry>
+      <Entry key="KeyboardSpace">Space</Entry>
+      <Entry key="KeyboardNumPad0">숫자 키패드0</Entry>
+      <Entry key="KeyboardNumPad1">숫자 키패드1</Entry>
+      <Entry key="KeyboardNumPad2">숫자 키패드2</Entry>
+      <Entry key="KeyboardNumPad3">숫자 키패드3</Entry>
+      <Entry key="KeyboardNumPad4">숫자 키패드4</Entry>
+      <Entry key="KeyboardNumPad5">숫자 키패드5</Entry>
+      <Entry key="KeyboardNumPad6">숫자 키패드6</Entry>
+      <Entry key="KeyboardNumPad7">숫자 키패드7</Entry>
+      <Entry key="KeyboardNumPad8">숫자 키패드8</Entry>
+      <Entry key="KeyboardNumPad9">숫자 키패드9</Entry>
+      <Entry key="Vibration">진동 : {0}</Entry>
+      <Entry key="Borderless">경계선없는 창</Entry>
+      <Entry key="On">켜짐</Entry>
+      <Entry key="Off">꺼짐</Entry>
+      <Entry key="HardwareInstancing">GPU 인스 턴싱 : {0}</Entry>
+      <Entry key="VSync">V-Sync : {0}</Entry>
+      <Entry key="Lighting">조명 : {0}</Entry>
+      <Entry key="MSAA">앤티에일리어싱 : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">배경에서 일시 중지 : {0}</Entry>
+      <Entry key="Singlethreaded">단일 스레드 : {0}</Entry>
+      <Entry key="RequiresRestart">* 다시 시작 필요</Entry>
+      <Entry key="ControllerSupport">게임 패드 지원 : {0}</Entry>
+      <Entry key="Controller">컨트롤러</Entry>
+      <Entry key="DeadZone">데드 존 : {0}</Entry>
+      <Entry key="Supersampling">슈퍼샘플링</Entry>
+      <Entry key="PixelPerfect">픽셀 완벽한</Entry>
+      <Entry key="FullAspect">전체 화면</Entry>
+      <Entry key="ScaleMode">확장 모드 : {0}</Entry>
+      <Entry key="HiDpiMode">HI-DPI 모드 : {0}</Entry>
+    </Dict>
+  </Entry>
+  <Entry key="zh">
+    <Dict>
+      <Entry key="SignInTitle">必須登入才能繼續</Entry>
+      <Entry key="Loading">正在載入，請稍候...</Entry>
+      <Entry key="SplashExit">按下 {BACK} 來返回遊戲庫</Entry>
+      <Entry key="Achievements">成就</Entry>
+      <Entry key="Controls">控制</Entry>
+      <Entry key="Credits">製作群</Entry>
+      <Entry key="HelpOptions">說明與選項</Entry>
+      <Entry key="HowToPlay">遊戲方式</Entry>
+      <Entry key="Leaderboards">排行榜</Entry>
+      <Entry key="PauseMenuTitle">遊戲暫停</Entry>
+      <Entry key="ResumeGame">繼續遊戲</Entry>
+      <Entry key="StartNewGame">開始新遊戲</Entry>
+      <Entry key="StartNewGameTextLine">您將失去&#13;
+之前所有的&#13;
+遊戲進度。</Entry>
+      <Entry key="StartNewGameTitle">開始新遊戲</Entry>
+      <Entry key="LeaderboardsTitle">整體排行榜</Entry>
+      <Entry key="SignInOptionYes">確定</Entry>
+      <Entry key="CurrentLeaderboardView">目前檢視：{0}</Entry>
+      <Entry key="FriendsLeaderboardView">好友</Entry>
+      <Entry key="LeaderboardEntriesCount">共 {0} 位玩家</Entry>
+      <Entry key="LoadingLeaderboard">正在載入資料，請稍候...</Entry>
+      <Entry key="MyScoreLeaderboardView">我的分數</Entry>
+      <Entry key="OverallLeaderboardView">整體</Entry>
+      <Entry key="MenuBackWithGlyph">{B} 返回</Entry>
+      <Entry key="UnlockFullGame">解除完整版遊戲鎖定</Entry>
+      <Entry key="NoEntriesLeaderboard">這個排行榜中沒有可檢視的項目。</Entry>
+      <Entry key="NotRankedInLeaderboard">您尚未名列在這個排行榜中。</Entry>
+      <Entry key="ControlsJump">跳躍</Entry>
+      <Entry key="ControlsAction">動作</Entry>
+      <Entry key="ControlsRotateLeft">往左旋轉</Entry>
+      <Entry key="ControlsRotateRight">往右旋轉</Entry>
+      <Entry key="ControlsMove">移動</Entry>
+      <Entry key="AchievementInTrialResume">按下 {A} 來繼續</Entry>
+      <Entry key="AchievementInTrialSellText">太好了，您可以按下 {X} 來立刻購買，並真正開始遊戲！</Entry>
+      <Entry key="AchievementInTrialText">如果您擁有完整版遊戲，就會獲得您的第一個 FEZ 成就。</Entry>
+      <Entry key="AchievementInTrialTitle">已解除成就鎖定！</Entry>
+      <Entry key="UnlockGameWithGlyph">{X} 解除完整版遊戲鎖定</Entry>
+      <Entry key="StartNewGameWithGlyph">{A} 開始新遊戲</Entry>
+      <Entry key="Brightness">亮度 : {0:P0}</Entry>
+      <Entry key="ChangeStorageDevice">變更儲存裝置</Entry>
+      <Entry key="MenuSaveWithGlyph">{B} 儲存</Entry>
+      <Entry key="ResetToDefault">重設為預設值</Entry>
+      <Entry key="MenuCube_Artifacts">神器</Entry>
+      <Entry key="MenuCube_CubeShards">立方體</Entry>
+      <Entry key="MenuCube_Maps">藏寶地圖</Entry>
+      <Entry key="Map_Title">世界地圖</Entry>
+      <Entry key="ReturnToArcade">離開遊戲</Entry>
+      <Entry key="ChangeProfileWithXGlyph">{X} 變更設定檔</Entry>
+      <Entry key="ChangeProfileTitle">變更設定檔</Entry>
+      <Entry key="ChangeProfileTextLine">您將失去&#13;
+所有尚未儲存的進度。&#13;
+&#13;
+(已登入設定檔：{0})</Entry>
+      <Entry key="ContinueGame">繼續遊戲</Entry>
+      <Entry key="FullGameUnlocked">已啟用完整版遊戲</Entry>
+      <Entry key="MainMenu">主畫面</Entry>
+      <Entry key="BackToMainMenuTitle">離開並返回主畫面</Entry>
+      <Entry key="BackToMenuWithGlyph">{A} 返回主畫面</Entry>
+      <Entry key="BackToMainMenuTextLine">您將失去&#13;
+所有尚未儲存的&#13;
+遊戲進度。</Entry>
+      <Entry key="SellTitle">感謝您&#13;
+進行&#13;
+遊戲</Entry>
+      <Entry key="SellButtons">繼續 {A}&#13;
+返回 {B}&#13;
+解除完整版遊戲鎖定 {X}</Entry>
+      <Entry key="MapPan">移動瀏覽</Entry>
+      <Entry key="MapZoom">縮放</Entry>
+      <Entry key="MapSpin">旋轉</Entry>
+      <Entry key="MapLook">檢視</Entry>
+      <Entry key="MapBack">返回</Entry>
+      <Entry key="SellButtonsEndTrial">結束 {A}&#13;
+返回 {B}&#13;
+解除完整版遊戲鎖定 {X}</Entry>
+      <Entry key="MenuCube_AntiCubes">反立方體</Entry>
+      <Entry key="SaveOverwriteWarningTitle">儲存覆寫檔案的警告</Entry>
+      <Entry key="Stereo3DOn">立體效果：開啟</Entry>
+      <Entry key="Stereo3DOff">立體效果：關閉</Entry>
+      <Entry key="SettingsTitle">設定</Entry>
+      <Entry key="SoundVolume">音效音量 : {0:P0}</Entry>
+      <Entry key="MusicVolume">音樂音量 : {0:P0}</Entry>
+      <Entry key="CorruptedFileTitle">遊戲存檔損毀</Entry>
+      <Entry key="CorruptedFile">遊戲存檔已損毀，因此無法載入。&#13;
+&#13;
+想要覆寫遊戲存檔嗎？</Entry>
+      <Entry key="CorruptedFileYes">是，用新的遊戲進度覆寫存檔</Entry>
+      <Entry key="SellButtonsPublicDemo">重新開始 {A}</Entry>
+      <Entry key="TrialModeNotice">試玩&#13;
+版</Entry>
+      <Entry key="ControlsPause">暫停</Entry>
+      <Entry key="ControlsLook">檢視</Entry>
+      <Entry key="ControlsInventory">儲藏櫃</Entry>
+      <Entry key="MapLegendSmallGate">小傳送門</Entry>
+      <Entry key="MapLegendWarpGate">傳送門</Entry>
+      <Entry key="MapLegendTreasure">寶藏</Entry>
+      <Entry key="MapLegendSecret">秘密</Entry>
+      <Entry key="MapLegendBits">立方體單位</Entry>
+      <Entry key="MapLegendCube">立方體</Entry>
+      <Entry key="MapLegendLockedDoor">鎖住的門</Entry>
+      <Entry key="ShowGamerCard">{A} 玩家卡</Entry>
+      <Entry key="StartNewGamePlus">開始新遊戲+</Entry>
+      <Entry key="SplashStart">按 {A} 或輸入鍵開始</Entry>
+      <Entry key="ExitChoiceYes">{A} 退出遊戲</Entry>
+      <Entry key="ExitConfirmationTitle">退出遊戲</Entry>
+      <Entry key="LeaderboardsNeedLIVE">必須連接到互聯網，&#13;
+才可以瀏覽排行榜。</Entry>
+      <Entry key="ReturnToArcadeTextLine">你確定要退出 FEZ 嗎？</Entry>
+      <Entry key="SaveIndicator">FEZ 採用自動儲存機制。&#13;
+&#13;
+當畫面出現這個圖示，&#13;
+請勿退出遊戲。</Entry>
+      <Entry key="UnlockNeedsLIVE">必須連接到互聯網，才可以解鎖完整遊戲</Entry>
+      <Entry key="UnlockNeedsLIVETitle">須要連接互聯網</Entry>
+      <Entry key="ControlsTalk">取消/聊天</Entry>
+      <Entry key="VideoSettings">視頻設定</Entry>
+      <Entry key="AudioSettings">音效設定</Entry>
+      <Entry key="GameSettings">遊戲設定</Entry>
+      <Entry key="Language">語言 : {0}</Entry>
+      <Entry key="LanguageEnglish">英語</Entry>
+      <Entry key="LanguageFrench">法語</Entry>
+      <Entry key="LanguageItalian">意大利語</Entry>
+      <Entry key="LanguageGerman">德語</Entry>
+      <Entry key="LanguageSpanish">西班牙語</Entry>
+      <Entry key="LanguagePortuguese">葡萄牙語</Entry>
+      <Entry key="LanguageChinese">中文</Entry>
+      <Entry key="LanguageJapanese">日語</Entry>
+      <Entry key="LanguageKorean">韓語</Entry>
+      <Entry key="Resolution">解析度︰ {0}</Entry>
+      <Entry key="ScreenMode">屏幕模式︰ {0}</Entry>
+      <Entry key="MenuApplyWithGlyph">{A} 套用</Entry>
+      <Entry key="Fullscreen">全屏幕</Entry>
+      <Entry key="Windowed">個別視窗</Entry>
+      <Entry key="XboxGamepad">Xbox 360 控制器</Entry>
+      <Entry key="Keyboard">鍵盤</Entry>
+      <Entry key="ChangeMapping">&lt;按鍵&gt;</Entry>
+      <Entry key="ControlsToggleFpView">第一視角</Entry>
+      <Entry key="ControlsClampLook">重設視角</Entry>
+      <Entry key="ControlsMapZoomIn">放大（地圖）</Entry>
+      <Entry key="ControlsZoomOut">縮小（地圖）</Entry>
+      <Entry key="KeyboardRightShift">右+SHIFT</Entry>
+      <Entry key="KeyboardArrows">方向鍵</Entry>
+      <Entry key="KeyboardLeftControl">左+CTRL</Entry>
+      <Entry key="KeyboardEnter">輸入鍵</Entry>
+      <Entry key="KeyboardEscape">退出鍵</Entry>
+      <Entry key="KeyboardCapsLock">CAPS LOCK 鍵</Entry>
+      <Entry key="KeyboardTab">TAB 鍵</Entry>
+      <Entry key="KeyboardDelete">刪除鍵</Entry>
+      <Entry key="KeyboardLeftShift">左+SHIFT</Entry>
+      <Entry key="KeyboardRightControl">右+CTRL</Entry>
+      <Entry key="KeyboardBack">退格鍵</Entry>
+      <Entry key="ChangeWithGlyph">{A} 修改</Entry>
+      <Entry key="KeyboardLeftAlt">左+ALT</Entry>
+      <Entry key="KeyboardRightAlt">右+ALT</Entry>
+      <Entry key="SaveSlotTitle">選擇儲存位置</Entry>
+      <Entry key="NewSlot">&lt;空白位&gt;</Entry>
+      <Entry key="ChooseWithGlyph">{A} 確定</Entry>
+      <Entry key="SaveSlotPrefix">位置</Entry>
+      <Entry key="SaveManagementTitle">儲存管理</Entry>
+      <Entry key="SaveClearTitle">清空位置</Entry>
+      <Entry key="SaveCopyTitle">複製儲存檔</Entry>
+      <Entry key="SaveChangeSlot">切換位置</Entry>
+      <Entry key="SaveChangeWarning">注意：變更儲存位置將結束目前遊戲，並返回初始畫面。</Entry>
+      <Entry key="SaveCopyWarning">警告：目標位置的內容將被覆蓋。</Entry>
+      <Entry key="SaveCopySourceTitle">儲存複製檔</Entry>
+      <Entry key="SaveCopyDestTitle">目標位置</Entry>
+      <Entry key="SaveClearWarning">警告：儲存檔數據將永久丟失。</Entry>
+      <Entry key="ExitWithGlyph">{B} 退出遊戲</Entry>
+      <Entry key="OtherGamepad">其他控制器</Entry>
+      <Entry key="ChangeGamepadMapping">&lt;按按鈕&gt;</Entry>
+      <Entry key="GamepadButton">#{0}</Entry>
+      <Entry key="RecommendedResolution">* 建議解析度</Entry>
+      <Entry key="KeyboardNone">無效</Entry>
+      <Entry key="KeyboardTilde">~ (代符鍵)</Entry>
+      <Entry key="KeyboardLeftWindows">左視窗</Entry>
+      <Entry key="KeyboardMinus">-</Entry>
+      <Entry key="KeyboardPlus">=</Entry>
+      <Entry key="KeyboardOpenBrackets">[</Entry>
+      <Entry key="KeyboardCloseBrackets">]</Entry>
+      <Entry key="KeyboardSemicolon">;</Entry>
+      <Entry key="KeyboardPipe">|</Entry>
+      <Entry key="KeyboardComma">,</Entry>
+      <Entry key="KeyboardPeriod">.</Entry>
+      <Entry key="KeyboardQuestion">問號鍵</Entry>
+      <Entry key="KeyboardInsert">字符插入鍵</Entry>
+      <Entry key="KeyboardHome">行首鍵</Entry>
+      <Entry key="KeyboardPageUp">上頁鍵</Entry>
+      <Entry key="KeyboardPageDown">下頁鍵</Entry>
+      <Entry key="KeyboardNumLock">數字鍵盤鎖定鍵</Entry>
+      <Entry key="KeyboardDivide">/</Entry>
+      <Entry key="KeyboardMultiply">*</Entry>
+      <Entry key="KeyboardAdd">+</Entry>
+      <Entry key="KeyboardDecimal">.</Entry>
+      <Entry key="KeyboardPause">暫停鍵</Entry>
+      <Entry key="KeyboardEnd">行尾鍵</Entry>
+      <Entry key="KeyboardQuotes">雙引號鍵</Entry>
+      <Entry key="KeyboardRightWindows">右視窗</Entry>
+      <Entry key="KeyboardScroll">螢幕滾動鍵</Entry>
+      <Entry key="KeyboardSpace">退格鍵</Entry>
+      <Entry key="KeyboardNumPad0">數字鍵盤 0</Entry>
+      <Entry key="KeyboardNumPad1">數字鍵盤 1</Entry>
+      <Entry key="KeyboardNumPad2">數字鍵盤 2</Entry>
+      <Entry key="KeyboardNumPad3">數字鍵盤 3</Entry>
+      <Entry key="KeyboardNumPad4">數字鍵盤 4</Entry>
+      <Entry key="KeyboardNumPad5">數字鍵盤 5</Entry>
+      <Entry key="KeyboardNumPad6">數字鍵盤 6</Entry>
+      <Entry key="KeyboardNumPad7">數字鍵盤 7</Entry>
+      <Entry key="KeyboardNumPad8">數字鍵盤 8</Entry>
+      <Entry key="KeyboardNumPad9">數字鍵盤 9</Entry>
+      <Entry key="Vibration">振动：{0}</Entry>
+      <Entry key="Borderless">個別視窗無邊框</Entry>
+      <Entry key="On">開啟</Entry>
+      <Entry key="Off">關閉</Entry>
+      <Entry key="HardwareInstancing">GPU實例化 : {0}</Entry>
+      <Entry key="VSync">垂直同步 : {0}</Entry>
+      <Entry key="Lighting">燈光 : {0}</Entry>
+      <Entry key="MSAA">反鋸齒 : {0}</Entry>
+      <Entry key="Steamworks">Steamworks : {0}</Entry>
+      <Entry key="PauseOnLostFocus">暫停在後台 : {0}</Entry>
+      <Entry key="Singlethreaded">單線程 : {0}</Entry>
+      <Entry key="RequiresRestart">* 要求重新啟動</Entry>
+      <Entry key="ControllerSupport">控制器支持 : {0}</Entry>
+      <Entry key="Controller">控制器</Entry>
+      <Entry key="DeadZone">搖桿盲區：{0}</Entry>
+      <Entry key="Supersampling">超級採樣</Entry>
+      <Entry key="PixelPerfect">像素完美</Entry>
+      <Entry key="FullAspect">全方面</Entry>
+      <Entry key="ScaleMode">縮放模式 : {0}</Entry>
+      <Entry key="HiDpiMode">HI-DPI模式 : {0}</Entry>
+    </Dict>
+  </Entry>
+</Dict>

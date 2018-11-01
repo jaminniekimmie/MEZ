@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="CMY" background="CMY_BACK" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="True" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.25" interLayerHorizontalDistance="0.25" horizontalDistance="0.10000000149" verticalDistance="0.10000000149" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0">
+  <Layers>
+    <SkyLayer name="CMY_BG_2" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="CMY_BG_1" opacity="1.0" fogTint="0.0" inFront="False"/>
+  </Layers>
+  <Clouds/>
+</Sky>

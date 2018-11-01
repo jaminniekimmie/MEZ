@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="STARLINE" background="OUTERSPACE_BACK" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="False" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.0" interLayerHorizontalDistance="0.0" horizontalDistance="0.0" verticalDistance="0.0" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="0.40000000596" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0">
+  <Layers>
+    <SkyLayer name="STARLINE_A" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="STARLINE_B" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="STARLINE_C" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="STARLINE_D" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="STARLINE_E" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="STARLINE_F" opacity="1.0" fogTint="0.0" inFront="False"/>
+  </Layers>
+  <Clouds/>
+</Sky>

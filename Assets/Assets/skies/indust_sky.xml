@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="INDUST_SKY" background="SkyBack" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="False" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.10000000149" interLayerHorizontalDistance="0.10000000149" horizontalDistance="0.20000000298" verticalDistance="0.20000000298" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="0.20000000298" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="True" layerBaseXOffset="0.0" shadows="INDUST_CLOUD_SHADOWS" stars="Stars">
+  <Layers/>
+  <Clouds>
+    <Cloud>INDUST_CLOUD_A</Cloud>
+    <Cloud>INDUST_CLOUD_B</Cloud>
+    <Cloud>INDUST_CLOUD_C</Cloud>
+    <Cloud>INDUST_CLOUD_D</Cloud>
+    <Cloud>INDUST_CLOUD_E</Cloud>
+    <Cloud>INDUST_CLOUD_F</Cloud>
+    <Cloud>INDUST_CLOUD_G</Cloud>
+  </Clouds>
+</Sky>

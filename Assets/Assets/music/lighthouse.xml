@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Lighthouse" tempo="120" timeSignature="4" randomOrdering="False">
+  <Chord>Csharp_maj</Chord>
+  <Notes>
+    <Note>Csharp2</Note>
+    <Note>Fsharp2</Note>
+    <Note>Gsharp2</Note>
+    <Note>Dsharp2</Note>
+    <Note>Gsharp2</Note>
+    <Note>Csharp3</Note>
+    <Note>Dsharp3</Note>
+    <Note>Gsharp3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Lighthouse ^ Night_Chords" duration="82" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="True" dawn="False"/>
+    <Loop name="Lighthouse ^ Night_Elements" duration="82" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+    <Loop name="Lighthouse ^ Day_Chords" duration="82" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="True"/>
+    <Loop name="Lighthouse ^ Day_Elements" duration="82" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+  </Loops>
+</TrackedSong>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NpcMetadata avoidsGomez="False" walkSpeed="0.5" soundPath="Npc/TalkLoopZuElder">
+  <SoundActions>
+    <NpcAction>Talk</NpcAction>
+  </SoundActions>
+</NpcMetadata>

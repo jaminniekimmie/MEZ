@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Industrial" tempo="120" timeSignature="4" randomOrdering="False">
+  <Chord>Dsharp_maj</Chord>
+  <Notes>
+    <Note>D2</Note>
+    <Note>D3</Note>
+    <Note>D2</Note>
+    <Note>D3</Note>
+    <Note>D2</Note>
+    <Note>D3</Note>
+    <Note>D2</Note>
+    <Note>D3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Industrial ^ long_day" duration="96" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Industrial ^ caves" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Industrial ^ hub_dawn" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Industrial ^ pivot1_dawn" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Industrial ^ pivot2_dawn" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Industrial ^ pivot3_dawn" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Industrial ^ plates_dawn" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Industrial ^ rails_dawn" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Industrial ^ hub_dusk" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Industrial ^ pivot1_dusk" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Industrial ^ pivot2_dusk" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Industrial ^ pivot3_dusk" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Industrial ^ plates_dusk" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Industrial ^ rails_dusk" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Industrial ^ hub_night" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+    <Loop name="Industrial ^ pivot1_night" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+    <Loop name="Industrial ^ pivot2_night" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+    <Loop name="Industrial ^ pivot3_night" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+    <Loop name="Industrial ^ rails_night" duration="16" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+  </Loops>
+</TrackedSong>

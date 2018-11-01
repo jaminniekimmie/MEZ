@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="Blue" background="SkyBack" windSpeed="1.0" density="1.0" fogDensity="0.0149999996647" verticalTiling="False" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.0" interLayerHorizontalDistance="0.0" horizontalDistance="0.0" verticalDistance="0.0" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="1.0" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0" shadows="Shadows" stars="Stars">
+  <Layers/>
+  <Clouds>
+    <Cloud>Cloud0</Cloud>
+    <Cloud>Cloud1</Cloud>
+    <Cloud>Cloud2</Cloud>
+    <Cloud>Cloud3</Cloud>
+    <Cloud>Cloud4</Cloud>
+    <Cloud>Cloud5</Cloud>
+    <Cloud>Cloud6</Cloud>
+    <Cloud>Cloud7</Cloud>
+  </Clouds>
+</Sky>

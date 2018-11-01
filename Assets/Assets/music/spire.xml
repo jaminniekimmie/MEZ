@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Spire" tempo="100" timeSignature="3" randomOrdering="False">
+  <Chord>C_maj</Chord>
+  <Notes>
+    <Note>C2</Note>
+    <Note>D2</Note>
+    <Note>E2</Note>
+    <Note>G2</Note>
+    <Note>B2</Note>
+    <Note>C3</Note>
+    <Note>D3</Note>
+    <Note>E3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Spire ^ twinkle" duration="64" loopTimesFrom="1" loopTimesTo="1" triggerFrom="16" triggerTo="16" delay="19" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="True" dawn="False"/>
+    <Loop name="Spire ^ bass" duration="80" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="True"/>
+    <Loop name="Spire ^ melody" duration="40" loopTimesFrom="1" loopTimesTo="1" triggerFrom="40" triggerTo="40" delay="43" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="True" dawn="True"/>
+    <Loop name="Spire ^ ostinato" duration="80" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="True" dawn="True"/>
+    <Loop name="Spire ^ pad" duration="80" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

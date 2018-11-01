@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Zuins" tempo="30" timeSignature="4" randomOrdering="True">
+  <Chord>G_maj</Chord>
+  <Notes>
+    <Note>G2</Note>
+    <Note>D3</Note>
+    <Note>G2</Note>
+    <Note>D3</Note>
+    <Note>G2</Note>
+    <Note>D3</Note>
+    <Note>G2</Note>
+    <Note>D3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Zuins ^ Zuins_01" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="4" triggerTo="5" delay="1" fractionalTime="True" oneAtATime="True" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Zuins ^ Zuins_02" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="4" triggerTo="5" delay="1" fractionalTime="True" oneAtATime="True" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Zuins ^ Zuins_03" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="4" triggerTo="5" delay="1" fractionalTime="True" oneAtATime="True" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Zuins ^ Zuins_04" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="4" triggerTo="5" delay="1" fractionalTime="True" oneAtATime="True" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

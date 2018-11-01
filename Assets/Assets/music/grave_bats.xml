@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Grave_Bats" tempo="100" timeSignature="4" randomOrdering="False">
+  <Chord>Csharp_maj</Chord>
+  <Notes>
+    <Note>Fsharp2</Note>
+    <Note>Gsharp2</Note>
+    <Note>Asharp2</Note>
+    <Note>C3</Note>
+    <Note>D3</Note>
+    <Note>E3</Note>
+    <Note>Fsharp3</Note>
+    <Note>Gsharp3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Grave ^ Bats" duration="38" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="2" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

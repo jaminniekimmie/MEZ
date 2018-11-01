@@ -1,0 +1,3439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Level flat="False" skipPostprocess="True" baseDiffuse="1.0" baseAmbient="0.34999999404" haloFiltering="True" blinkingAlpha="False" loops="False" waterHeight="0.0" skyName="GRAVE" fapFadeoutStart="0" fapFadeoutLength="0" descending="False" rainy="True" lowPass="False" quantum="False" name="SKULL_B" waterType="None" trileSetName="GRAVE" songName="Grave_Bats" nodeType="Lesser">
+  <Size>
+    <Vector3 x="34.0" y="25.0" z="35.0"/>
+  </Size>
+  <StartingPosition>
+    <TrileFace face="Right">
+      <TrileId>
+        <TrileEmplacement x="22" y="9" z="19"/>
+      </TrileId>
+    </TrileFace>
+  </StartingPosition>
+  <Volumes>
+    <Entry key="0">
+      <Volume>
+        <Orientations>
+          <FaceOrientation>Right</FaceOrientation>
+        </Orientations>
+        <From>
+          <Vector3 x="22.0" y="9.5" z="19.0"/>
+        </From>
+        <To>
+          <Vector3 x="23.0" y="11.5" z="20.0"/>
+        </To>
+      </Volume>
+    </Entry>
+    <Entry key="1">
+      <Volume>
+        <Orientations>
+          <FaceOrientation>Right</FaceOrientation>
+          <FaceOrientation>Front</FaceOrientation>
+          <FaceOrientation>Back</FaceOrientation>
+          <FaceOrientation>Left</FaceOrientation>
+        </Orientations>
+        <From>
+          <Vector3 x="18.5" y="19.0" z="17.5"/>
+        </From>
+        <To>
+          <Vector3 x="22.5" y="21.0" z="21.5"/>
+        </To>
+        <ActorSettings>
+          <VolumeActorSettings isPointOfInterest="True" waterLocked="False" isBlackhole="False" needsTrigger="False" isSecretPassage="False">
+            <FarawayPlaneOffset>
+              <Vector2 x="0.0" y="0.0"/>
+            </FarawayPlaneOffset>
+            <DotDialogue>
+              <Line grouped="True">DOT_OH_LOOK</Line>
+              <Line grouped="True">DOT_LESSER_A</Line>
+              <Line grouped="True">DOT_LESSER_B</Line>
+              <Line grouped="True">DOT_LESSER_C</Line>
+            </DotDialogue>
+          </VolumeActorSettings>
+        </ActorSettings>
+      </Volume>
+    </Entry>
+  </Volumes>
+  <Scripts>
+    <Entry key="0">
+      <Script name="Untitled" oneTime="False" triggerless="False" ignoreEndTriggers="False" levelWideOneTime="False" disabled="False" isWinCondition="False">
+        <Triggers>
+          <ScriptTrigger event="Start">
+            <Entity entityType="Level"/>
+          </ScriptTrigger>
+        </Triggers>
+        <Actions>
+          <ScriptAction operation="SetPixelsPerTrixel" killswitch="False" blocking="False">
+            <Entity entityType="Camera"/>
+            <Arguments>
+              <Entry>2</Entry>
+            </Arguments>
+          </ScriptAction>
+        </Actions>
+      </Script>
+    </Entry>
+    <Entry key="1">
+      <Script name="Untitled" oneTime="False" triggerless="False" ignoreEndTriggers="False" levelWideOneTime="False" disabled="False" isWinCondition="False">
+        <Triggers>
+          <ScriptTrigger event="Enter">
+            <Entity entityType="Volume" identifier="0"/>
+          </ScriptTrigger>
+        </Triggers>
+        <Actions>
+          <ScriptAction operation="ChangeLevelToVolume" killswitch="False" blocking="False">
+            <Entity entityType="Level"/>
+            <Arguments>
+              <Entry>SKULL</Entry>
+              <Entry>1</Entry>
+              <Entry>True</Entry>
+              <Entry>True</Entry>
+              <Entry>False</Entry>
+            </Arguments>
+          </ScriptAction>
+        </Actions>
+      </Script>
+    </Entry>
+  </Scripts>
+  <Triles>
+    <Entry>
+      <TrileEmplacement x="23" y="14" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="14.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="14" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="14.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="14" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="14.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="15" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="15.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="15" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="15.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="15" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="15.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="15" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="15.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="15" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="15.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="15" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="15.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="15" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="15.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="15" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="15.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="15" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="15.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="15" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="15.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="15" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="15.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="15" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="15.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="15" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="15.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="15" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="15.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="15" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="15.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="15" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="15.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="15" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="15.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="15" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="15.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="15" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="15.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="15" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="15.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="15" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="15.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="15" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="15.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="15" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="15.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="15" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="15.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="15" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="15.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="15" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="15.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="15" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="15.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="15" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="15.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="15" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="15.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="15" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="15.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="15" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="15.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="15" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="15.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="15" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="15.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="15" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="15.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="15" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="15.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="15" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="15.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="15" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="15.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="15" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="15.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="15" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="15.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="15" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="15.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="15" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="15.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="15" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="15.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="15" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="15.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="15" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="15.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="15" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="15.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="15" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="15.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="15" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="15.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="15" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="15.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="15" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="15.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="16" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="16.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="16" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="16.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="16" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="16.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="16" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="16.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="16" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="16.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="16" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="16.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="16" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="16.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="16" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="16.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="16" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="16.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="16" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="16.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="16" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="16.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="16" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="16.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="16" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="16.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="16" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="16.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="16" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="16.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="16" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="16.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="16" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="16.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="16" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="16.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="16" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="16.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="16" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="16.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="16" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="16.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="16" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="16.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="16" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="16.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="16" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="16.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="16" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="16.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="16" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="16.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="16" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="16.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="16" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="16.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="16" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="16" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="16" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="16" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="16" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="16" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="16" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="16" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="16.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="16" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="16.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="16" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="16.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="16" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="16.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="16" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="16.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="16" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="16.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="16" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="16.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="16" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="16.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="16" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="16.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="16" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="16.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="16" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="16.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="16" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="16.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="16" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="16.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="16" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="16.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="17" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="17.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="17" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="17.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="17" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="17.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="17" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="17.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="17" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="17.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="17" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="17.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="17" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="17.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="17" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="17.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="17" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="17.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="17" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="17.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="17" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="17.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="17" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="17.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="17" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="17.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="17" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="17.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="17" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="17.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="17" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="17.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="17" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="17.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="17" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="17.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="17" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="17.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="17" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="17.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="17" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="17.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="17" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="17.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="17" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="17.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="17" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="17.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="17" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="17.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="17" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="17.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="17" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="17.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="17" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="17.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="17" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="17.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="17" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="17.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="17" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="17.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="17" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="17.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="17" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="17.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="17" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="17.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="17" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="17.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="17" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="17.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="17" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="17.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="17" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="17.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="17" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="17.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="17" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="17.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="17" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="17.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="17" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="17.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="17" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="17.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="17" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="17.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="17" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="17.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="17" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="17.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="17" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="17.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="17" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="17.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="17" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="17.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="12" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="11.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="12" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="11.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="12" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="11.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="12" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="11.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="12" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="11.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="12" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="11.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="12" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="11.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="12" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="11.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="12" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="11.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="12" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="11.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="12" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="11.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="12" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="11.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="11" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="10.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="11" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="10.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="11" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="10.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="11" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="10.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="11" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="10.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="11" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="10.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="11" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="10.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="11" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="10.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="11" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="10.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="11" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="10.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="10" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="9.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="10" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="9.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="10" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="9.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="10" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="9.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="10" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="9.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="10" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="9.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="10" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="9.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="10" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="9.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="10" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="9.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="10" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="9.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="9" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="8.5" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="9" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="8.5" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="9" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="8.5" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="9" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="8.5" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="9" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="8.5" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="9" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="8.5" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="9" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="8.5" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="9" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="8.5" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="9" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="8.5" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="9" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="8.5" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="9" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="8.5" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="9" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="8.5" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="9" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="8.5" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="9" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="8.5" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="9" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="8.5" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="9" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="8.5" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="9" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="8.5" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="9" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="8.5" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="9" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="8.5" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="9" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="8.5" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="9" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="8.5" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="9" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="8.5" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="9" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="8.5" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="9" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="8.5" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="9" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="8.5" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="22"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="16"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="22"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="16"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="18" z="22"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="18" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="18.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="18" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="18" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="18.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="18" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="18" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="18" z="16"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="18.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="18" z="22"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="18" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="18.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="18" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="18" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="18.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="18" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="18" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="18" z="16"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="18.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="22"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="16"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="22"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="16"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="18" z="16"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="18.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="18" z="17"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="18" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="18" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="18.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="18" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="18" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="18.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="18" z="22"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="14" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="14.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="14" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="14.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="14" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="14.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="14" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="14.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="14" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="14.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="14" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="14.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="14" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="14.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="14" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="14.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="14" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="14.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="14" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="14.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="14" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="14.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="14" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="14.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="14" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="14.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="14" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="14.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="14" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="14.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="14" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="14.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="14" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="14.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="14" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="14.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="14" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="14.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="14" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="14.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="14" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="14.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="14" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="14.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="14" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="14.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="14" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="14.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="14" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="14.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="14" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="14.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="14" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="14.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="14" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="14.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="14" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="14.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="14" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="14.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="14" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="14.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="14" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="14.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="14" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="14.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="14" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="14.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="14" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="14.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="14" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="14.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="14" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="14.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="14" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="14.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="14" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="14.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="14" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="14.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="14" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="14.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="14" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="14.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="14" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="14.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="14" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="14.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="14" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="14.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="14" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="14.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="13" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="13.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="13" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="13.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="13" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="13.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="13" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="13.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="13" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="13.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="13" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="13.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="13" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="13.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="13" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="13.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="13" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="13.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="13" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="13.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="13" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="13.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="13" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="13.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="13" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="13.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="13" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="13.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="13" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="13.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="13" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="13.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="13" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="13.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="13" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="13.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="13" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="13.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="13" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="13.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="13" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="13.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="13" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="13.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="13" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="13.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="13" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="13.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="13" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="13.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="13" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="13.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="13" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="13.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="13" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="20.0" y="13.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="13" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="13.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="13" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="13.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="13" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="13.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="13" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="13.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="13" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="13.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="13" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="13.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="13" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="13.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="13" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="13.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="13" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="13.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="13" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="13.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="13" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="13.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="13" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="13.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="13" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="13.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="13" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="13.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="13" z="22"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="13.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="13" z="21"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="13.0" z="21.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="13" z="20"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="13.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="13" z="19"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="13.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="13" z="18"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="13.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="13" z="17"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="13.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="13" z="16"/>
+      <TrileInstance trileId="34" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="13.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="19" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="18.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="19" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="18.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="19" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="18.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="19" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="18.5" y="18.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="19" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="18.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="19" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="18.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="19" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="18.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="19" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="19.5" y="18.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="19" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="18.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="19" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="18.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="19" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="18.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="19" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="20.5" y="18.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="19" z="21"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="18.5" z="20.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="19" z="20"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="18.5" z="19.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="19" z="19"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="18.5" z="18.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="19" z="18"/>
+      <TrileInstance trileId="35" orientation="2">
+        <Position>
+          <Vector3 x="21.5" y="18.5" z="17.5"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="24" y="18" z="20"/>
+      <TrileInstance trileId="85" orientation="1">
+        <Position>
+          <Vector3 x="24.0" y="18.0" z="20.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="22" y="18" z="15"/>
+      <TrileInstance trileId="83" orientation="2">
+        <Position>
+          <Vector3 x="22.0" y="18.0" z="15.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="18" y="18" z="15"/>
+      <TrileInstance trileId="82" orientation="2">
+        <Position>
+          <Vector3 x="18.0" y="18.0" z="15.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="16" y="18" z="18"/>
+      <TrileInstance trileId="85" orientation="3">
+        <Position>
+          <Vector3 x="16.0" y="18.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="16" y="18" z="22"/>
+      <TrileInstance trileId="84" orientation="3">
+        <Position>
+          <Vector3 x="16.0" y="18.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="18" z="23"/>
+      <TrileInstance trileId="83" orientation="0">
+        <Position>
+          <Vector3 x="17.0" y="18.0" z="23.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="18" z="23"/>
+      <TrileInstance trileId="82" orientation="0">
+        <Position>
+          <Vector3 x="21.0" y="18.0" z="23.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="24" y="18" z="17"/>
+      <TrileInstance trileId="84" orientation="1">
+        <Position>
+          <Vector3 x="24.0" y="18.0" z="17.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="19" y="19" z="16"/>
+      <TrileInstance trileId="88" orientation="2">
+        <Position>
+          <Vector3 x="19.0" y="19.0" z="16.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="23" y="19" z="19"/>
+      <TrileInstance trileId="89" orientation="2">
+        <Position>
+          <Vector3 x="23.0" y="19.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="17" y="19" z="18"/>
+      <TrileInstance trileId="90" orientation="2">
+        <Position>
+          <Vector3 x="17.0" y="19.0" z="18.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="21" y="19" z="22"/>
+      <TrileInstance trileId="90" orientation="2">
+        <Position>
+          <Vector3 x="21.0" y="19.0" z="22.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="20" y="21" z="19"/>
+      <TrileInstance trileId="126" orientation="2">
+        <Position>
+          <Vector3 x="19.9375" y="21.0" z="19.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="24" y="10" z="27"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="24.0" y="10.4375" z="27.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="24" y="10" z="28"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="24.0" y="10.4375" z="28.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="25" y="10" z="28"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="25.0" y="10.4375" z="28.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="25" y="10" z="27"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="25.0" y="10.4375" z="27.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="28" y="13" z="12"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="28.0" y="12.5" z="12.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="28" y="13" z="13"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="28.0" y="12.5" z="13.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="29" y="13" z="13"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="29.0" y="12.5" z="13.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="29" y="13" z="12"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="29.0" y="12.5" z="12.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="14" y="16" z="10"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="14.0" y="15.5" z="10.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="13" y="16" z="10"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="13.0" y="15.5" z="10.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="14" y="16" z="11"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="14.0" y="15.5" z="11.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+    <Entry>
+      <TrileEmplacement x="13" y="16" z="11"/>
+      <TrileInstance trileId="68" orientation="2">
+        <Position>
+          <Vector3 x="13.0" y="15.5" z="11.0"/>
+        </Position>
+      </TrileInstance>
+    </Entry>
+  </Triles>
+  <ArtObjects>
+    <Entry key="0">
+      <ArtObjectInstance name="SKULL_BAO">
+        <Position>
+          <Vector3 x="21.0" y="16.0" z="19.5"/>
+        </Position>
+        <Rotation>
+          <Quaternion x="0.0" y="0.0" z="0.0" w="1.0"/>
+        </Rotation>
+        <Scale>
+          <Vector3 x="1.0" y="1.0" z="1.0"/>
+        </Scale>
+        <ArtObjectActorSettings inactive="False" spinEvery="0.0" spinOffset="0.0" offCenter="False" timeswitchWindBackSpeed="0.0" containedTrile="None" spinView="None">
+          <RotationCenter>
+            <Vector3 x="0.0" y="0.0" z="0.0"/>
+          </RotationCenter>
+        </ArtObjectActorSettings>
+      </ArtObjectInstance>
+    </Entry>
+    <Entry key="1">
+      <ArtObjectInstance name="SKULL_JAWAO">
+        <Position>
+          <Vector3 x="20.5" y="8.5" z="19.5"/>
+        </Position>
+        <Rotation>
+          <Quaternion x="0.0" y="0.0" z="0.0" w="1.0"/>
+        </Rotation>
+        <Scale>
+          <Vector3 x="1.0" y="1.0" z="1.0"/>
+        </Scale>
+        <ArtObjectActorSettings inactive="False" spinEvery="0.0" spinOffset="0.0" offCenter="False" timeswitchWindBackSpeed="0.0" containedTrile="None" spinView="None">
+          <RotationCenter>
+            <Vector3 x="0.0" y="0.0" z="0.0"/>
+          </RotationCenter>
+        </ArtObjectActorSettings>
+      </ArtObjectInstance>
+    </Entry>
+    <Entry key="2">
+      <ArtObjectInstance name="LESSER_GATE_BASE_GRAVEAO">
+        <Position>
+          <Vector3 x="20.5" y="21.0" z="19.5"/>
+        </Position>
+        <Rotation>
+          <Quaternion x="0.0" y="0.0" z="0.0" w="1.0"/>
+        </Rotation>
+        <Scale>
+          <Vector3 x="1.0" y="1.0" z="1.0"/>
+        </Scale>
+        <ArtObjectActorSettings inactive="False" spinEvery="0.0" spinOffset="0.0" offCenter="False" timeswitchWindBackSpeed="0.0" containedTrile="None" spinView="None">
+          <RotationCenter>
+            <Vector3 x="0.0" y="0.0" z="0.0"/>
+          </RotationCenter>
+        </ArtObjectActorSettings>
+      </ArtObjectInstance>
+    </Entry>
+    <Entry key="3">
+      <ArtObjectInstance name="LESSER_GATE_GRAVEAO">
+        <Position>
+          <Vector3 x="20.4375" y="21.0" z="19.5"/>
+        </Position>
+        <Rotation>
+          <Quaternion x="0.0" y="0.0" z="0.0" w="1.0"/>
+        </Rotation>
+        <Scale>
+          <Vector3 x="1.0" y="1.0" z="1.0"/>
+        </Scale>
+        <ArtObjectActorSettings inactive="False" spinEvery="0.0" spinOffset="0.0" offCenter="False" timeswitchWindBackSpeed="0.0" containedTrile="None" spinView="None" destinationLevel="GRAVEYARD_GATE">
+          <RotationCenter>
+            <Vector3 x="0.0" y="0.0" z="0.0"/>
+          </RotationCenter>
+        </ArtObjectActorSettings>
+      </ArtObjectInstance>
+    </Entry>
+  </ArtObjects>
+  <BackgroundPlanes/>
+  <Groups>
+    <Entry key="0">
+      <TrileGroup heavy="False" geyserOffset="0.0" geyserPauseFor="0.0" geyserLiftFor="0.0" geyserApexHeight="0.0" spinClockwise="False" spinFrequency="0.0" spinNeedsTriggering="False" spin180Degrees="False" fallOnRotate="False" spinOffset="0.0" actorType="None">
+        <Triles>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="25.0" y="10.4375" z="28.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="25.0" y="10.4375" z="27.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="24.0" y="10.4375" z="27.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="24.0" y="10.4375" z="28.0"/>
+            </Position>
+          </TrileInstance>
+        </Triles>
+        <SpinCenter>
+          <Vector3 x="0.0" y="0.0" z="0.0"/>
+        </SpinCenter>
+      </TrileGroup>
+    </Entry>
+    <Entry key="1">
+      <TrileGroup heavy="False" geyserOffset="0.0" geyserPauseFor="0.0" geyserLiftFor="0.0" geyserApexHeight="0.0" spinClockwise="False" spinFrequency="0.0" spinNeedsTriggering="False" spin180Degrees="False" fallOnRotate="False" spinOffset="0.0" actorType="None">
+        <Triles>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="29.0" y="12.5" z="12.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="28.0" y="12.5" z="12.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="29.0" y="12.5" z="13.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="28.0" y="12.5" z="13.0"/>
+            </Position>
+          </TrileInstance>
+        </Triles>
+        <SpinCenter>
+          <Vector3 x="0.0" y="0.0" z="0.0"/>
+        </SpinCenter>
+      </TrileGroup>
+    </Entry>
+    <Entry key="2">
+      <TrileGroup heavy="False" geyserOffset="0.0" geyserPauseFor="0.0" geyserLiftFor="0.0" geyserApexHeight="0.0" spinClockwise="False" spinFrequency="0.0" spinNeedsTriggering="False" spin180Degrees="False" fallOnRotate="False" spinOffset="0.0" actorType="None">
+        <Triles>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="13.0" y="15.5" z="10.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="14.0" y="15.5" z="10.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="14.0" y="15.5" z="11.0"/>
+            </Position>
+          </TrileInstance>
+          <TrileInstance trileId="68" orientation="2">
+            <Position>
+              <Vector3 x="13.0" y="15.5" z="11.0"/>
+            </Position>
+          </TrileInstance>
+        </Triles>
+        <SpinCenter>
+          <Vector3 x="0.0" y="0.0" z="0.0"/>
+        </SpinCenter>
+      </TrileGroup>
+    </Entry>
+  </Groups>
+  <NonplayerCharacters>
+    <Entry key="0">
+      <NpcInstance name="Crow" walkSpeed="0.75" randomizeSpeech="False" sayFirstSpeechLineOnce="False" avoidsGomez="True" actorType="None">
+        <Position>
+          <Vector3 x="23.6875" y="19.0" z="18.125"/>
+        </Position>
+        <DestinationOffset>
+          <Vector3 x="-2.0625" y="0.0" z="-1.8125"/>
+        </DestinationOffset>
+        <Speech/>
+        <Actions>
+          <Action key="Idle">
+            <NpcActionContent animationName="Idle"/>
+          </Action>
+          <Action key="Idle2">
+            <NpcActionContent animationName="Idle2"/>
+          </Action>
+          <Action key="TakeOff">
+            <NpcActionContent animationName="TakeOff"/>
+          </Action>
+          <Action key="Turn">
+            <NpcActionContent animationName="Turn"/>
+          </Action>
+          <Action key="Walk">
+            <NpcActionContent animationName="Walk"/>
+          </Action>
+          <Action key="Fly">
+            <NpcActionContent animationName="Fly"/>
+          </Action>
+        </Actions>
+      </NpcInstance>
+    </Entry>
+  </NonplayerCharacters>
+  <Paths/>
+  <MutedLoops>
+    <Entry>Grave ^ Bats</Entry>
+  </MutedLoops>
+  <AmbienceTracks>
+    <AmbienceTrack dawn="True" day="True" dusk="True" night="True" name="Ambience ^ rain"/>
+  </AmbienceTracks>
+</Level>

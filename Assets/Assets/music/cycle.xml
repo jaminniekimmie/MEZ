@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Cycle" tempo="140" timeSignature="4" randomOrdering="False">
+  <Chord>E_maj</Chord>
+  <Notes>
+    <Note>D2</Note>
+    <Note>E2</Note>
+    <Note>A2</Note>
+    <Note>B2</Note>
+    <Note>D3</Note>
+    <Note>E3</Note>
+    <Note>A3</Note>
+    <Note>B3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Cycle ^ Aeolian_Antecedent_3Bars" duration="3" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="19" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="True" dawn="False"/>
+    <Loop name="Cycle ^ Aeolian_Bass_4Bars" duration="4" loopTimesFrom="1" loopTimesTo="2" triggerFrom="0" triggerTo="24" delay="11" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Cycle ^ Aeolian_Consequent_3Bars" duration="3" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="23" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="True" dawn="False"/>
+    <Loop name="Cycle ^ Aeolian_CounterArp_8Bars" duration="8" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="7" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Cycle ^ Aeolian_MainArp_8Bars" duration="8" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Cycle ^ Aeolian_Nighttime_13Bars" duration="13" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="8" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="False" dusk="False" dawn="False"/>
+    <Loop name="Cycle ^ Aeolian_Triplets_9Bars" duration="9" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="19" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="True" dawn="False"/>
+    <Loop name="Cycle ^ Dorian_Antecedent_3bars" duration="3" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="19" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Cycle ^ Dorian_Bass_4bars" duration="4" loopTimesFrom="1" loopTimesTo="2" triggerFrom="0" triggerTo="24" delay="11" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Cycle ^ Dorian_Consequent_3bars" duration="3" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="23" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Cycle ^ Dorian_CounterArp_8bars" duration="8" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="7" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Cycle ^ Dorian_MainArp_8bars" duration="8" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Cycle ^ Dorian_Ostinato_2bars" duration="2" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="11" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Cycle ^ Dorian_Triplets_9bars" duration="9" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="19" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="False" dusk="False" dawn="True"/>
+    <Loop name="Cycle ^ Locrian_Antecedent_3bars" duration="3" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="19" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Cycle ^ Locrian_Bass_4bars" duration="4" loopTimesFrom="1" loopTimesTo="2" triggerFrom="0" triggerTo="24" delay="11" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Cycle ^ Locrian_Consequent_3bars" duration="3" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="23" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Cycle ^ Locrian_CounterArp_8bars" duration="8" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="7" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Cycle ^ Locrian_MainArp_8bars" duration="8" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="3" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Cycle ^ Locrian_Ostinato_4bars" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="11" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+    <Loop name="Cycle ^ Locrian_Triplets_9bars" duration="9" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="16" delay="19" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="False" day="True" dusk="False" dawn="False"/>
+  </Loops>
+</TrackedSong>

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<NpcMetadata avoidsGomez="True" walkSpeed="1.0" soundPath="Wildlife/CaterpillarCrap">
+  <SoundActions>
+    <NpcAction>Idle2</NpcAction>
+  </SoundActions>
+</NpcMetadata>

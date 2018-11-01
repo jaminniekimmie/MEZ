@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="WALL" background="SkyBack" windSpeed="0.0" density="1.0" fogDensity="0.019999999553" verticalTiling="True" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.10000000149" interLayerHorizontalDistance="0.10000000149" horizontalDistance="0.0" verticalDistance="0.0" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="0.990000009537" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0" shadows="WALL_CAVE_A" stars="Stars">
+  <Layers>
+    <SkyLayer name="WALL_CAVE_A" opacity="1.0" fogTint="0.649999976158" inFront="False"/>
+    <SkyLayer name="WALL_BRANCHES_BG" opacity="1.0" fogTint="0.600000023842" inFront="False"/>
+  </Layers>
+  <Clouds>
+    <Cloud>Cloud0</Cloud>
+    <Cloud>Cloud1</Cloud>
+    <Cloud>Cloud2</Cloud>
+    <Cloud>Cloud3</Cloud>
+    <Cloud>Cloud5</Cloud>
+    <Cloud>Cloud6</Cloud>
+    <Cloud>Cloud7</Cloud>
+  </Clouds>
+</Sky>

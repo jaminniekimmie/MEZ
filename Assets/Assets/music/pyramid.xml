@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Pyramid" tempo="120" timeSignature="4" randomOrdering="False">
+  <Chord>C_maj</Chord>
+  <Notes>
+    <Note>C2</Note>
+    <Note>D2</Note>
+    <Note>E2</Note>
+    <Note>F2</Note>
+    <Note>G2</Note>
+    <Note>A2</Note>
+    <Note>B2</Note>
+    <Note>C3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Singles ^ Pyramid" duration="53" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="0" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

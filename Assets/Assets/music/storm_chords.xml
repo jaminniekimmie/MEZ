@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Storm Chords" tempo="50" timeSignature="4" randomOrdering="False">
+  <Chord>F_maj</Chord>
+  <Notes>
+    <Note>F2</Note>
+    <Note>F2</Note>
+    <Note>F3</Note>
+    <Note>F2</Note>
+    <Note>F2</Note>
+    <Note>F2</Note>
+    <Note>F3</Note>
+    <Note>F2</Note>
+  </Notes>
+  <Loops>
+    <Loop name="storm_chords ^ Chord_01" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="storm_chords ^ Chord_02" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="storm_chords ^ Chord_03" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="storm_chords ^ Chord_04" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="storm_chords ^ Chord_05" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="storm_chords ^ Chord_06" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="storm_chords ^ Chord_07" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="storm_chords ^ Chord_08" duration="4" loopTimesFrom="1" loopTimesTo="1" triggerFrom="2" triggerTo="4" delay="2" fractionalTime="True" oneAtATime="True" cutOffTail="True" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+  <CustomOrdering>
+    <Order>1</Order>
+    <Order>4</Order>
+    <Order>5</Order>
+    <Order>8</Order>
+    <Order>2</Order>
+    <Order>3</Order>
+    <Order>6</Order>
+    <Order>7</Order>
+    <Order>1</Order>
+    <Order>5</Order>
+    <Order>4</Order>
+    <Order>8</Order>
+    <Order>2</Order>
+    <Order>6</Order>
+    <Order>3</Order>
+    <Order>7</Order>
+    <Order>1</Order>
+    <Order>2</Order>
+    <Order>3</Order>
+    <Order>4</Order>
+    <Order>5</Order>
+    <Order>6</Order>
+    <Order>7</Order>
+    <Order>8</Order>
+  </CustomOrdering>
+</TrackedSong>

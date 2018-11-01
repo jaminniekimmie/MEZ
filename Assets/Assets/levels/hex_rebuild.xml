@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Level flat="False" skipPostprocess="True" baseDiffuse="1.0" baseAmbient="0.34999999404" haloFiltering="True" blinkingAlpha="False" loops="False" waterHeight="0.0" skyName="BLACK" fapFadeoutStart="0" fapFadeoutLength="0" descending="False" rainy="False" lowPass="False" quantum="False" name="HEX_REBUILD" waterType="None" trileSetName="PYRAMID" nodeType="Node">
+  <Size>
+    <Vector3 x="16.0" y="16.0" z="16.0"/>
+  </Size>
+  <Volumes/>
+  <Scripts/>
+  <Triles/>
+  <ArtObjects/>
+  <BackgroundPlanes/>
+  <Groups/>
+  <NonplayerCharacters/>
+  <Paths/>
+  <MutedLoops/>
+  <AmbienceTracks/>
+</Level>

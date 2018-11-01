@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Loom" tempo="60" timeSignature="4" randomOrdering="False">
+  <Chord>Fsharp_maj</Chord>
+  <Notes>
+    <Note>Fsharp2</Note>
+    <Note>A2</Note>
+    <Note>Gsharp2</Note>
+    <Note>Fsharp2</Note>
+    <Note>Dsharp3</Note>
+    <Note>Fsharp3</Note>
+    <Note>Gsharp3</Note>
+    <Note>Fsharp3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Singles ^ Loom" duration="18" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

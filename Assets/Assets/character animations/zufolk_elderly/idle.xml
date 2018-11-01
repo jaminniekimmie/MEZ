@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AnimatedTexturePC width="32" height="32" actualWidth="15" actualHeight="21">
+  <Frames>
+    <FramePC duration="1600000">
+      <Rectangle x="0" y="0" w="15" h="21"/>
+    </FramePC>
+    <FramePC duration="1600000">
+      <Rectangle x="16" y="0" w="15" h="21"/>
+    </FramePC>
+  </Frames>
+</AnimatedTexturePC>

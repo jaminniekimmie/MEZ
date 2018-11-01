@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ArtObject name="NUTBOLT_CAP_BAO" noSilhouette="False" actorType="BoltNutTop">
+  <Size>
+    <Vector3 x="2.0" y="2.0" z="2.0"/>
+  </Size>
+  <ShaderInstancedIndexedPrimitives type="TriangleList">
+    <Vertices/>
+    <Indices/>
+  </ShaderInstancedIndexedPrimitives>
+</ArtObject>

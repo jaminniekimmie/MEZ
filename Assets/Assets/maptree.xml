@@ -1,0 +1,1188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MapTree>
+  <Node name="NATURE_HUB" hasLesserGate="False" hasWarpGate="True" type="Hub">
+    <WinConditions chests="0" lockedDoors="0" unlockedDoors="10" cubeShards="0" splitUp="2" secrets="0" others="0">
+      <Scripts/>
+    </WinConditions>
+    <Connections>
+      <Connection branchOversize="0.25" face="Back">
+        <Node name="WATERFALL" hasLesserGate="False" hasWarpGate="False" type="Node">
+          <WinConditions chests="0" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="1" secrets="3" others="0">
+            <Scripts/>
+          </WinConditions>
+          <Connections>
+            <Connection branchOversize="0.0" face="Top">
+              <Node name="FOX" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections/>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Front">
+              <Node name="WATER_WHEEL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="0" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="WATER_WHEEL_B" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="1" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Front">
+              <Node name="MINE_A" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="MINE_WRAP" hasLesserGate="True" hasWarpGate="False" type="Node">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="1" splitUp="2" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections>
+                        <Connection branchOversize="0.0" face="Right">
+                          <Node name="MINE_BOMB_PILLAR" hasLesserGate="False" hasWarpGate="False" type="Node">
+                            <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                      </Connections>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Left">
+              <Node name="CMY" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="CMY_B" hasLesserGate="True" hasWarpGate="False" type="Node">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="1">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="CMY_FORK" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Right">
+              <Node name="ZU_CODE_LOOP" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="1" splitUp="2" secrets="1" others="0">
+                  <Scripts>
+                    <Script>4</Script>
+                  </Scripts>
+                </WinConditions>
+                <Connections/>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Right">
+              <Node name="ZU_ZUISH" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections/>
+              </Node>
+            </Connection>
+          </Connections>
+        </Node>
+      </Connection>
+      <Connection branchOversize="0.25" face="Front">
+        <Node name="LIGHTHOUSE" hasLesserGate="False" hasWarpGate="False" type="Node">
+          <WinConditions chests="0" lockedDoors="2" unlockedDoors="6" cubeShards="0" splitUp="2" secrets="1" others="0">
+            <Scripts>
+              <Script>17</Script>
+            </Scripts>
+          </WinConditions>
+          <Connections>
+            <Connection branchOversize="0.0" face="Back">
+              <Node name="LIGHTHOUSE_HOUSE_A" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                <WinConditions chests="1" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections/>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Right">
+              <Node name="LIGHTHOUSE_SPIN" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections/>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Top">
+              <Node name="WATER_TOWER" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="0" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Top">
+                    <Node name="PIVOT_WATERTOWER" hasLesserGate="False" hasWarpGate="False" type="Node">
+                      <WinConditions chests="1" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections>
+                        <Connection branchOversize="0.5" face="Front">
+                          <Node name="INDUSTRIAL_HUB" hasLesserGate="False" hasWarpGate="True" type="Hub">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="10" cubeShards="0" splitUp="0" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections>
+                              <Connection branchOversize="0.0" face="Back">
+                                <Node name="INDUSTRIAL_SUPERSPIN" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                  <WinConditions chests="1" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="3" secrets="0" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections>
+                                    <Connection branchOversize="0.0" face="Left">
+                                      <Node name="SUPERSPIN_CAVE" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="1" splitUp="0" secrets="0" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections/>
+                                      </Node>
+                                    </Connection>
+                                  </Connections>
+                                </Node>
+                              </Connection>
+                              <Connection branchOversize="0.0" face="Right">
+                                <Node name="RAILS" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                  <WinConditions chests="0" lockedDoors="2" unlockedDoors="4" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections>
+                                    <Connection branchOversize="0.0" face="Back">
+                                      <Node name="WELL_2" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="5.5" face="Down">
+                                            <Node name="SEWER_START" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections>
+                                                <Connection branchOversize="0.0" face="Right">
+                                                  <Node name="SEWER_HUB" hasLesserGate="False" hasWarpGate="True" type="Hub">
+                                                    <WinConditions chests="0" lockedDoors="2" unlockedDoors="8" cubeShards="0" splitUp="2" secrets="0" others="0">
+                                                      <Scripts/>
+                                                    </WinConditions>
+                                                    <Connections>
+                                                      <Connection branchOversize="0.0" face="Back">
+                                                        <Node name="SEWER_TREASURE_ONE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                          <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                          </WinConditions>
+                                                          <Connections/>
+                                                        </Node>
+                                                      </Connection>
+                                                      <Connection branchOversize="0.0" face="Back">
+                                                        <Node name="SEWER_PIVOT" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                          <WinConditions chests="1" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                            <Scripts/>
+                                                          </WinConditions>
+                                                          <Connections/>
+                                                        </Node>
+                                                      </Connection>
+                                                      <Connection branchOversize="0.0" face="Left">
+                                                        <Node name="SEWER_TO_LAVA" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                          <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="1" others="0">
+                                                            <Scripts/>
+                                                          </WinConditions>
+                                                          <Connections>
+                                                            <Connection branchOversize="0.0" face="Back">
+                                                            <Node name="LAVA" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections>
+                                                            <Connection branchOversize="0.0" face="Right">
+                                                            <Node name="LAVA_SKULL" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                                                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="1">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections/>
+                                                            </Node>
+                                                            </Connection>
+                                                            <Connection branchOversize="0.0" face="Right">
+                                                            <Node name="LAVA_FORK" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections/>
+                                                            </Node>
+                                                            </Connection>
+                                                            </Connections>
+                                                            </Node>
+                                                            </Connection>
+                                                          </Connections>
+                                                        </Node>
+                                                      </Connection>
+                                                      <Connection branchOversize="0.0" face="Left">
+                                                        <Node name="SEWER_GEYSER" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                          <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                            <Scripts/>
+                                                          </WinConditions>
+                                                          <Connections>
+                                                            <Connection branchOversize="0.0" face="Right">
+                                                            <Node name="SEWER_PILLARS" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                            <WinConditions chests="0" lockedDoors="2" unlockedDoors="6" cubeShards="0" splitUp="3" secrets="0" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections>
+                                                            <Connection branchOversize="0.0" face="Left">
+                                                            <Node name="SEWER_FORK" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="1" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections/>
+                                                            </Node>
+                                                            </Connection>
+                                                            <Connection branchOversize="0.0" face="Front">
+                                                            <Node name="SEWER_TREASURE_TWO" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                            <WinConditions chests="1" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections/>
+                                                            </Node>
+                                                            </Connection>
+                                                            <Connection branchOversize="0.0" face="Left">
+                                                            <Node name="SEWER_LESSER_GATE_B" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                                                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="1" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections/>
+                                                            </Node>
+                                                            </Connection>
+                                                            </Connections>
+                                                            </Node>
+                                                            </Connection>
+                                                          </Connections>
+                                                        </Node>
+                                                      </Connection>
+                                                      <Connection branchOversize="0.0" face="Left">
+                                                        <Node name="SEWER_QR" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                          <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="1" others="0">
+                                                            <Scripts/>
+                                                          </WinConditions>
+                                                          <Connections/>
+                                                        </Node>
+                                                      </Connection>
+                                                    </Connections>
+                                                  </Node>
+                                                </Connection>
+                                              </Connections>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                    <Connection branchOversize="0.0" face="Front">
+                                      <Node name="TRIPLE_PIVOT_CAVE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="2" secrets="0" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Right">
+                                            <Node name="SPINNING_PLATES" hasLesserGate="True" hasWarpGate="False" type="Node">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="1" splitUp="1" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                  </Connections>
+                                </Node>
+                              </Connection>
+                              <Connection branchOversize="0.0" face="Left">
+                                <Node name="PIVOT_ONE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                  <WinConditions chests="0" lockedDoors="2" unlockedDoors="4" cubeShards="0" splitUp="3" secrets="1" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections>
+                                    <Connection branchOversize="0.0" face="Back">
+                                      <Node name="WINDMILL_INT" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Front">
+                                            <Node name="WINDMILL_CAVE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="1" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                    <Connection branchOversize="0.0" face="Right">
+                                      <Node name="PIVOT_TWO" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="6" cubeShards="0" splitUp="3" secrets="0" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Front">
+                                            <Node name="PIVOT_THREE" hasLesserGate="True" hasWarpGate="False" type="Node">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="6" cubeShards="1" splitUp="0" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections>
+                                                <Connection branchOversize="0.0" face="Left">
+                                                  <Node name="PIVOT_THREE_CAVE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                    <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                      <Scripts/>
+                                                    </WinConditions>
+                                                    <Connections/>
+                                                  </Node>
+                                                </Connection>
+                                              </Connections>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Left">
+                                            <Node name="EXTRACTOR_A" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                  </Connections>
+                                </Node>
+                              </Connection>
+                              <Connection branchOversize="0.0" face="Back">
+                                <Node name="INDUST_ABANDONED_A" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                  <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections/>
+                                </Node>
+                              </Connection>
+                              <Connection branchOversize="0.0" face="Back">
+                                <Node name="NUZU_ABANDONED_B" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                  <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections/>
+                                </Node>
+                              </Connection>
+                            </Connections>
+                          </Node>
+                        </Connection>
+                      </Connections>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Left">
+                    <Node name="WATERTOWER_SECRET" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Down">
+              <Node name="ZU_FORK" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="0" secrets="1" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections/>
+              </Node>
+            </Connection>
+          </Connections>
+        </Node>
+      </Connection>
+      <Connection branchOversize="0.25" face="Right">
+        <Node name="ARCH" hasLesserGate="False" hasWarpGate="False" type="Node">
+          <WinConditions chests="2" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="3" secrets="1" others="0">
+            <Scripts/>
+          </WinConditions>
+          <Connections>
+            <Connection branchOversize="0.0" face="Front">
+              <Node name="FIVE_TOWERS" hasLesserGate="True" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="4" cubeShards="1" splitUp="3" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="FIVE_TOWERS_CAVE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Left">
+              <Node name="WEIGHTSWITCH_TEMPLE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="2" secrets="1" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Front">
+                    <Node name="ZU_SWITCH" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections>
+                        <Connection branchOversize="0.0" face="Back">
+                          <Node name="ZU_SWITCH_B" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="1" splitUp="0" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                      </Connections>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+          </Connections>
+        </Node>
+      </Connection>
+      <Connection branchOversize="0.25" face="Left">
+        <Node name="BELL_TOWER" hasLesserGate="False" hasWarpGate="False" type="Node">
+          <WinConditions chests="0" lockedDoors="0" unlockedDoors="8" cubeShards="0" splitUp="2" secrets="1" others="0">
+            <Scripts/>
+          </WinConditions>
+          <Connections>
+            <Connection branchOversize="0.0" face="Front">
+              <Node name="WATER_PYRAMID" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="TEMPLE_OF_LOVE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Down">
+              <Node name="QUANTUM" hasLesserGate="True" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="1">
+                  <Scripts/>
+                </WinConditions>
+                <Connections/>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.0" face="Right">
+              <Node name="ANCIENT_WALLS" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="6" cubeShards="0" splitUp="3" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Left">
+                    <Node name="WALL_HOLE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                      <WinConditions chests="1" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="2" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections>
+                        <Connection branchOversize="0.0" face="Right">
+                          <Node name="TWO_WALLS" hasLesserGate="True" hasWarpGate="False" type="Node">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="1" splitUp="3" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections>
+                              <Connection branchOversize="0.0" face="Back">
+                                <Node name="FRACTAL" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                  <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="3" secrets="0" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections>
+                                    <Connection branchOversize="0.0" face="Front">
+                                      <Node name="ZU_4_SIDE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Left">
+                                            <Node name="ZU_HEADS" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="1">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                  </Connections>
+                                </Node>
+                              </Connection>
+                            </Connections>
+                          </Node>
+                        </Connection>
+                      </Connections>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Front">
+                    <Node name="ZU_TETRIS" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+          </Connections>
+        </Node>
+      </Connection>
+      <Connection branchOversize="0.5" face="Down">
+        <Node name="MEMORY_CORE" hasLesserGate="False" hasWarpGate="False" type="Node">
+          <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="3" others="0">
+            <Scripts/>
+          </WinConditions>
+          <Connections>
+            <Connection branchOversize="0.5" face="Front">
+              <Node name="BIG_TOWER" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="8" secrets="1" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="-0.5" face="Top">
+                    <Node name="VILLAGEVILLE_3D" hasLesserGate="False" hasWarpGate="False" type="Hub">
+                      <WinConditions chests="1" lockedDoors="2" unlockedDoors="16" cubeShards="0" splitUp="4" secrets="1" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections>
+                        <Connection branchOversize="0.0" face="Front">
+                          <Node name="GOMEZ_HOUSE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Front">
+                          <Node name="BOILEROOM" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="1">
+                              <Scripts>
+                                <Script>4</Script>
+                              </Scripts>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Front">
+                          <Node name="SCHOOL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Right">
+                          <Node name="ABANDONED_A" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Front">
+                          <Node name="PARLOR" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Front">
+                          <Node name="KITCHEN" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Back">
+                          <Node name="ABANDONED_B" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Left">
+                          <Node name="ABANDONED_C" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                        <Connection branchOversize="0.0" face="Front">
+                          <Node name="GEEZER_HOUSE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections/>
+                          </Node>
+                        </Connection>
+                      </Connections>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.5" face="Right">
+              <Node name="WALL_VILLAGE" hasLesserGate="False" hasWarpGate="False" type="Hub">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="WALL_INTERIOR_A" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="WALL_INTERIOR_B" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="WALL_INTERIOR_HOLE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="WALL_KITCHEN" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="WALL_SCHOOL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.5" face="Back">
+              <Node name="INDUSTRIAL_CITY" hasLesserGate="False" hasWarpGate="False" type="Hub">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="10" cubeShards="0" splitUp="0" secrets="0" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="NUZU_SCHOOL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                        <Scripts>
+                          <Script>5</Script>
+                        </Scripts>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Left">
+                    <Node name="NUZU_BOILERROOM" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="NUZU_ABANDONED_A" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="SHOWERS" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="NUZU_DORM" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+            <Connection branchOversize="0.5" face="Left">
+              <Node name="ZU_CITY" hasLesserGate="False" hasWarpGate="False" type="Hub">
+                <WinConditions chests="0" lockedDoors="0" unlockedDoors="10" cubeShards="0" splitUp="2" secrets="1" others="0">
+                  <Scripts/>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="-0.5" face="Down">
+                    <Node name="STARGATE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Front">
+                    <Node name="OLDSCHOOL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Left">
+                    <Node name="PURPLE_LODGE" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Left">
+                    <Node name="ZU_HOUSE_SCAFFOLDING" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="ZU_HOUSE_EMPTY" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="1" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Left">
+                    <Node name="ZU_HOUSE_EMPTY_B" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+          </Connections>
+        </Node>
+      </Connection>
+      <Connection branchOversize="0.0" face="Top">
+        <Node name="TREE_ROOTS" hasLesserGate="False" hasWarpGate="False" type="Node">
+          <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="0" secrets="0" others="0">
+            <Scripts/>
+          </WinConditions>
+          <Connections>
+            <Connection branchOversize="1.25" face="Top">
+              <Node name="TREE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                <WinConditions chests="0" lockedDoors="2" unlockedDoors="4" cubeShards="0" splitUp="0" secrets="2" others="0">
+                  <Scripts>
+                    <Script>11</Script>
+                  </Scripts>
+                </WinConditions>
+                <Connections>
+                  <Connection branchOversize="0.0" face="Right">
+                    <Node name="CABIN_INTERIOR_B" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                      <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections>
+                        <Connection branchOversize="0.0" face="Left">
+                          <Node name="GRAVE_CABIN" hasLesserGate="False" hasWarpGate="False" type="Node">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="2" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections>
+                              <Connection branchOversize="0.0" face="Right">
+                                <Node name="GRAVEYARD_GATE" hasLesserGate="False" hasWarpGate="True" type="Hub">
+                                  <WinConditions chests="0" lockedDoors="0" unlockedDoors="8" cubeShards="0" splitUp="7" secrets="0" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections>
+                                    <Connection branchOversize="0.0" face="Front">
+                                      <Node name="SKULL" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="3" secrets="1" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Back">
+                                            <Node name="SKULL_B" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="1">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                    <Connection branchOversize="0.0" face="Left">
+                                      <Node name="OWL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                        <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="1" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Back">
+                                            <Node name="BIG_OWL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="1">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                    <Connection branchOversize="0.0" face="Left">
+                                      <Node name="MAUSOLEUM" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                        <WinConditions chests="1" lockedDoors="2" unlockedDoors="4" cubeShards="0" splitUp="4" secrets="0" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Right">
+                                            <Node name="GRAVEYARD_A" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="3" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections>
+                                                <Connection branchOversize="0.0" face="Back">
+                                                  <Node name="GRAVE_LESSER_GATE" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                                                    <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="1" splitUp="1" secrets="0" others="0">
+                                                      <Scripts/>
+                                                    </WinConditions>
+                                                    <Connections/>
+                                                  </Node>
+                                                </Connection>
+                                                <Connection branchOversize="0.0" face="Left">
+                                                  <Node name="GRAVE_TREASURE_A" hasLesserGate="True" hasWarpGate="False" type="Lesser">
+                                                    <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="1" splitUp="2" secrets="0" others="0">
+                                                      <Scripts/>
+                                                    </WinConditions>
+                                                    <Connections/>
+                                                  </Node>
+                                                </Connection>
+                                              </Connections>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Front">
+                                            <Node name="CRYPT" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections>
+                                                <Connection branchOversize="0.0" face="Back">
+                                                  <Node name="TREE_OF_DEATH" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                    <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                      <Scripts/>
+                                                    </WinConditions>
+                                                    <Connections/>
+                                                  </Node>
+                                                </Connection>
+                                              </Connections>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Right">
+                                            <Node name="GRAVE_GHOST" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="2" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                  </Connections>
+                                </Node>
+                              </Connection>
+                            </Connections>
+                          </Node>
+                        </Connection>
+                      </Connections>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="1.0" face="Top">
+                    <Node name="TREE_SKY" hasLesserGate="False" hasWarpGate="False" type="Node">
+                      <WinConditions chests="1" lockedDoors="0" unlockedDoors="4" cubeShards="0" splitUp="0" secrets="1" others="0">
+                        <Scripts>
+                          <Script>6</Script>
+                        </Scripts>
+                      </WinConditions>
+                      <Connections>
+                        <Connection branchOversize="0.0" face="Left">
+                          <Node name="THRONE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="6" cubeShards="0" splitUp="1" secrets="0" others="0">
+                              <Scripts/>
+                            </WinConditions>
+                            <Connections>
+                              <Connection branchOversize="0.0" face="Right">
+                                <Node name="ZU_BRIDGE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                  <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="2" secrets="1" others="0">
+                                    <Scripts>
+                                      <Script>5</Script>
+                                    </Scripts>
+                                  </WinConditions>
+                                  <Connections>
+                                    <Connection branchOversize="0.0" face="Back">
+                                      <Node name="ZU_CITY_RUINS" hasLesserGate="False" hasWarpGate="True" type="Hub">
+                                        <WinConditions chests="1" lockedDoors="0" unlockedDoors="14" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                          <Scripts/>
+                                        </WinConditions>
+                                        <Connections>
+                                          <Connection branchOversize="0.0" face="Right">
+                                            <Node name="STARGATE_RUINS" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="2" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Front">
+                                            <Node name="OBSERVATORY" hasLesserGate="True" hasWarpGate="False" type="Node">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="4" cubeShards="1" splitUp="0" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections>
+                                                <Connection branchOversize="0.0" face="Back">
+                                                  <Node name="TELESCOPE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                    <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="2" others="0">
+                                                      <Scripts>
+                                                        <Script>4</Script>
+                                                        <Script>7</Script>
+                                                      </Scripts>
+                                                    </WinConditions>
+                                                    <Connections/>
+                                                  </Node>
+                                                </Connection>
+                                                <Connection branchOversize="0.0" face="Left">
+                                                  <Node name="VISITOR" hasLesserGate="True" hasWarpGate="False" type="Node">
+                                                    <WinConditions chests="0" lockedDoors="0" unlockedDoors="4" cubeShards="1" splitUp="0" secrets="1" others="0">
+                                                      <Scripts/>
+                                                    </WinConditions>
+                                                    <Connections>
+                                                      <Connection branchOversize="0.0" face="Back">
+                                                        <Node name="ORRERY" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                          <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                          </WinConditions>
+                                                          <Connections>
+                                                            <Connection branchOversize="0.0" face="Front">
+                                                            <Node name="ORRERY_B" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                            <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections/>
+                                                            </Node>
+                                                            </Connection>
+                                                          </Connections>
+                                                        </Node>
+                                                      </Connection>
+                                                      <Connection branchOversize="0.0" face="Right">
+                                                        <Node name="CODE_MACHINE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                          <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                                                            <Scripts>
+                                                            <Script>4</Script>
+                                                            </Scripts>
+                                                          </WinConditions>
+                                                          <Connections/>
+                                                        </Node>
+                                                      </Connection>
+                                                    </Connections>
+                                                  </Node>
+                                                </Connection>
+                                              </Connections>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Front">
+                                            <Node name="CLOCK" hasLesserGate="True" hasWarpGate="False" type="Node">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="1" splitUp="0" secrets="4" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections>
+                                                <Connection branchOversize="0.0" face="Front">
+                                                  <Node name="ZU_LIBRARY" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                    <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                      <Scripts/>
+                                                    </WinConditions>
+                                                    <Connections>
+                                                      <Connection branchOversize="0.0" face="Right">
+                                                        <Node name="LIBRARY_INTERIOR" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                          <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                          </WinConditions>
+                                                          <Connections>
+                                                            <Connection branchOversize="0.0" face="Left">
+                                                            <Node name="GLOBE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                                                            <WinConditions chests="0" lockedDoors="0" unlockedDoors="2" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections>
+                                                            <Connection branchOversize="0.0" face="Right">
+                                                            <Node name="GLOBE_INT" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                                            <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="0" others="0">
+                                                            <Scripts/>
+                                                            </WinConditions>
+                                                            <Connections/>
+                                                            </Node>
+                                                            </Connection>
+                                                            </Connections>
+                                                            </Node>
+                                                            </Connection>
+                                                          </Connections>
+                                                        </Node>
+                                                      </Connection>
+                                                    </Connections>
+                                                  </Node>
+                                                </Connection>
+                                              </Connections>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Front">
+                                            <Node name="ZU_THRONE_RUINS" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="1" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Left">
+                                            <Node name="ZU_HOUSE_RUIN_VISITORS" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Left">
+                                            <Node name="ZU_HOUSE_QR" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Front">
+                                            <Node name="OLDSCHOOL_RUINS" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                          <Connection branchOversize="0.0" face="Right">
+                                            <Node name="PURPLE_LODGE_RUIN" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                              <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                                                <Scripts/>
+                                              </WinConditions>
+                                              <Connections/>
+                                            </Node>
+                                          </Connection>
+                                        </Connections>
+                                      </Node>
+                                    </Connection>
+                                  </Connections>
+                                </Node>
+                              </Connection>
+                              <Connection branchOversize="0.0" face="Front">
+                                <Node name="ZU_UNFOLD" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+                                  <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="1" others="0">
+                                    <Scripts/>
+                                  </WinConditions>
+                                  <Connections/>
+                                </Node>
+                              </Connection>
+                            </Connections>
+                          </Node>
+                        </Connection>
+                      </Connections>
+                    </Node>
+                  </Connection>
+                  <Connection branchOversize="0.0" face="Back">
+                    <Node name="TREE_CRUMBLE" hasLesserGate="False" hasWarpGate="False" type="Node">
+                      <WinConditions chests="1" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="1" secrets="0" others="0">
+                        <Scripts/>
+                      </WinConditions>
+                      <Connections/>
+                    </Node>
+                  </Connection>
+                </Connections>
+              </Node>
+            </Connection>
+          </Connections>
+        </Node>
+      </Connection>
+      <Connection branchOversize="0.0" face="Right">
+        <Node name="RITUAL" hasLesserGate="False" hasWarpGate="False" type="Lesser">
+          <WinConditions chests="0" lockedDoors="0" unlockedDoors="0" cubeShards="0" splitUp="0" secrets="2" others="0">
+            <Scripts>
+              <Script>5</Script>
+            </Scripts>
+          </WinConditions>
+          <Connections/>
+        </Node>
+      </Connection>
+    </Connections>
+  </Node>
+</MapTree>

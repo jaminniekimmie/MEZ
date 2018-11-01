@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Swell" tempo="60" timeSignature="4" randomOrdering="False">
+  <Chord>C_maj</Chord>
+  <Notes>
+    <Note>C2</Note>
+    <Note>C3</Note>
+    <Note>Csharp2</Note>
+    <Note>B2</Note>
+    <Note>D2</Note>
+    <Note>Asharp2</Note>
+    <Note>Dsharp2</Note>
+    <Note>A2</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Singles ^ Swell" duration="100" loopTimesFrom="1" loopTimesTo="1" triggerFrom="100" triggerTo="100" delay="1" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

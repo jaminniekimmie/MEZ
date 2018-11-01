@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="Default" background="SkyBack" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="False" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.0" interLayerHorizontalDistance="0.0" horizontalDistance="0.0" verticalDistance="0.0" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0">
+  <Layers/>
+  <Clouds/>
+</Sky>

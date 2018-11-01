@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="WATERWHEEL" background="CaveBack" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="False" horizontalScrolling="False" layerBaseHeight="0.800000011921" interLayerVerticalDistance="0.10000000149" interLayerHorizontalDistance="0.10000000149" horizontalDistance="0.0" verticalDistance="0.0" layerBaseSpacing="-0.10000000149" windParallax="0.0" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0299999993294">
+  <Layers>
+    <SkyLayer name="OUTERSPACE_B_3" opacity="0.10000000149" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="OUTERSPACE_B_2" opacity="0.40000000596" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="CAVE_BG_3" opacity="1.0" fogTint="0.10000000149" inFront="False"/>
+    <SkyLayer name="CAVE_BG_2" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="CAVE_BG_1" opacity="1.0" fogTint="0.0" inFront="False"/>
+  </Layers>
+  <Clouds/>
+</Sky>

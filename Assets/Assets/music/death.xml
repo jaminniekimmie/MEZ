@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Death" tempo="100" timeSignature="4" randomOrdering="False">
+  <Chord>C_maj</Chord>
+  <Notes>
+    <Note>B2</Note>
+    <Note>C3</Note>
+    <Note>D3</Note>
+    <Note>Dsharp3</Note>
+    <Note>Fsharp3</Note>
+    <Note>G3</Note>
+    <Note>B3</Note>
+    <Note>C4</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Death ^ Death_Melody_delay32" duration="38" loopTimesFrom="1" loopTimesTo="1" triggerFrom="10" triggerTo="10" delay="34" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Death ^ Death_Arp" duration="40" loopTimesFrom="1" loopTimesTo="1" triggerFrom="8" triggerTo="8" delay="10" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Death ^ Death_Base" duration="48" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="2" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AnimatedTexturePC width="128" height="128" actualWidth="25" actualHeight="18">
+  <Frames>
+    <FramePC duration="400000">
+      <Rectangle x="0" y="0" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="26" y="0" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="0" y="19" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="0" y="38" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="26" y="19" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="26" y="38" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="52" y="0" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="52" y="19" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="78" y="0" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="52" y="38" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="78" y="19" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="78" y="38" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="0" y="57" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="0" y="76" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="26" y="57" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="0" y="95" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="26" y="76" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="52" y="57" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="26" y="95" w="25" h="18"/>
+    </FramePC>
+    <FramePC duration="400000">
+      <Rectangle x="52" y="76" w="25" h="18"/>
+    </FramePC>
+  </Frames>
+</AnimatedTexturePC>

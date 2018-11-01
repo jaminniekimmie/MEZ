@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="OBS_SKY" background="SkyBack" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="False" horizontalScrolling="False" layerBaseHeight="0.40000000596" interLayerVerticalDistance="0.10000000149" interLayerHorizontalDistance="0.10000000149" horizontalDistance="0.800000011921" verticalDistance="0.699999988079" layerBaseSpacing="-0.699999988079" windParallax="0.0" windDistance="0.0" cloudsParallax="0.25" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="True" layerBaseXOffset="-0.5" stars="Stars">
+  <Layers>
+    <SkyLayer name="OBS_SKY_A" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="OBS_SKY_B" opacity="1.0" fogTint="0.0" inFront="False"/>
+  </Layers>
+  <Clouds/>
+</Sky>

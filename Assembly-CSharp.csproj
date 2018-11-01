@@ -1,0 +1,1846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectGuid>{7A4D6515-B2DB-8902-B793-2BE70E2D0A3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_1_9;UNITY_2018_1;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_VIDEO;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_POST_PROCESSING_STACK_V2</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2018.1.9f2</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerController2D.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <None Include="Assets\Assets\sounds\sewer\valveunscrew.xml" />
+    <None Include="Assets\Assets\art objects\tall_tree_aao.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\raywhiteout.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_red\talk.xml" />
+    <None Include="Assets\Assets\character animations\toad\turn.xml" />
+    <None Include="Assets\Assets\trile sets\zu.xml" />
+    <None Include="Assets\Assets\art objects\windmill_core_bao.xml" />
+    <None Include="Assets\Assets\art objects\nuzu_benchao.xml" />
+    <None Include="Assets\Assets\levels\abandoned_c.xml" />
+    <None Include="Assets\Assets\art objects\int_parlor_books_aao.xml" />
+    <None Include="Assets\Assets\levels\graveyard_a.xml" />
+    <None Include="Assets\Assets\art objects\lighthouse_coreao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idlewink.xml" />
+    <None Include="Assets\Assets\levels\big_tower.xml" />
+    <None Include="Assets\Assets\sounds\gomez\climbvine.xml" />
+    <None Include="Assets\Assets\art objects\giant_treeao.xml" />
+    <None Include="Assets\Assets\character animations\lizard\idle.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\bluejaysing.xml" />
+    <None Include="Assets\Assets\character animations\mouse\idle.xml" />
+    <None Include="Assets\Assets\character animations\brunette\metadata.xml" />
+    <None Include="Assets\Assets\art objects\library_pillar_aao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\victory.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\letterappear.xml" />
+    <None Include="Assets\Assets\levels\superspin_cave.xml" />
+    <None Include="Assets\Assets\character animations\tit\takeoff.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\appear.xml" />
+    <None Include="Assets\Assets\character animations\gomez\climbrear.xml" />
+    <None Include="Assets\Assets\character animations\gomez\hurt.xml" />
+    <None Include="Assets\Assets\art objects\hubdoors_bao.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopzuman.xml" />
+    <None Include="Assets\Assets\sounds\sewer\geyserloop.xml" />
+    <None Include="Assets\Assets\character animations\snail\metadata.xml" />
+    <None Include="Assets\Assets\sounds\ending\pyramid\mothercuberotatedrone.xml" />
+    <None Include="Assets\Assets\art objects\gen_1ao.xml" />
+    <None Include="Assets\Assets\art objects\gen_3ao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\climboverladder.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\screennarrowen.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_1.xml" />
+    <None Include="Assets\Assets\character animations\snail\turn.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bigwaterfallopening.xml" />
+    <None Include="Assets\Assets\levels\trial\big_tower.xml" />
+    <None Include="Assets\Assets\art objects\spin_red_2x2_offcenterao.xml" />
+    <None Include="Assets\Assets\sounds\zu\doorbitlightup.xml" />
+    <None Include="Assets\Assets\character animations\gomez\suckedin.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexdrones\hexdrone5.xml" />
+    <None Include="Assets\Assets\sounds\gomez\snore.xml" />
+    <None Include="Assets\Assets\art objects\8bit_doorao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_girl\metadata.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_girl\talk.xml" />
+    <None Include="Assets\Assets\art objects\cmyk_doorao.xml" />
+    <None Include="Assets\Assets\art objects\newhouse_bao.xml" />
+    <None Include="Assets\Assets\levels\sewer_fork.xml" />
+    <None Include="Assets\Assets\character animations\ivy\idle.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\exitgame.xml" />
+    <None Include="Assets\Assets\art objects\zuon_eyeao.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\right_stick.xml" />
+    <None Include="Assets\Assets\art objects\industrial_girders_support_singleao.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\tombrotateleft.xml" />
+    <None Include="Assets\Assets\levels\zu_switch_b.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bellhit2.xml" />
+    <None Include="Assets\Assets\levels\geezer_house_2d.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\crowcry.xml" />
+    <None Include="Assets\Assets\sounds\ui\scrollclose.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexalign.xml" />
+    <None Include="Assets\Assets\art objects\indust_cave_metal_doorao.xml" />
+    <None Include="Assets\Assets\art objects\nutbolt_baseao.xml" />
+    <None Include="Assets\Assets\levels\trial\arch.xml" />
+    <None Include="Assets\Assets\art objects\mine_city_door_baseao.xml" />
+    <None Include="Assets\Assets\art objects\save_cubeao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\droplightpickup.xml" />
+    <None Include="Assets\Assets\sounds\ui\scrollopen.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\screenwiden.xml" />
+    <None Include="Assets\Assets\art objects\gate_industrialao.xml" />
+    <None Include="Assets\Assets\art objects\clockfaceao.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_statue_owlao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\d3.xml" />
+    <None Include="Assets\Assets\sounds\gomez\idlefacefront.xml" />
+    <None Include="Assets\Assets\character animations\seagull\idle2.xml" />
+    <None Include="Assets\Assets\background planes\water_giant_splash_open.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\ambienthex.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\denied.xml" />
+    <None Include="Assets\Assets\character animations\owl\land.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdsing2.xml" />
+    <None Include="Assets\Assets\art objects\extractorao.xml" />
+    <None Include="Assets\Assets\art objects\stone_door_frameao.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopblondette.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopgirl.xml" />
+    <None Include="Assets\Assets\levels\nuzu_abandoned_a.xml" />
+    <None Include="Assets\Assets\sounds\gomez\dropfromvine.xml" />
+    <None Include="Assets\Assets\sounds\intro\hyperspeed.xml" />
+    <None Include="Assets\Assets\art objects\piston_bigao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_boy\talk.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\vasebreak.xml" />
+    <None Include="Assets\Assets\background planes\birdsfar.xml" />
+    <None Include="Assets\Assets\art objects\roots_roots_bao.xml" />
+    <None Include="Assets\Assets\art objects\fake_bender_lao.xml" />
+    <None Include="Assets\Assets\art objects\pivot_redao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\stone\step01.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bombcountdown.xml" />
+    <None Include="Assets\Assets\sounds\gomez\dropfromladder.xml" />
+    <None Include="Assets\Assets\art objects\indust_doorframe_bao.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\bumpers_ps3.xml" />
+    <None Include="Assets\Assets\sounds\ui\rotatelefthalfspeed.xml" />
+    <None Include="Assets\Assets\art objects\rotato_3x3ao.xml" />
+    <None Include="Assets\Assets\character animations\caterpillar\idle3.xml" />
+    <None Include="Assets\Assets\levels\sewer_treasure_two.xml" />
+    <None Include="Assets\Assets\sounds\zu\hexaline02.xml" />
+    <None Include="Assets\Assets\sounds\nature\crumblercrumble.xml" />
+    <None Include="Assets\Assets\sounds\ui\rotateright.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunder2.xml" />
+    <None Include="Assets\Assets\levels\sewer_start.xml" />
+    <None Include="Assets\Assets\sounds\gomez\lookright.xml" />
+    <None Include="Assets\Assets\character animations\tortoise\walk.xml" />
+    <None Include="Assets\Assets\sounds\gomez\lookdown.xml" />
+    <None Include="Assets\Assets\levels\water_tower.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryheavyenter.xml" />
+    <None Include="Assets\Assets\sounds\ui\entermenucubeormap.xml" />
+    <None Include="Assets\Assets\skies\cmy.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\cancel.xml" />
+    <None Include="Assets\Assets\art objects\zu_lao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\dsharp2.xml" />
+    <None Include="Assets\Assets\levels\kitchen.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\titsing.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idlelookaround.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_5.xml" />
+    <None Include="Assets\Assets\art objects\stargate_sao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_black\metadata.xml" />
+    <None Include="Assets\Assets\art objects\wallwindow_aao.xml" />
+    <None Include="Assets\Assets\background planes\cat01.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idlesleep.xml" />
+    <None Include="Assets\Assets\art objects\tracks2ao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\fallthroughair.xml" />
+    <None Include="Assets\Assets\sounds\gomez\teetermouthclose.xml" />
+    <None Include="Assets\Assets\sounds\intro\lensflaregleam.xml" />
+    <None Include="Assets\Assets\art objects\lava_spin_3x1ao.xml" />
+    <None Include="Assets\Assets\character animations\ghost\burrow.xml" />
+    <None Include="Assets\Assets\levels\zu_city.xml" />
+    <None Include="Assets\Assets\sounds\gomez\airpanic.xml" />
+    <None Include="Assets\Assets\levels\quantum.xml" />
+    <None Include="Assets\Assets\sounds\zu\watchercollide.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\glitches\glitch3.xml" />
+    <None Include="Assets\Assets\art objects\timeswitch_coreao.xml" />
+    <None Include="Assets\Assets\sounds\industrial\switchhalfpress.xml" />
+    <None Include="Assets\Assets\character animations\mayor mcmayor\talk.xml" />
+    <None Include="Assets\Assets\character animations\zoe\walk.xml" />
+    <None Include="Assets\Assets\levels\triple_pivot_cave.xml" />
+    <None Include="Assets\Assets\levels\tree.xml" />
+    <None Include="Assets\Assets\art objects\sewer_valveao.xml" />
+    <None Include="Assets\Assets\music\industrial.xml" />
+    <None Include="Assets\Assets\art objects\timeswitch_postao.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\crittercomeout.xml" />
+    <None Include="Assets\Assets\art objects\lava_valveao.xml" />
+    <None Include="Assets\Assets\art objects\orr_sunao.xml" />
+    <None Include="Assets\Assets\art objects\orr_earth_branchao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\grass\step01.xml" />
+    <None Include="Assets\Assets\art objects\mine_city_door_tubeao.xml" />
+    <None Include="Assets\Assets\skies\indus_city.xml" />
+    <None Include="Assets\Assets\art objects\zu_kiosk_bao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_blonde\walk.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\bumpers_ps4.xml" />
+    <None Include="Assets\Assets\character animations\gomez\hitbell.xml" />
+    <None Include="Assets\Assets\art objects\secret_sewer_bao.xml" />
+    <None Include="Assets\Assets\background planes\water_giant_open.xml" />
+    <None Include="Assets\Assets\art objects\jack_springao.xml" />
+    <None Include="Assets\Assets\background planes\water\water_small_flow.xml" />
+    <None Include="Assets\Assets\art objects\fork_redao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_purple\talk.xml" />
+    <None Include="Assets\Assets\art objects\hubdoorsao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idletosideclimb.xml" />
+    <None Include="Assets\Assets\art objects\secret_metalao.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\left_stick.xml" />
+    <None Include="Assets\Assets\character animations\seagull\idle.xml" />
+    <None Include="Assets\Assets\art objects\industrial_door_frameao.xml" />
+    <None Include="Assets\Assets\levels\school.xml" />
+    <None Include="Assets\Assets\levels\zu_heads.xml" />
+    <None Include="Assets\Assets\art objects\hexahedron_1ao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\drums\drumshihat.xml" />
+    <None Include="Assets\Assets\art objects\secret_graveao.xml" />
+    <None Include="Assets\Assets\background planes\water\water_large_splash.xml" />
+    <None Include="Assets\Assets\sounds\nature\watersplash.xml" />
+    <None Include="Assets\Assets\character animations\blonde\idle.xml" />
+    <None Include="Assets\Assets\art objects\treasure_virtual_topao.xml" />
+    <None Include="Assets\Assets\art objects\roots_roots_aao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\jumptosideclimb.xml" />
+    <None Include="Assets\Assets\background planes\grass2.xml" />
+    <None Include="Assets\Assets\sounds\collects\opentreasure.xml" />
+    <None Include="Assets\Assets\character animations\seagull\takeoff.xml" />
+    <None Include="Assets\Assets\levels\zu_house_ruin_gate.xml" />
+    <None Include="Assets\Assets\art objects\sewer_bars_aao.xml" />
+    <None Include="Assets\Assets\levels\geezer_house.xml" />
+    <None Include="Assets\Assets\art objects\library_roofao.xml" />
+    <None Include="Assets\Assets\skies\grave.xml" />
+    <None Include="Assets\Assets\sounds\industrial\boltunscrew.xml" />
+    <None Include="Assets\Assets\skies\default.xml" />
+    <None Include="Assets\Assets\art objects\warning_signao.xml" />
+    <None Include="Assets\Assets\levels\zu_code_loop.xml" />
+    <None Include="Assets\Assets\art objects\downgrowth_bao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\acceptsuckblock2.xml" />
+    <None Include="Assets\Assets\sounds\zu\lesserwarplower.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\motorstartcrash.xml" />
+    <None Include="Assets\Assets\character animations\blonde\talk.xml" />
+    <None Include="Assets\Assets\character animations\gomez\cornerledgelower_nohat.xml" />
+    <None Include="Assets\Assets\character animations\blonde\walk.xml" />
+    <None Include="Assets\Assets\art objects\64_bit_doorao.xml" />
+    <None Include="Assets\Assets\character animations\xavier\talk.xml" />
+    <None Include="Assets\Assets\art objects\zu_city_big_doorframeao.xml" />
+    <None Include="Assets\Assets\art objects\big_telescopeao.xml" />
+    <None Include="Assets\Assets\skies\lava.xml" />
+    <None Include="Assets\Assets\sounds\industrial\pivotleft.xml" />
+    <None Include="Assets\Assets\art objects\int_fridgeao.xml" />
+    <None Include="Assets\Assets\levels\zu_city_ruins.xml" />
+    <None Include="Assets\Assets\levels\spinning_plates.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\stone\step03.xml" />
+    <None Include="Assets\Assets\art objects\orr_sun_branchao.xml" />
+    <None Include="Assets\Assets\character animations\geezer\metadata.xml" />
+    <None Include="Assets\Assets\art objects\hex_pillar_aao.xml" />
+    <None Include="Assets\Assets\music\pentatonics.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bigwaterfallopen.xml" />
+    <None Include="Assets\Assets\art objects\yu_statue_aao.xml" />
+    <None Include="Assets\Assets\character animations\cat\walk.xml" />
+    <None Include="Assets\Assets\levels\water_wheel_b.xml" />
+    <None Include="Assets\Assets\art objects\sewer_core_frameao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryenter.xml" />
+    <None Include="Assets\Assets\art objects\zu_bazaar_2ao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\idleturnright.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunderrumble.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\a2.xml" />
+    <None Include="Assets\Assets\art objects\grave_alcove_bao.xml" />
+    <None Include="Assets\Assets\levels\zu_house_qr.xml" />
+    <None Include="Assets\Assets\sounds\zu\blackholebuzz.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_large_splash.xml" />
+    <None Include="Assets\Assets\art objects\big_owl_pyramidao.xml" />
+    <None Include="Assets\Assets\art objects\mine_tools_2ao.xml" />
+    <None Include="Assets\Assets\art objects\globe_arch_bao.xml" />
+    <None Include="Assets\Assets\levels\gomez_house.xml" />
+    <None Include="Assets\Assets\art objects\spin_red_1x1ao.xml" />
+    <None Include="Assets\Assets\art objects\sewer_qr_cube_sonyao.xml" />
+    <None Include="Assets\Assets\levels\lighthouse.xml" />
+    <None Include="Assets\Assets\trile sets\tree.xml" />
+    <None Include="Assets\Assets\art objects\windmill_int_cao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\crashland.xml" />
+    <None Include="Assets\Assets\levels\wall_interior_a.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopzugirl.xml" />
+    <None Include="Assets\Assets\levels\trial\nature_hub.xml" />
+    <None Include="Assets\Assets\character animations\ghost\idle.xml" />
+    <None Include="Assets\Assets\character animations\seagull\turn.xml" />
+    <None Include="Assets\Assets\art objects\food_stuff_3ao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_black\walk.xml" />
+    <None Include="Assets\Assets\character animations\tit\idle.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\birdtakeoff.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\left_stick_sony.xml" />
+    <None Include="Assets\Assets\music\death.xml" />
+    <None Include="Assets\Assets\art objects\windmill_bao.xml" />
+    <None Include="Assets\Assets\fonts\korean small.xml" />
+    <None Include="Assets\Assets\art objects\gateao.xml" />
+    <None Include="Assets\Assets\art objects\int_boiler_tableao.xml" />
+    <None Include="Assets\Assets\art objects\zu_kiosk_aao.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_small_trickle.xml" />
+    <None Include="Assets\Assets\levels\hex_rebuild.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_black\walk.xml" />
+    <None Include="Assets\Assets\art objects\stargate_ruin_cao.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\motorstart2.xml" />
+    <None Include="Assets\Assets\character animations\ivy\panic.xml" />
+    <None Include="Assets\Assets\art objects\zuhead_a_wao.xml" />
+    <None Include="Assets\Assets\art objects\secret_metal_bao.xml" />
+    <None Include="Assets\Assets\art objects\nuzu_watertowerao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\grabtombstone.xml" />
+    <None Include="Assets\Assets\levels\gomez_house_2d.xml" />
+    <None Include="Assets\Assets\sounds\gomez\lowertoledge.xml" />
+    <None Include="Assets\Assets\character animations\gomez\cornerledgegrab_nohat.xml" />
+    <None Include="Assets\Assets\art objects\lockerao.xml" />
+    <None Include="Assets\Assets\character animations\xavier\panic.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\stone\step05.xml" />
+    <None Include="Assets\Assets\levels\lighthouse_spin.xml" />
+    <None Include="Assets\Assets\art objects\zuhead_bao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\crushvertical.xml" />
+    <None Include="Assets\Assets\sounds\intro\fezlogoglitch3.xml" />
+    <None Include="Assets\Assets\character animations\gomez\exitdoor_nohat.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_dsharp_maj.xml" />
+    <None Include="Assets\Assets\art objects\globe_pivotao.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdsing3.xml" />
+    <None Include="Assets\Assets\sounds\dot\idle.xml" />
+    <None Include="Assets\Assets\art objects\memory_core_signageao.xml" />
+    <None Include="Assets\Assets\art objects\rotato_1x1ao.xml" />
+    <None Include="Assets\Assets\art objects\stargate_ruin_aao.xml" />
+    <None Include="Assets\Assets\art objects\sewer_treasure_topao.xml" />
+    <None Include="Assets\Assets\character animations\izaac\walk.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_c_maj.xml" />
+    <None Include="Assets\Assets\sounds\industrial\switchhalfrelease.xml" />
+    <None Include="Assets\Assets\sounds\lava\smallbubble.xml" />
+    <None Include="Assets\Assets\art objects\hexahedron_monolithao.xml" />
+    <None Include="Assets\Assets\art objects\lifesaverao.xml" />
+    <None Include="Assets\Assets\art objects\nuzu_sewer_barsao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_red\walk.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\pressurevalve.xml" />
+    <None Include="Assets\Assets\character animations\gomez\climboverladder_nohat.xml" />
+    <None Include="Assets\Assets\character animations\gomez\lookdown.xml" />
+    <None Include="Assets\Assets\background planes\water_giant_flow.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_a_maj.xml" />
+    <None Include="Assets\Assets\character animations\gomez\walk.xml" />
+    <None Include="Assets\Assets\character animations\gomez\cornerledgepullup_nohat.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\whitenoise.xml" />
+    <None Include="Assets\Assets\character animations\izaac\panic.xml" />
+    <None Include="Assets\Assets\art objects\int_base_drumao.xml" />
+    <None Include="Assets\Assets\levels\villageville_3d_end_64.xml" />
+    <None Include="Assets\Assets\art objects\water_valve_podiumao.xml" />
+    <None Include="Assets\Assets\art objects\trashcanao.xml" />
+    <None Include="Assets\Assets\skies\cave.xml" />
+    <None Include="Assets\Assets\sounds\dot\comeout.xml" />
+    <None Include="Assets\Assets\art objects\neon_goodao.xml" />
+    <None Include="Assets\Assets\character animations\crow\fly.xml" />
+    <None Include="Assets\Assets\character animations\brunette\idle.xml" />
+    <None Include="Assets\Assets\sounds\zu\blackholeglitch1.xml" />
+    <None Include="Assets\Assets\sounds\gomez\dropheavypickup.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_black\talk.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_4.xml" />
+    <None Include="Assets\Assets\character animations\gomez\run.xml" />
+    <None Include="Assets\Assets\art objects\lava_spin_2x2ao.xml" />
+    <None Include="Assets\Assets\sounds\zu\warpgateactivate.xml" />
+    <None Include="Assets\Assets\sounds\dot\move.xml" />
+    <None Include="Assets\Assets\music\villageville.xml" />
+    <None Include="Assets\Assets\character animations\bunny\turn.xml" />
+    <None Include="Assets\Assets\art objects\sewer_outao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\rotatemetallic.xml" />
+    <None Include="Assets\Assets\art objects\woodhouse_aao.xml" />
+    <None Include="Assets\Assets\character animations\oldy\metadata.xml" />
+    <None Include="Assets\Assets\character animations\sewermouse\walk.xml" />
+    <None Include="Assets\Assets\levels\gomez_house_end_64.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_purple\walk.xml" />
+    <None Include="Assets\Assets\character animations\gomez\wakeup.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carrystand.xml" />
+    <None Include="Assets\Assets\art objects\fake_timeswitchao.xml" />
+    <None Include="Assets\Assets\art objects\spiretree_trunkao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\swim.xml" />
+    <None Include="Assets\Assets\art objects\bookshelf_bigao.xml" />
+    <None Include="Assets\Assets\art objects\stargate_aao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\ledgetocorner.xml" />
+    <None Include="Assets\Assets\art objects\fork_blueao.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdsing1.xml" />
+    <None Include="Assets\Assets\levels\drum.xml" />
+    <None Include="Assets\Assets\sounds\industrial\largespinblock.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryheavyexit.xml" />
+    <None Include="Assets\Assets\sounds\collects\collectfez.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\metal\step06.xml" />
+    <None Include="Assets\Assets\art objects\rebuilding_hexahedronao.xml" />
+    <None Include="Assets\Assets\levels\mine_bomb_pillar.xml" />
+    <None Include="Assets\Assets\art objects\indust_core_spinao.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\3x_01.xml" />
+    <None Include="Assets\Assets\art objects\globe_arcao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\piston.xml" />
+    <None Include="Assets\Assets\music\storm chords.xml" />
+    <None Include="Assets\Assets\art objects\huge_treeao.xml" />
+    <None Include="Assets\Assets\art objects\obs_dome_cao.xml" />
+    <None Include="Assets\Assets\sounds\industrial\connectiveklonk.xml" />
+    <None Include="Assets\Assets\sounds\gomez\teetermouthopen.xml" />
+    <None Include="Assets\Assets\art objects\bunkbedsao.xml" />
+    <None Include="Assets\Assets\levels\big_owl.xml" />
+    <None Include="Assets\Assets\art objects\code_monolith_waterfallao.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunder1.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_elderly\walk.xml" />
+    <None Include="Assets\Assets\art objects\zu_bazaar_3ao.xml" />
+    <None Include="Assets\Assets\art objects\lighthouse_int_doorao.xml" />
+    <None Include="Assets\Assets\art objects\int_crashao.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopfumanchu.xml" />
+    <None Include="Assets\Assets\art objects\secret_whiteao.xml" />
+    <None Include="Assets\Assets\sounds\npc\ghosttalk.xml" />
+    <None Include="Assets\Assets\art objects\cmy_head_aao.xml" />
+    <None Include="Assets\Assets\character animations\owl\idle.xml" />
+    <None Include="Assets\Assets\levels\cmy_b.xml" />
+    <None Include="Assets\Assets\character animations\snail\comeout.xml" />
+    <None Include="Assets\Assets\character animations\ghost\walk.xml" />
+    <None Include="Assets\Assets\levels\sewer_treasure_one.xml" />
+    <None Include="Assets\Assets\levels\sewer_hub.xml" />
+    <None Include="Assets\Assets\art objects\stargate_bao.xml" />
+    <None Include="Assets\Assets\art objects\evol_pillar2222ao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\timestretches\timestretch2.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_d_maj.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bellhit4.xml" />
+    <None Include="Assets\Assets\character animations\gomez\enterdoor.xml" />
+    <None Include="Assets\Assets\music\gomez_drums.xml" />
+    <None Include="Assets\Assets\fonts\japanese small.xml" />
+    <None Include="Assets\Assets\art objects\cmy_crystal_kao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bellhit3.xml" />
+    <None Include="Assets\Assets\character animations\xavier\walk.xml" />
+    <None Include="Assets\Assets\sounds\gomez\idleturnleft.xml" />
+    <None Include="Assets\Assets\character animations\gomez\pivottombstone.xml" />
+    <None Include="Assets\Assets\levels\five_towers_cave.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\timestretches\timestretch3.xml" />
+    <None Include="Assets\Assets\character animations\owl\metadata.xml" />
+    <None Include="Assets\Assets\levels\nuzu_dorm.xml" />
+    <None Include="Assets\Assets\levels\cmy.xml" />
+    <None Include="Assets\Assets\character animations\gomez\lookup.xml" />
+    <None Include="Assets\Assets\character animations\blue jay\walk.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_g_maj.xml" />
+    <None Include="Assets\Assets\art objects\fractal_cubeao.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\cursordown.xml" />
+    <None Include="Assets\Assets\background planes\wind.xml" />
+    <None Include="Assets\Assets\art objects\skull_bao.xml" />
+    <None Include="Assets\Assets\skies\indust_sky.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\stone\step04.xml" />
+    <None Include="Assets\Assets\art objects\big_spinao.xml" />
+    <None Include="Assets\Assets\art objects\weight_switch_baseao.xml" />
+    <None Include="Assets\Assets\art objects\stargate_ring_dao.xml" />
+    <None Include="Assets\Assets\art objects\stargate_ring_bao.xml" />
+    <None Include="Assets\Assets\art objects\sewer_doorao.xml" />
+    <None Include="Assets\Assets\art objects\piston_big_baseao.xml" />
+    <None Include="Assets\Assets\character animations\geezer\talk.xml" />
+    <None Include="Assets\Assets\art objects\mine_tools_0ao.xml" />
+    <None Include="Assets\Assets\art objects\waterfall_support_bao.xml" />
+    <None Include="Assets\Assets\music\lighthouse.xml" />
+    <None Include="Assets\Assets\levels\tree_crumble.xml" />
+    <None Include="Assets\Assets\trile sets\wall.xml" />
+    <None Include="Assets\Assets\levels\windmill_cave.xml" />
+    <None Include="Assets\Assets\trile sets\pyramid.xml" />
+    <None Include="Assets\Assets\sounds\gomez\ledgegrab.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\triggers_ps3.xml" />
+    <None Include="Assets\Assets\character animations\ivy\talk.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_base_cmyao.xml" />
+    <None Include="Assets\Assets\art objects\zuon_headao.xml" />
+    <None Include="Assets\Assets\character animations\mayor mcmayor\metadata.xml" />
+    <None Include="Assets\Assets\sounds\gomez\hatfallonhead.xml" />
+    <None Include="Assets\Assets\art objects\towerblockao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryheavyjump.xml" />
+    <None Include="Assets\Assets\art objects\tomeao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\jump.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_f_maj.xml" />
+    <None Include="Assets\Assets\art objects\menu_cubeao.xml" />
+    <None Include="Assets\Assets\art objects\newshroomao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_purple\idle.xml" />
+    <None Include="Assets\Assets\character animations\cat\idle2.xml" />
+    <None Include="Assets\Assets\sounds\gomez\liftlightpickup.xml" />
+    <None Include="Assets\Assets\levels\ritual.xml" />
+    <None Include="Assets\Assets\character animations\sewermouse\turn.xml" />
+    <None Include="Assets\Assets\art objects\zu_house_doorao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\gomezbeamup.xml" />
+    <None Include="Assets\Assets\sounds\gomez\grabpickup.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bellhit1.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopgeezer.xml" />
+    <None Include="Assets\Assets\art objects\windmill_int_bao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\ledgegrabfront.xml" />
+    <None Include="Assets\Assets\character animations\crow\idle2.xml" />
+    <None Include="Assets\Assets\sounds\lava\largebubble.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\d2.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carrywalk.xml" />
+    <None Include="Assets\Assets\art objects\ledge_aao.xml" />
+    <None Include="Assets\Assets\background planes\dust_small.xml" />
+    <None Include="Assets\Assets\art objects\gen_capao.xml" />
+    <None Include="Assets\Assets\music\zuins.xml" />
+    <None Include="Assets\Assets\trile sets\loading.xml" />
+    <None Include="Assets\Assets\art objects\zu_tao.xml" />
+    <None Include="Assets\Assets\art objects\cmy_crystal_mao.xml" />
+    <None Include="Assets\Assets\sounds\sewer\sewagelevelchange.xml" />
+    <None Include="Assets\Assets\skies\roots.xml" />
+    <None Include="Assets\Assets\art objects\spiretree_topao.xml" />
+    <None Include="Assets\Assets\sounds\zu\hexaline01.xml" />
+    <None Include="Assets\Assets\sounds\ui\cubetransition.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idletofrontclimb.xml" />
+    <None Include="Assets\Assets\sounds\gomez\liftheavypickup.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunder3.xml" />
+    <None Include="Assets\Assets\sounds\industrial\switchpress.xml" />
+    <None Include="Assets\Assets\character animations\bunny\idle3.xml" />
+    <None Include="Assets\Assets\background planes\water\water_small_trickle.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\beamgrow.xml" />
+    <None Include="Assets\Assets\background planes\water_giant_opening.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\c2.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate__base_industao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\cornertobackgrab.xml" />
+    <None Include="Assets\Assets\sounds\gomez\cornerledgehoist.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\11x_01.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\gsharp3.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryjump.xml" />
+    <None Include="Assets\Assets\art objects\tome_bao.xml" />
+    <None Include="Assets\Assets\art objects\pivot_ind_caveao.xml" />
+    <None Include="Assets\Assets\art objects\math_doorao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_fsharp_maj.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\e3.xml" />
+    <None Include="Assets\Assets\skies\drapes.xml" />
+    <None Include="Assets\Assets\character animations\geezer\idle.xml" />
+    <None Include="Assets\Assets\levels\rails.xml" />
+    <None Include="Assets\Assets\art objects\warproom_postaao.xml" />
+    <None Include="Assets\Assets\levels\grave_ghost.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\csharp2.xml" />
+    <None Include="Assets\Assets\levels\oldschool_ruins.xml" />
+    <None Include="Assets\Assets\levels\fox.xml" />
+    <None Include="Assets\Assets\character animations\brunette\walk.xml" />
+    <None Include="Assets\Assets\character animations\gomez\lookright.xml" />
+    <None Include="Assets\Assets\art objects\totemao.xml" />
+    <None Include="Assets\Assets\art objects\spinwall_aao.xml" />
+    <None Include="Assets\Assets\art objects\orr_cog_mao.xml" />
+    <None Include="Assets\Assets\levels\wall_kitchen.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\metal\step01.xml" />
+    <None Include="Assets\Assets\character animations\gomez\ledgepullupback_nohat.xml" />
+    <None Include="Assets\Assets\art objects\treasure_virtual_bottomao.xml" />
+    <None Include="Assets\Assets\art objects\pivot_yellowao.xml" />
+    <None Include="Assets\Assets\art objects\spin_red_3x11ao.xml" />
+    <None Include="Assets\Assets\art objects\int_bed_aao.xml" />
+    <None Include="Assets\Assets\sounds\industrial\boltscrew.xml" />
+    <None Include="Assets\Assets\art objects\timeswitch_baseao.xml" />
+    <None Include="Assets\Assets\art objects\zu_city_watermouthao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\jumptobackclimb.xml" />
+    <None Include="Assets\Assets\levels\zu_zuish.xml" />
+    <None Include="Assets\Assets\fonts\chinese big.xml" />
+    <None Include="Assets\Assets\art objects\rotato_longao.xml" />
+    <None Include="Assets\Assets\levels\cabin_interior_a.xml" />
+    <None Include="Assets\Assets\trile sets\random.xml" />
+    <None Include="Assets\Assets\art objects\owl_statue_drapesao.xml" />
+    <None Include="Assets\Assets\sounds\intro\trixellogoout.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_mineao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\enterdoor_nohat.xml" />
+    <None Include="Assets\Assets\levels\throne.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\csharp3.xml" />
+    <None Include="Assets\Assets\character animations\izaac\metadata.xml" />
+    <None Include="Assets\Assets\art objects\big_tree_pinkao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bigwaterfallclosed.xml" />
+    <None Include="Assets\Assets\music\grave_bats.xml" />
+    <None Include="Assets\Assets\art objects\tombstoneao.xml" />
+    <None Include="Assets\Assets\levels\wall_interior_hole.xml" />
+    <None Include="Assets\Assets\art objects\stargate_pyramid_aao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\matrixrampup.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_large_flow.xml" />
+    <None Include="Assets\Assets\sounds\intro\fezlogodrone.xml" />
+    <None Include="Assets\Assets\character animations\mayor mcmayor\panic.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_small_splash.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\whiteout.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\5x_03.xml" />
+    <None Include="Assets\Assets\art objects\int_ovenao.xml" />
+    <None Include="Assets\Assets\art objects\gen_4ao.xml" />
+    <None Include="Assets\Assets\art objects\pivot_baseao.xml" />
+    <None Include="Assets\Assets\levels\nuzu_abandoned_b.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\explode.xml" />
+    <None Include="Assets\Assets\character animations\zoe\talk.xml" />
+    <None Include="Assets\Assets\character animations\inch-worm\metadata.xml" />
+    <None Include="Assets\Assets\sounds\zu\watcherwithdraw.xml" />
+    <None Include="Assets\Assets\art objects\grave_alcoveao.xml" />
+    <None Include="Assets\Assets\character animations\inch-worm\walk.xml" />
+    <None Include="Assets\Assets\character animations\gomez\die.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\bluezoomout.xml" />
+    <None Include="Assets\Assets\art objects\letter_cubeao.xml" />
+    <None Include="Assets\Assets\sounds\dot\heylisten.xml" />
+    <None Include="Assets\Assets\character animations\oldy\talk.xml" />
+    <None Include="Assets\Assets\levels\zu_throne_ruins.xml" />
+    <None Include="Assets\Assets\sounds\gomez\gomezpush.xml" />
+    <None Include="Assets\Assets\levels\sewer_geyser.xml" />
+    <None Include="Assets\Assets\levels\parlor.xml" />
+    <None Include="Assets\Assets\art objects\indust_cave_stone_doorao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\swim.xml" />
+    <None Include="Assets\Assets\character animations\crow\takeoff.xml" />
+    <None Include="Assets\Assets\art objects\neon_frame_aao.xml" />
+    <None Include="Assets\Assets\art objects\neon_frame_cao.xml" />
+    <None Include="Assets\Assets\art objects\zuon_legsao.xml" />
+    <None Include="Assets\Assets\levels\pivot_three_cave.xml" />
+    <None Include="Assets\Assets\art objects\3-bit_doorao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\acceptsuckblock1.xml" />
+    <None Include="Assets\Assets\art objects\windmill_int_aao.xml" />
+    <None Include="Assets\Assets\art objects\lib_int_pillarao.xml" />
+    <None Include="Assets\Assets\art objects\neon_frame_dao.xml" />
+    <None Include="Assets\Assets\art objects\fifty_signao.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_small_flow.xml" />
+    <None Include="Assets\Assets\sounds\zu\hexaline04.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idleyawn.xml" />
+    <None Include="Assets\Assets\art objects\waterfall_head_eye_aao.xml" />
+    <None Include="Assets\Assets\background planes\water\water_large_trickle2.xml" />
+    <None Include="Assets\Assets\levels\orrery_b.xml" />
+    <None Include="Assets\Assets\art objects\walldoor_bao.xml" />
+    <None Include="Assets\Assets\art objects\library_coreao.xml" />
+    <None Include="Assets\Assets\sounds\zu\codemachineinput.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\slidervalueincrease.xml" />
+    <None Include="Assets\Assets\sounds\industrial\smallspinblock.xml" />
+    <None Include="Assets\Assets\art objects\orr_w_branchao.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunderdistant02.xml" />
+    <None Include="Assets\Assets\background planes\butterfly3.xml" />
+    <None Include="Assets\Assets\sounds\gomez\ledgeland.xml" />
+    <None Include="Assets\Assets\sounds\intro\pandown.xml" />
+    <None Include="Assets\Assets\sounds\gomez\burninlava.xml" />
+    <None Include="Assets\Assets\sounds\industrial\connectivestartup.xml" />
+    <None Include="Assets\Assets\art objects\sewer_qr_cubeao.xml" />
+    <None Include="Assets\Assets\background planes\tntexplosion.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdcry2.xml" />
+    <None Include="Assets\Assets\levels\tree_sky.xml" />
+    <None Include="Assets\Assets\art objects\lava_big_frameao.xml" />
+    <None Include="Assets\Assets\sounds\industrial\motorblockland.xml" />
+    <None Include="Assets\Assets\character animations\brunette\talk.xml" />
+    <None Include="Assets\Assets\art objects\nutbolt_cap_bao.xml" />
+    <None Include="Assets\Assets\art objects\mausoleumao.xml" />
+    <None Include="Assets\Assets\art objects\int_parlor_chairao.xml" />
+    <None Include="Assets\Assets\music\pyramid.xml" />
+    <None Include="Assets\Assets\levels\wall_interior_b.xml" />
+    <None Include="Assets\Assets\character animations\gomez\drums\drumstom.xml" />
+    <None Include="Assets\Assets\art objects\trashcan_sideao.xml" />
+    <None Include="Assets\Assets\sounds\ui\rotateleft.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_csharp_maj.xml" />
+    <None Include="Assets\Assets\sounds\gomez\throwheavypickup.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_red\talk.xml" />
+    <None Include="Assets\Assets\art objects\orr_planet_wao.xml" />
+    <None Include="Assets\Assets\character animations\snail\hide.xml" />
+    <None Include="Assets\Assets\character animations\toad\idle2.xml" />
+    <None Include="Assets\Assets\art objects\obs_dome_bao.xml" />
+    <None Include="Assets\Assets\art objects\secret_visitorao.xml" />
+    <None Include="Assets\Assets\levels\nuzu_school.xml" />
+    <None Include="Assets\Assets\art objects\newhouse_aao.xml" />
+    <None Include="Assets\Assets\art objects\cube_tree_d_pinkao.xml" />
+    <None Include="Assets\Assets\levels\zu_house_empty.xml" />
+    <None Include="Assets\Assets\art objects\neon_nuao.xml" />
+    <None Include="Assets\Assets\art objects\wallwindow_bao.xml" />
+    <None Include="Assets\Assets\art objects\clock_cubeao.xml" />
+    <None Include="Assets\Assets\art objects\mech_5x5ao.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_6.xml" />
+    <None Include="Assets\Assets\levels\purple_lodge_ruin.xml" />
+    <None Include="Assets\Assets\character animations\gomez\droptrile.xml" />
+    <None Include="Assets\Assets\levels\abandoned_b.xml" />
+    <None Include="Assets\Assets\character animations\owl\look.xml" />
+    <None Include="Assets\Assets\art objects\split_up_cubeao.xml" />
+    <None Include="Assets\Assets\art objects\zu_bustao.xml" />
+    <None Include="Assets\Assets\levels\zu_house_ruin_visitors.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\a3.xml" />
+    <None Include="Assets\Assets\character animations\caterpillar\turn.xml" />
+    <None Include="Assets\Assets\art objects\code_monolith_codemachineao.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\disappear.xml" />
+    <None Include="Assets\Assets\character animations\tortoise\idle.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\11x_04.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\hitfloor.xml" />
+    <None Include="Assets\Assets\sounds\nature\timeswitchwindback.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexdrones\hexdrone4.xml" />
+    <None Include="Assets\Assets\sounds\collects\bitchime.xml" />
+    <None Include="Assets\Assets\levels\indust_abandoned_a.xml" />
+    <None Include="Assets\Assets\art objects\skullao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\grass\step03.xml" />
+    <None Include="Assets\Assets\music\swell.xml" />
+    <None Include="Assets\Assets\art objects\library_doorao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\metal\step02.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexrise.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryexit.xml" />
+    <None Include="Assets\Assets\skies\zusky.xml" />
+    <None Include="Assets\Assets\art objects\zu_city_window_pao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\lettertubeinsert.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopzuwoman.xml" />
+    <None Include="Assets\Assets\art objects\indust_doorframe_aao.xml" />
+    <None Include="Assets\Assets\fonts\latin small.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_industao.xml" />
+    <None Include="Assets\Assets\art objects\mausoleum_pillars_cryptao.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunderdistant01.xml" />
+    <None Include="Assets\Assets\art objects\hex_trigger_aao.xml" />
+    <None Include="Assets\Assets\art objects\windmill_core_aao.xml" />
+    <None Include="Assets\Assets\art objects\lib_stone_pillarao.xml" />
+    <None Include="Assets\Assets\art objects\int_mini_treeao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\drums\drumstoss.xml" />
+    <None Include="Assets\Assets\art objects\zuon_bodyao.xml" />
+    <None Include="Assets\Assets\levels\ancient_walls.xml" />
+    <None Include="Assets\Assets\character animations\seagull\metadata.xml" />
+    <None Include="Assets\Assets\levels\lava_fork.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\fsharp2.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\11x_02.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\caterpillarcrap.xml" />
+    <None Include="Assets\Assets\art objects\waterfall_headao.xml" />
+    <None Include="Assets\Assets\levels\villageville_2d.xml" />
+    <None Include="Assets\Assets\character animations\tit\metadata.xml" />
+    <None Include="Assets\Assets\art objects\owl_statue_headao.xml" />
+    <None Include="Assets\Assets\art objects\cube_tree_dao.xml" />
+    <None Include="Assets\Assets\background planes\water_giant_splash_opening.xml" />
+    <None Include="Assets\Assets\trile sets\lib_int.xml" />
+    <None Include="Assets\Assets\art objects\up_signao.xml" />
+    <None Include="Assets\Assets\levels\windmill_int.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\glitches\fezlogoglitch1.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopboy.xml" />
+    <None Include="Assets\Assets\character animations\crow\walk.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_blonde\idle.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\wood\step02.xml" />
+    <None Include="Assets\Assets\art objects\orr_moon_branchao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\drums\drumsidle.xml" />
+    <None Include="Assets\Assets\sounds\gomez\lookup.xml" />
+    <None Include="Assets\Assets\character animations\blonde\metadata.xml" />
+    <None Include="Assets\Assets\levels\industrial_superspin.xml" />
+    <None Include="Assets\Assets\art objects\save_cube_baseao.xml" />
+    <None Include="Assets\Assets\art objects\grave_cabin_natureao.xml" />
+    <None Include="Assets\Assets\levels\water_pyramid.xml" />
+    <None Include="Assets\Assets\art objects\skull_jawao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\hatcatch.xml" />
+    <None Include="Assets\Assets\character animations\inch-worm\turn.xml" />
+    <None Include="Assets\Assets\art objects\water_doorframe_bao.xml" />
+    <None Include="Assets\Assets\art objects\squid_eye_bigao.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_banner_torn_aao.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_micro_splash.xml" />
+    <None Include="Assets\Assets\sounds\gomez\pushpickup.xml" />
+    <None Include="Assets\Assets\character animations\gomez\pushspinfall.xml" />
+    <None Include="Assets\Assets\character animations\gomez\runswitch.xml" />
+    <None Include="Assets\Assets\music\sewers.xml" />
+    <None Include="Assets\Assets\background planes\foxdog.xml" />
+    <None Include="Assets\Assets\art objects\cmy_postao.xml" />
+    <None Include="Assets\Assets\art objects\clockcoreao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\land.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_gsharp_maj.xml" />
+    <None Include="Assets\Assets\music\32bit.xml" />
+    <None Include="Assets\Assets\art objects\cmy_head_bao.xml" />
+    <None Include="Assets\Assets\art objects\lava_spin_2x1ao.xml" />
+    <None Include="Assets\Assets\character animations\geezer\walk.xml" />
+    <None Include="Assets\Assets\character animations\blue jay\fly.xml" />
+    <None Include="Assets\Assets\art objects\marker_threeao.xml" />
+    <None Include="Assets\Assets\art objects\waterfall_support_cao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\rotateswoosh.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\pistonsetback.xml" />
+    <None Include="Assets\Assets\art objects\lava_stone_door_frameao.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\cubesfadeout.xml" />
+    <None Include="Assets\Assets\art objects\food_stuff_0ao.xml" />
+    <None Include="Assets\Assets\levels\weightswitch_temple.xml" />
+    <None Include="Assets\Assets\levels\five_towers.xml" />
+    <None Include="Assets\Assets\art objects\lib_int_doorao.xml" />
+    <None Include="Assets\Assets\levels\zu_unfold.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_blonde\metadata.xml" />
+    <None Include="Assets\Assets\art objects\food_counter_aao.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\dotsprogressiveappear.xml" />
+    <None Include="Assets\Assets\art objects\ledge_bao.xml" />
+    <None Include="Assets\Assets\art objects\student_deskao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\asharp3.xml" />
+    <None Include="Assets\Assets\art objects\zu_zao.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_geyser_top.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdhoot1.xml" />
+    <None Include="Assets\Assets\art objects\stargate_ring_cao.xml" />
+    <None Include="Assets\Assets\levels\boileroom.xml" />
+    <None Include="Assets\Assets\levels\industrial_hub.xml" />
+    <None Include="Assets\Assets\art objects\mine_entrance_aao.xml" />
+    <None Include="Assets\Assets\art objects\owl_base_fillerao.xml" />
+    <None Include="Assets\Assets\art objects\library_fireplaceao.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_micro_splash.xml" />
+    <None Include="Assets\Assets\skies\waterfront.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_graveao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\ledgegrabback.xml" />
+    <None Include="Assets\Assets\sounds\intro\zoomtohouse.xml" />
+    <None Include="Assets\Assets\art objects\lighthouse_topao.xml" />
+    <None Include="Assets\Assets\art objects\indust_core_topao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\stone\step06.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_elderly\idle.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_large_trickle2.xml" />
+    <None Include="Assets\Assets\character animations\gomez\ledgepullupfront.xml" />
+    <None Include="Assets\Assets\art objects\cmy_zuhead_lao.xml" />
+    <None Include="Assets\Assets\skies\pyramid_sky.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\5x_02.xml" />
+    <None Include="Assets\Assets\character animations\gomez\ledgeshimmyfront.xml" />
+    <None Include="Assets\Assets\trile sets\lava.xml" />
+    <None Include="Assets\Assets\art objects\zu_city_door_pao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\cornerledgegrab.xml" />
+    <None Include="Assets\Assets\art objects\clock_topao.xml" />
+    <None Include="Assets\Assets\background planes\water\water_micro_splash.xml" />
+    <None Include="Assets\Assets\sounds\industrial\timeswitchwindup.xml" />
+    <None Include="Assets\Assets\fonts\zuish.xml" />
+    <None Include="Assets\Assets\art objects\cmy_crystal_cao.xml" />
+    <None Include="Assets\Assets\art objects\fake_timeswitch_movingpartao.xml" />
+    <None Include="Assets\Assets\levels\octoheahedron.xml" />
+    <None Include="Assets\Assets\levels\zu_tetris.xml" />
+    <None Include="Assets\Assets\art objects\bookshelfao.xml" />
+    <None Include="Assets\Assets\art objects\int_boiler_nuzuao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\climbbacksideways.xml" />
+    <None Include="Assets\Assets\art objects\int_grandfatherao.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\5x_01.xml" />
+    <None Include="Assets\Assets\sounds\zu\blackholeglitch2.xml" />
+    <None Include="Assets\Assets\character animations\gomez\teeter.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_boy\metadata.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_black\metadata.xml" />
+    <None Include="Assets\Assets\art objects\neon_supportao.xml" />
+    <None Include="Assets\Assets\background planes\water\water_large_flow.xml" />
+    <None Include="Assets\Assets\art objects\int_hihatao.xml" />
+    <None Include="Assets\Assets\art objects\library_pillarao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\gsharp2.xml" />
+    <None Include="Assets\Assets\sounds\zu\watchersee.xml" />
+    <None Include="Assets\Assets\art objects\downgrowth_aao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\climboverladder.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\3x_03.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_asharp_maj.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\grass\step06.xml" />
+    <None Include="Assets\Assets\character animations\bunny\metadata.xml" />
+    <None Include="Assets\Assets\art objects\telescopeao.xml" />
+    <None Include="Assets\Assets\art objects\gate_graveao.xml" />
+    <None Include="Assets\Assets\art objects\nutbolt_capao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\f3.xml" />
+    <None Include="Assets\Assets\levels\cmy_fork.xml" />
+    <None Include="Assets\Assets\character animations\gomez\warp.xml" />
+    <None Include="Assets\Assets\skies\orr_sky.xml" />
+    <None Include="Assets\Assets\levels\grave_treasure_a.xml" />
+    <None Include="Assets\Assets\art objects\clockhand_wao.xml" />
+    <None Include="Assets\Assets\art objects\fake_emitter_tao.xml" />
+    <None Include="Assets\Assets\art objects\int_parlor_booksao.xml" />
+    <None Include="Assets\Assets\sounds\zu\hexaline05.xml" />
+    <None Include="Assets\Assets\character animations\zoe\panic.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\glitches\glitch2.xml" />
+    <None Include="Assets\Assets\sounds\zu\hexaline03.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\5x_04.xml" />
+    <None Include="Assets\Assets\skies\lib_int_sky.xml" />
+    <None Include="Assets\Assets\art objects\nuzu_signao.xml" />
+    <None Include="Assets\Assets\skies\black.xml" />
+    <None Include="Assets\Assets\art objects\int_snareao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\turnaround.xml" />
+    <None Include="Assets\Assets\art objects\bell_hookao.xml" />
+    <None Include="Assets\Assets\art objects\globe_topao.xml" />
+    <None Include="Assets\Assets\levels\sewer_to_lava.xml" />
+    <None Include="Assets\Assets\art objects\sewer_lesser_gateao.xml" />
+    <None Include="Assets\Assets\art objects\owl_statue_body_ao.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\right_stick_sony.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\acceptsuckblock4.xml" />
+    <None Include="Assets\Assets\sounds\lava\mediumbubble.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\rabbitburrow.xml" />
+    <None Include="Assets\Assets\sounds\industrial\rotatospinblock.xml" />
+    <None Include="Assets\Assets\art objects\gate_brokenao.xml" />
+    <None Include="Assets\Assets\character animations\blue jay\metadata.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_small_splash.xml" />
+    <None Include="Assets\Assets\levels\owl.xml" />
+    <None Include="Assets\Assets\background planes\lava\lava_c.xml" />
+    <None Include="Assets\Assets\art objects\new_minecartao.xml" />
+    <None Include="Assets\Assets\art objects\waterfall_support_aao.xml" />
+    <None Include="Assets\Assets\character animations\snail\walk.xml" />
+    <None Include="Assets\Assets\art objects\neon_workao.xml" />
+    <None Include="Assets\Assets\art objects\huge_tree_orangeao.xml" />
+    <None Include="Assets\Assets\art objects\sewer_lava_frameao.xml" />
+    <None Include="Assets\Assets\art objects\int_boiler_table_nuzuao.xml" />
+    <None Include="Assets\Assets\character animations\mayor mcmayor\walk.xml" />
+    <None Include="Assets\Assets\art objects\white_watermouthao.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\11x_03.xml" />
+    <None Include="Assets\Assets\sounds\intro\logozoom.xml" />
+    <None Include="Assets\Assets\trile sets\new_mines.xml" />
+    <None Include="Assets\Assets\character animations\tit\fly.xml" />
+    <None Include="Assets\Assets\art objects\obs_dome_aao.xml" />
+    <None Include="Assets\Assets\art objects\zu_secret_entranceao.xml" />
+    <None Include="Assets\Assets\levels\library_interior.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_blonde\walk.xml" />
+    <None Include="Assets\Assets\art objects\stargate_pyramid_bao.xml" />
+    <None Include="Assets\Assets\trile sets\cmycave.xml" />
+    <None Include="Assets\Assets\character animations\gomez\climbside.xml" />
+    <None Include="Assets\Assets\character animations\ghost\turn.xml" />
+    <None Include="Assets\Assets\art objects\orr_cog_sao.xml" />
+    <None Include="Assets\Assets\art objects\marker_twoao.xml" />
+    <None Include="Assets\Assets\sounds\nature\crumblerwarning.xml" />
+    <None Include="Assets\Assets\art objects\monolithao.xml" />
+    <None Include="Assets\Assets\art objects\tiny_chapeauao.xml" />
+    <None Include="Assets\Assets\art objects\squid_eye_smallao.xml" />
+    <None Include="Assets\Assets\art objects\zu_window_barsao.xml" />
+    <None Include="Assets\Assets\art objects\fractal_globeao.xml" />
+    <None Include="Assets\Assets\art objects\squid_pillar_aao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\grabladder.xml" />
+    <None Include="Assets\Assets\levels\pivot_one.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\grass\step05.xml" />
+    <None Include="Assets\Assets\art objects\walldoor_aao.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_base_mineao.xml" />
+    <None Include="Assets\Assets\art objects\int_floor_tomao.xml" />
+    <None Include="Assets\Assets\sounds\nature\timeswitchendwindback.xml" />
+    <None Include="Assets\Assets\levels\mine_a.xml" />
+    <None Include="Assets\Assets\character animations\cat\idle3.xml" />
+    <None Include="Assets\Assets\art objects\shower_headao.xml" />
+    <None Include="Assets\Assets\sounds\zu\lesserwarprise.xml" />
+    <None Include="Assets\Assets\art objects\clockhand_bao.xml" />
+    <None Include="Assets\Assets\art objects\big_tombstoneao.xml" />
+    <None Include="Assets\Assets\resources\creditstext.xml" />
+    <None Include="Assets\Assets\art objects\indust_big_door_frameao.xml" />
+    <None Include="Assets\Assets\art objects\water_towerao.xml" />
+    <None Include="Assets\Assets\sounds\ui\exitmenucubeormap.xml" />
+    <None Include="Assets\Assets\sounds\ending\pyramid\whiteout.xml" />
+    <None Include="Assets\Assets\sounds\gomez\tread.xml" />
+    <None Include="Assets\Assets\music\ruins.xml" />
+    <None Include="Assets\Assets\sounds\nature\shootingstar.xml" />
+    <None Include="Assets\Assets\levels\tree_roots.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_zuao.xml" />
+    <None Include="Assets\Assets\art objects\int_boiler_pipe_nuzuao.xml" />
+    <None Include="Assets\Assets\character animations\caterpillar\metadata.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\toadcroak.xml" />
+    <None Include="Assets\Assets\art objects\int_mugao.xml" />
+    <None Include="Assets\Assets\other textures\thought_glyphs\up.xml" />
+    <None Include="Assets\Assets\music\cave.xml" />
+    <None Include="Assets\Assets\art objects\teacher_deskao.xml" />
+    <None Include="Assets\Assets\levels\mausoleum.xml" />
+    <None Include="Assets\Assets\character animations\toad\idle.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\grablever.xml" />
+    <None Include="Assets\Assets\levels\zu_house_empty_b.xml" />
+    <None Include="Assets\Assets\sounds\collects\collectartifact.xml" />
+    <None Include="Assets\Assets\character animations\owl\fly.xml" />
+    <None Include="Assets\Assets\art objects\cameraao.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\dotappear.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\birdfly.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\f2.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idletobackclimb.xml" />
+    <None Include="Assets\Assets\character animations\gomez\teeterpaul.xml" />
+    <None Include="Assets\Assets\art objects\totem_bao.xml" />
+    <None Include="Assets\Assets\art objects\zuhead_a_w_gao.xml" />
+    <None Include="Assets\Assets\art objects\observatory_doorframeao.xml" />
+    <None Include="Assets\Assets\sounds\sewer\pipedown.xml" />
+    <None Include="Assets\Assets\character animations\caterpillar\idle2.xml" />
+    <None Include="Assets\Assets\music\loom.xml" />
+    <None Include="Assets\Assets\art objects\lighthouse_aao.xml" />
+    <None Include="Assets\Assets\sounds\ui\menucubebackground.xml" />
+    <None Include="Assets\Assets\art objects\qr_cube_foxao.xml" />
+    <None Include="Assets\Assets\art objects\waterfall_head_eye_bao.xml" />
+    <None Include="Assets\Assets\art objects\big_water_tankao.xml" />
+    <None Include="Assets\Assets\art objects\big_owl_headao.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopbrunette.xml" />
+    <None Include="Assets\Assets\character animations\cat\metadata.xml" />
+    <None Include="Assets\Assets\art objects\mausoleum_cryptao.xml" />
+    <None Include="Assets\Assets\levels\skull.xml" />
+    <None Include="Assets\Assets\sounds\dot\hide.xml" />
+    <None Include="Assets\Assets\levels\wall_school.xml" />
+    <None Include="Assets\Assets\character animations\toad\metadata.xml" />
+    <None Include="Assets\Assets\art objects\fps_post_pao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\climbladder.xml" />
+    <None Include="Assets\Assets\art objects\fork_greenao.xml" />
+    <None Include="Assets\Assets\art objects\wooden_door_frameao.xml" />
+    <None Include="Assets\Assets\music\clear skies.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\3x_02.xml" />
+    <None Include="Assets\Assets\levels\zu_fork.xml" />
+    <None Include="Assets\Assets\character animations\gomez\dropheavytrile.xml" />
+    <None Include="Assets\Assets\sounds\npc\hexahedrontalk.xml" />
+    <None Include="Assets\Assets\levels\pivot_two.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\metal\step04.xml" />
+    <None Include="Assets\Assets\art objects\pivot_base_yellowao.xml" />
+    <None Include="Assets\Assets\character animations\tortoise\comeout.xml" />
+    <None Include="Assets\Assets\art objects\16_bit_doorao.xml" />
+    <None Include="Assets\Assets\levels\cabin_interior_b.xml" />
+    <None Include="Assets\Assets\art objects\visitor_aao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexslowdown.xml" />
+    <None Include="Assets\Assets\sounds\gomez\turnback.xml" />
+    <None Include="Assets\Assets\character animations\gomez\drums\drumstom2.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\metal\step03.xml" />
+    <None Include="Assets\Assets\art objects\visitor_dao.xml" />
+    <None Include="Assets\Assets\art objects\secret_zu_cityao.xml" />
+    <None Include="Assets\Assets\art objects\scaffolding_aao.xml" />
+    <None Include="Assets\Assets\art objects\oldschool_deskao.xml" />
+    <None Include="Assets\Assets\character animations\crow\metadata.xml" />
+    <None Include="Assets\Assets\levels\bell_tower.xml" />
+    <None Include="Assets\Assets\sounds\gomez\opendoor.xml" />
+    <None Include="Assets\Assets\skies\sewer.xml" />
+    <None Include="Assets\Assets\art objects\gargoyle_aao.xml" />
+    <None Include="Assets\Assets\art objects\int_tomsao.xml" />
+    <None Include="Assets\Assets\art objects\sewer_lava_doorao.xml" />
+    <None Include="Assets\Assets\art objects\secret_sewerao.xml" />
+    <None Include="Assets\Assets\art objects\skulldoorao.xml" />
+    <None Include="Assets\Assets\art objects\int_ceiling_lamp_0ao.xml" />
+    <None Include="Assets\Assets\sounds\ui\rotatecenter.xml" />
+    <None Include="Assets\Assets\art objects\lighthouse_spin_aao.xml" />
+    <None Include="Assets\Assets\art objects\exit_pillarao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\hatgrab.xml" />
+    <None Include="Assets\Assets\character animations\squirrel\walk.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_large_splash.xml" />
+    <None Include="Assets\Assets\sounds\ui\worldmapmagnet.xml" />
+    <None Include="Assets\Assets\trile sets\standard.xml" />
+    <None Include="Assets\Assets\background planes\grass1.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\right.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\fsharp3.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_purple\metadata.xml" />
+    <None Include="Assets\Assets\character animations\gomez\die_nohat.xml" />
+    <None Include="Assets\Assets\art objects\secret_throneao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\climbfrontsideways.xml" />
+    <None Include="Assets\Assets\skies\starline.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\metal\step05.xml" />
+    <None Include="Assets\Assets\art objects\pneumaticao.xml" />
+    <None Include="Assets\Assets\levels\elders.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\tntexplode.xml" />
+    <None Include="Assets\Assets\art objects\big_windmillao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\ticktockloop.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\tinybeam.xml" />
+    <None Include="Assets\Assets\fonts\chinese small.xml" />
+    <None Include="Assets\Assets\character animations\blue jay\idle.xml" />
+    <None Include="Assets\Assets\music\vv_32bit.xml" />
+    <None Include="Assets\Assets\art objects\mine_entrance_bao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\drums\drumscrash.xml" />
+    <None Include="Assets\Assets\levels\zu_house_scaffolding.xml" />
+    <None Include="Assets\Assets\music\spire.xml" />
+    <None Include="Assets\Assets\art objects\int_kitchen_stuff0ao.xml" />
+    <None Include="Assets\Assets\art objects\bookthingao.xml" />
+    <None Include="Assets\Assets\art objects\throne_aao.xml" />
+    <None Include="Assets\Assets\art objects\orr_earthao.xml" />
+    <None Include="Assets\Assets\sounds\sewer\sewagefall.xml" />
+    <None Include="Assets\Assets\character animations\tit\idle2.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_small_flow.xml" />
+    <None Include="Assets\Assets\sounds\zu\doorbitfadeout.xml" />
+    <None Include="Assets\Assets\levels\school_2d.xml" />
+    <None Include="Assets\Assets\character animations\bunny\idle.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\stone\step02.xml" />
+    <None Include="Assets\Assets\art objects\int_fireplaceao.xml" />
+    <None Include="Assets\Assets\art objects\zu_city_doorao.xml" />
+    <None Include="Assets\Assets\art objects\zu_city_windowao.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_banner_cao.xml" />
+    <None Include="Assets\Assets\levels\sewer_pillars.xml" />
+    <None Include="Assets\Assets\art objects\zu_city_waterfaceao.xml" />
+    <None Include="Assets\Assets\levels\villageville_3d.xml" />
+    <None Include="Assets\Assets\sounds\gomez\teeterbegin.xml" />
+    <None Include="Assets\Assets\levels\clock.xml" />
+    <None Include="Assets\Assets\art objects\megalithao.xml" />
+    <None Include="Assets\Assets\art objects\teacher_desk_nuzuao.xml" />
+    <None Include="Assets\Assets\character animations\toad\walk.xml" />
+    <None Include="Assets\Assets\levels\extractor_a.xml" />
+    <None Include="Assets\Assets\art objects\sewer_door_frame_bao.xml" />
+    <None Include="Assets\Assets\character animations\toad\idle3.xml" />
+    <None Include="Assets\Assets\music\forgotten.xml" />
+    <None Include="Assets\Assets\art objects\indust_big_doorao.xml" />
+    <None Include="Assets\Assets\sounds\ui\movecursormenucube.xml" />
+    <None Include="Assets\Assets\character animations\blue jay\idle2.xml" />
+    <None Include="Assets\Assets\sounds\sewer\sewagebubbling.xml" />
+    <None Include="Assets\Assets\skies\mine.xml" />
+    <None Include="Assets\Assets\sounds\gomez\grabvine.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\secretsolved.xml" />
+    <None Include="Assets\Assets\art objects\sewer_pivot_baseao.xml" />
+    <None Include="Assets\Assets\art objects\int_fireplace_dao.xml" />
+    <None Include="Assets\Assets\art objects\mine_tools_1ao.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\cursorup.xml" />
+    <None Include="Assets\Assets\music\storm_chords.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\wood\step05.xml" />
+    <None Include="Assets\Assets\sounds\gomez\drowntoxic.xml" />
+    <None Include="Assets\Assets\sounds\gomez\ledgeshimmy.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_red\walk.xml" />
+    <None Include="Assets\Assets\levels\pivot_three.xml" />
+    <None Include="Assets\Assets\art objects\secret_treeao.xml" />
+    <None Include="Assets\Assets\levels\waterfall.xml" />
+    <None Include="Assets\Assets\character animations\gomez\liftheavy.xml" />
+    <None Include="Assets\Assets\art objects\sewer_big_mouthao.xml" />
+    <None Include="Assets\Assets\character animations\izaac\talk.xml" />
+    <None Include="Assets\Assets\levels\villageville_3d_end_32.xml" />
+    <None Include="Assets\Assets\sounds\intro\polytronjingle.xml" />
+    <None Include="Assets\Assets\art objects\minecart_aao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_red\metadata.xml" />
+    <None Include="Assets\Assets\character animations\bunny\walk.xml" />
+    <None Include="Assets\Assets\levels\zu_bridge.xml" />
+    <None Include="Assets\Assets\levels\lava.xml" />
+    <None Include="Assets\Assets\levels\telescope.xml" />
+    <None Include="Assets\Assets\levels\pivot_watertower.xml" />
+    <None Include="Assets\Assets\character animations\gomez\cornerledgepullup.xml" />
+    <None Include="Assets\Assets\character animations\gomez\crushhorizontal.xml" />
+    <None Include="Assets\Assets\levels\wall_village.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopglasses.xml" />
+    <None Include="Assets\Assets\levels\arch.xml" />
+    <None Include="Assets\Assets\character animations\gomez\idleplay.xml" />
+    <None Include="Assets\Assets\art objects\treasure_mapao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\bombexplode.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_banner_bao.xml" />
+    <None Include="Assets\Assets\art objects\globeao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_e_maj.xml" />
+    <None Include="Assets\Assets\music\mines.xml" />
+    <None Include="Assets\Assets\character animations\tortoise\hide.xml" />
+    <None Include="Assets\Assets\art objects\orr_moonao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\ledgeshimmyback.xml" />
+    <None Include="Assets\Assets\art objects\forkao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\g2.xml" />
+    <None Include="Assets\Assets\levels\crypt.xml" />
+    <None Include="Assets\Assets\art objects\big_stone_doorao.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\bumpers.xml" />
+    <None Include="Assets\Assets\art objects\clockhand_rao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexdrones\hexdrone1.xml" />
+    <None Include="Assets\Assets\art objects\cmy_monolithao.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_small_trickle.xml" />
+    <None Include="Assets\Assets\levels\mine_wrap.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\wood\step03.xml" />
+    <None Include="Assets\Assets\art objects\deathskull_aao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\unlockdoor.xml" />
+    <None Include="Assets\Assets\art objects\spin_red_2x1ao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\grass\step04.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryheavywalk.xml" />
+    <None Include="Assets\Assets\levels\globe.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\triggers.xml" />
+    <None Include="Assets\Assets\levels\watertower_secret.xml" />
+    <None Include="Assets\Assets\sounds\intro\zoomtofarawayplace.xml" />
+    <None Include="Assets\Assets\art objects\waterwheelao.xml" />
+    <None Include="Assets\Assets\art objects\industrial_girders_support_doubleao.xml" />
+    <None Include="Assets\Assets\levels\wall_hole.xml" />
+    <None Include="Assets\Assets\skies\wall.xml" />
+    <None Include="Assets\Assets\art objects\windmill_core_cao.xml" />
+    <None Include="Assets\Assets\art objects\neon_cablesao.xml" />
+    <None Include="Assets\Assets\art objects\gen_doorframeao.xml" />
+    <None Include="Assets\Assets\skies\tree.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\cubesprogressiveappear.xml" />
+    <None Include="Assets\Assets\character animations\lizard\walk.xml" />
+    <None Include="Assets\Assets\character animations\lizard\turn.xml" />
+    <None Include="Assets\Assets\character animations\bunny\burrow.xml" />
+    <None Include="Assets\Assets\trile sets\grave.xml" />
+    <None Include="Assets\Assets\levels\fractal.xml" />
+    <None Include="Assets\Assets\fonts\japanese big.xml" />
+    <None Include="Assets\Assets\sounds\gomez\throwlightpickup.xml" />
+    <None Include="Assets\Assets\sounds\gomez\idleturnup.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\glitches\glitch1.xml" />
+    <None Include="Assets\Assets\character animations\brunette\panic.xml" />
+    <None Include="Assets\Assets\sounds\collects\collectkey.xml" />
+    <None Include="Assets\Assets\skies\indust_cave.xml" />
+    <None Include="Assets\Assets\art objects\int_kitchen_stuff2ao.xml" />
+    <None Include="Assets\Assets\background planes\sewertorch.xml" />
+    <None Include="Assets\Assets\levels\industrial_city.xml" />
+    <None Include="Assets\Assets\art objects\crossao.xml" />
+    <None Include="Assets\Assets\levels\lighthouse_house_a.xml" />
+    <None Include="Assets\Assets\art objects\int_shelfao.xml" />
+    <None Include="Assets\Assets\levels\oldschool.xml" />
+    <None Include="Assets\Assets\art objects\windmillao.xml" />
+    <None Include="Assets\Assets\art objects\gen_2ao.xml" />
+    <None Include="Assets\Assets\levels\visitor.xml" />
+    <None Include="Assets\Assets\background planes\bombexplosion.xml" />
+    <None Include="Assets\Assets\art objects\water_statueao.xml" />
+    <None Include="Assets\Assets\sounds\intro\trixellogoin.xml" />
+    <None Include="Assets\Assets\art objects\sewer_pivot_topao.xml" />
+    <None Include="Assets\Assets\art objects\orange_pistonao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\straightledgehoist.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\nighttransition.xml" />
+    <None Include="Assets\Assets\art objects\bellao.xml" />
+    <None Include="Assets\Assets\art objects\oldschool_desk_grassao.xml" />
+    <None Include="Assets\Assets\art objects\tome_coverao.xml" />
+    <None Include="Assets\Assets\sounds\intro\fezlogoglitch1.xml" />
+    <None Include="Assets\Assets\art objects\1_bit_doorao.xml" />
+    <None Include="Assets\Assets\art objects\zu_signao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\c3.xml" />
+    <None Include="Assets\Assets\character animations\mouse\metadata.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\wood\step04.xml" />
+    <None Include="Assets\Assets\skies\outerspace.xml" />
+    <None Include="Assets\Assets\character animations\cat\idle.xml" />
+    <None Include="Assets\Assets\background planes\lava\lava_b.xml" />
+    <None Include="Assets\Assets\character animations\oldy\walk.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_7.xml" />
+    <None Include="Assets\Assets\art objects\tri_skullao.xml" />
+    <None Include="Assets\Assets\art objects\int_kitchen_stuff3ao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\airpanic.xml" />
+    <None Include="Assets\Assets\art objects\stargate_ruin_bao.xml" />
+    <None Include="Assets\Assets\trile sets\untitled.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\triggers_ps4.xml" />
+    <None Include="Assets\Assets\art objects\big_owlao.xml" />
+    <None Include="Assets\Assets\character animations\owl\talk.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\asharp2.xml" />
+    <None Include="Assets\Assets\character animations\gomez\cornerledgelower.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\startgame.xml" />
+    <None Include="Assets\Assets\art objects\neon_zuao.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\cubeappear.xml" />
+    <None Include="Assets\Assets\other textures\thought_glyphs\b.xml" />
+    <None Include="Assets\Assets\levels\sewer_lesser_gate_b.xml" />
+    <None Include="Assets\Assets\art objects\secret_obsao.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopzuboy.xml" />
+    <None Include="Assets\Assets\art objects\grave_gateao.xml" />
+    <None Include="Assets\Assets\levels\grave_lesser_gate.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\b2.xml" />
+    <None Include="Assets\Assets\levels\temple_of_love.xml" />
+    <None Include="Assets\Assets\sounds\zu\lesserwarpidlespin.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_red\idle.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\glitchyrespawn.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\returnlevel.xml" />
+    <None Include="Assets\Assets\character animations\mouse\turn.xml" />
+    <None Include="Assets\Assets\levels\abandoned_a.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\zoomin.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_base_lavaao.xml" />
+    <None Include="Assets\Assets\art objects\int_chairao.xml" />
+    <None Include="Assets\Assets\levels\purple_lodge.xml" />
+    <None Include="Assets\Assets\art objects\greenboardao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\glitches\fezlogoglitch3.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_boy\walk.xml" />
+    <None Include="Assets\Assets\levels\well_2.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\fountain.xml" />
+    <None Include="Assets\Assets\character animations\gomez\carryheavystand.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_2.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\acceptsuckblock3.xml" />
+    <None Include="Assets\Assets\art objects\mech_support_aao.xml" />
+    <None Include="Assets\Assets\character animations\squirrel\metadata.xml" />
+    <None Include="Assets\Assets\art objects\lava_spin_2x2bao.xml" />
+    <None Include="Assets\Assets\art objects\village_big_crateao.xml" />
+    <None Include="Assets\Assets\character animations\seagull\fly.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\dotstartmove.xml" />
+    <None Include="Assets\Assets\art objects\waterfall_head_mouthao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_black\talk.xml" />
+    <None Include="Assets\Assets\background planes\butterfly.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gateao.xml" />
+    <None Include="Assets\Assets\levels\pyramid.xml" />
+    <None Include="Assets\Assets\character animations\tit\turn.xml" />
+    <None Include="Assets\Assets\art objects\crownao.xml" />
+    <None Include="Assets\Assets\art objects\huge_tree_pinkao.xml" />
+    <None Include="Assets\Assets\art objects\wall_entranceao.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\slidervaluedecrease.xml" />
+    <None Include="Assets\Assets\character animations\owl\takeoff.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_banner_torn_bao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\laydown.xml" />
+    <None Include="Assets\Assets\art objects\int_boilerao.xml" />
+    <None Include="Assets\Assets\sounds\sewer\pipeup.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_red\idle.xml" />
+    <None Include="Assets\Assets\background planes\torch.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_elderly\talk.xml" />
+    <None Include="Assets\Assets\sounds\sewer\valvescrew.xml" />
+    <None Include="Assets\Assets\art objects\32_bit_doorao.xml" />
+    <None Include="Assets\Assets\background planes\shootingstar.xml" />
+    <None Include="Assets\Assets\sounds\gomez\hatfinalthrow.xml" />
+    <None Include="Assets\Assets\art objects\squid_statue_smallao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\hitfloor2.xml" />
+    <None Include="Assets\Assets\art objects\zuhead_b_wao.xml" />
+    <None Include="Assets\Assets\levels\kitchen_2d.xml" />
+    <None Include="Assets\Assets\art objects\4_bit_doorao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\suckblocksuck.xml" />
+    <None Include="Assets\Assets\music\majesty.xml" />
+    <None Include="Assets\Assets\art objects\mothercubeao.xml" />
+    <None Include="Assets\Assets\art objects\watertower_owl_bodyao.xml" />
+    <None Include="Assets\Assets\art objects\giant_tree_pinkao.xml" />
+    <None Include="Assets\Assets\trile sets\industrial.xml" />
+    <None Include="Assets\Assets\art objects\cmy_zuhead_sao.xml" />
+    <None Include="Assets\Assets\skies\loveline.xml" />
+    <None Include="Assets\Assets\sounds\ui\textnext.xml" />
+    <None Include="Assets\Assets\art objects\grave_pillarao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\climbfront.xml" />
+    <None Include="Assets\Assets\art objects\village_tankao.xml" />
+    <None Include="Assets\Assets\art objects\2_bit_doorao.xml" />
+    <None Include="Assets\Assets\art objects\tree_of_deathao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\grass\step02.xml" />
+    <None Include="Assets\Assets\character animations\gomez\tread.xml" />
+    <None Include="Assets\Assets\art objects\owl_statue_drapes_bao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexdrones\hexdrone2.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\c4.xml" />
+    <None Include="Assets\Assets\art objects\int_parlor_poufao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\sparklyparticles.xml" />
+    <None Include="Assets\Assets\background planes\water\water_large_trickle.xml" />
+    <None Include="Assets\Assets\art objects\sewer_treasure_bottomao.xml" />
+    <None Include="Assets\Assets\sounds\intro\starzoom.xml" />
+    <None Include="Assets\Assets\background planes\waterpink\water_large_trickle.xml" />
+    <None Include="Assets\Assets\character animations\gomez\push.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunder4.xml" />
+    <None Include="Assets\Assets\sounds\dot\talk.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\motorstartaok.xml" />
+    <None Include="Assets\Assets\sounds\industrial\pivotright.xml" />
+    <None Include="Assets\Assets\art objects\orr_cog_lao.xml" />
+    <None Include="Assets\Assets\music\quantum.xml" />
+    <None Include="Assets\Assets\art objects\cube_pillarao.xml" />
+    <None Include="Assets\Assets\art objects\int_boiler_pipeao.xml" />
+    <None Include="Assets\Assets\art objects\mine_entrance_cao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\lift.xml" />
+    <None Include="Assets\Assets\skies\obs_sky.xml" />
+    <None Include="Assets\Assets\art objects\obs_dome_dao.xml" />
+    <None Include="Assets\Assets\art objects\food_stuff_1ao.xml" />
+    <None Include="Assets\Assets\art objects\clockhand_gao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\suckedin.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_cmyao.xml" />
+    <None Include="Assets\Assets\art objects\big_owl_pyramid_headao.xml" />
+    <None Include="Assets\Assets\art objects\watertower_owl_head_ao.xml" />
+    <None Include="Assets\Assets\art objects\zu_kiosk_cao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\exitdoor.xml" />
+    <None Include="Assets\Assets\skies\crypt.xml" />
+    <None Include="Assets\Assets\art objects\visitor_bao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\turnaway.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_banner_aao.xml" />
+    <None Include="Assets\Assets\art objects\locker_benchao.xml" />
+    <None Include="Assets\Assets\background planes\grass3.xml" />
+    <None Include="Assets\Assets\art objects\new_hexao.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\b_sony.xml" />
+    <None Include="Assets\Assets\levels\nature_hub.xml" />
+    <None Include="Assets\Assets\art objects\lava_spin_1x1ao.xml" />
+    <None Include="Assets\Assets\art objects\nutao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\glitches\fezlogoglitch2.xml" />
+    <None Include="Assets\Assets\art objects\throne_bao.xml" />
+    <None Include="Assets\Assets\art objects\water_statue_baseao.xml" />
+    <None Include="Assets\Assets\art objects\indust_core_colorsao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\backtocornergrab.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\g3.xml" />
+    <None Include="Assets\Assets\sounds\intro\reboot.xml" />
+    <None Include="Assets\Assets\character animations\mayor mcmayor\idle.xml" />
+    <None Include="Assets\Assets\resources\statictext.xml" />
+    <None Include="Assets\Assets\sounds\zu\watchermove.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_blonde\idle.xml" />
+    <None Include="Assets\Assets\character animations\gomez\throw.xml" />
+    <None Include="Assets\Assets\character animations\ghost\metadata.xml" />
+    <None Include="Assets\Assets\art objects\jack_caseao.xml" />
+    <None Include="Assets\Assets\levels\graveyard_gate.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\rumble.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\aku.xml" />
+    <None Include="Assets\Assets\art objects\clock_baseao.xml" />
+    <None Include="Assets\Assets\character animations\izaac\idle.xml" />
+    <None Include="Assets\Assets\sounds\npc\talkloopzuelder.xml" />
+    <None Include="Assets\Assets\art objects\zu_gateao.xml" />
+    <None Include="Assets\Assets\levels\parlor_2d.xml" />
+    <None Include="Assets\Assets\skies\above.xml" />
+    <None Include="Assets\Assets\other textures\map_controls\b.xml" />
+    <None Include="Assets\Assets\art objects\grave_cubeao.xml" />
+    <None Include="Assets\Assets\music\cycle.xml" />
+    <None Include="Assets\Assets\art objects\grave_entranceao.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\owlhoot.xml" />
+    <None Include="Assets\Assets\levels\two_walls.xml" />
+    <None Include="Assets\Assets\character animations\gomez\throwheavy.xml" />
+    <None Include="Assets\Assets\background planes\water_giant_splash.xml" />
+    <None Include="Assets\Assets\art objects\secret_nuzu_abao.xml" />
+    <None Include="Assets\Assets\music\64bit.xml" />
+    <None Include="Assets\Assets\character animations\caterpillar\idle.xml" />
+    <None Include="Assets\Assets\character animations\zoe\metadata.xml" />
+    <None Include="Assets\Assets\art objects\zu_bazaar_1ao.xml" />
+    <None Include="Assets\Assets\trile sets\sewer.xml" />
+    <None Include="Assets\Assets\art objects\pivotao.xml" />
+    <None Include="Assets\Assets\art objects\secret_wallao.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_statueao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_blonde\metadata.xml" />
+    <None Include="Assets\Assets\art objects\wellao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\flail.xml" />
+    <None Include="Assets\Assets\art objects\water_doorframeao.xml" />
+    <None Include="Assets\Assets\art objects\throne_thingao.xml" />
+    <None Include="Assets\Assets\art objects\visitor_cao.xml" />
+    <None Include="Assets\Assets\art objects\grave_alcoveao_b.xml" />
+    <None Include="Assets\Assets\character animations\tit\walk.xml" />
+    <None Include="Assets\Assets\sounds\zu\forkrumble.xml" />
+    <None Include="Assets\Assets\levels\sewer_qr.xml" />
+    <None Include="Assets\Assets\art objects\neon_frame_bao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\blink.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\gullcry.xml" />
+    <None Include="Assets\Assets\resources\gametext.xml" />
+    <None Include="Assets\Assets\fonts\latin big.xml" />
+    <None Include="Assets\Assets\levels\globe_int.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_blonde\talk.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_black\idle.xml" />
+    <None Include="Assets\Assets\art objects\owl_statueao.xml" />
+    <None Include="Assets\Assets\art objects\lighthouse_testao.xml" />
+    <None Include="Assets\Assets\levels\sewer_pivot.xml" />
+    <None Include="Assets\Assets\character animations\gomez\wakeup_nohat.xml" />
+    <None Include="Assets\Assets\sounds\gomez\bouncehigh.xml" />
+    <None Include="Assets\Assets\background planes\bat_fly.xml" />
+    <None Include="Assets\Assets\maptree.xml" />
+    <None Include="Assets\Assets\sounds\gomez\bouncelow.xml" />
+    <None Include="Assets\Assets\sounds\gomez\lookleft.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_baseao.xml" />
+    <None Include="Assets\Assets\character animations\caterpillar\walk.xml" />
+    <None Include="Assets\Assets\levels\skull_b.xml" />
+    <None Include="Assets\Assets\levels\nuzu_boilerroom.xml" />
+    <None Include="Assets\Assets\levels\stargate.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_3.xml" />
+    <None Include="Assets\Assets\levels\stargate_ruins.xml" />
+    <None Include="Assets\Assets\levels\trial\pivot_watertower.xml" />
+    <None Include="Assets\Assets\art objects\gate_sewerao.xml" />
+    <None Include="Assets\Assets\music\cmykave.xml" />
+    <None Include="Assets\Assets\art objects\telescope_lenseao.xml" />
+    <None Include="Assets\Assets\art objects\waterwheel_baseao.xml" />
+    <None Include="Assets\Assets\music\grave_rain.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\b3.xml" />
+    <None Include="Assets\Assets\art objects\neon_hardao.xml" />
+    <None Include="Assets\Assets\art objects\watertower_owl_body_ao.xml" />
+    <None Include="Assets\Assets\character animations\seagull\walk.xml" />
+    <None Include="Assets\Assets\levels\zu_switch.xml" />
+    <None Include="Assets\Assets\levels\zu_4_side.xml" />
+    <None Include="Assets\Assets\art objects\zu_door_frameao.xml" />
+    <None Include="Assets\Assets\art objects\big_treeao.xml" />
+    <None Include="Assets\Assets\art objects\orange_piston_shaftao.xml" />
+    <None Include="Assets\Assets\character animations\xavier\metadata.xml" />
+    <None Include="Assets\Assets\art objects\int_sinkao.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\hexappear.xml" />
+    <None Include="Assets\Assets\art objects\32_bit_door_brokenao.xml" />
+    <None Include="Assets\Assets\character animations\crow\idle.xml" />
+    <None Include="Assets\Assets\character animations\gomez\lowertoledge.xml" />
+    <None Include="Assets\Assets\character animations\owl\idle2.xml" />
+    <None Include="Assets\Assets\art objects\clock_boltao.xml" />
+    <None Include="Assets\Assets\other textures\final_caustics.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_blonde\talk.xml" />
+    <None Include="Assets\Assets\art objects\owl_baseao.xml" />
+    <None Include="Assets\Assets\character animations\squirrel\idle.xml" />
+    <None Include="Assets\Assets\character animations\inch-worm\idle.xml" />
+    <None Include="Assets\Assets\character animations\crow\turn.xml" />
+    <None Include="Assets\Assets\levels\gomez_house_end_32.xml" />
+    <None Include="Assets\Assets\art objects\candles_aao.xml" />
+    <None Include="Assets\Assets\music\pivot_watertower.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\lettertubehit.xml" />
+    <None Include="Assets\Assets\character animations\gomez\opentreasure.xml" />
+    <None Include="Assets\Assets\skies\deathsky.xml" />
+    <None Include="Assets\Assets\levels\tree_of_death.xml" />
+    <None Include="Assets\Assets\sounds\ui\mapbackground.xml" />
+    <None Include="Assets\Assets\art objects\trappedao.xml" />
+    <None Include="Assets\Assets\art objects\mine_doorao.xml" />
+    <None Include="Assets\Assets\background planes\lava\lava_a.xml" />
+    <None Include="Assets\Assets\character animations\gomez\airpanic_nohat.xml" />
+    <None Include="Assets\Assets\levels\code_machine.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_noband_black\idle.xml" />
+    <None Include="Assets\Assets\sounds\ui\mapbeacon.xml" />
+    <None Include="Assets\Assets\art objects\sentinel_wallao.xml" />
+    <None Include="Assets\Assets\art objects\marker_fourao.xml" />
+    <None Include="Assets\Assets\character animations\oldy\idle.xml" />
+    <None Include="Assets\Assets\art objects\treasuretopao.xml" />
+    <None Include="Assets\Assets\art objects\secret_metal_darkao.xml" />
+    <None Include="Assets\Assets\art objects\zu_doorao.xml" />
+    <None Include="Assets\Assets\art objects\pivot_base_ind_caveao.xml" />
+    <None Include="Assets\Assets\art objects\int_stoolao.xml" />
+    <None Include="Assets\Assets\art objects\pyramid_banner_torn_cao.xml" />
+    <None Include="Assets\Assets\art objects\tracks1ao.xml" />
+    <None Include="Assets\Assets\art objects\tetris_entranceao.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_geyser_tile.xml" />
+    <None Include="Assets\Assets\art objects\globe_pillarao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\runswitch_nohat.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\startrails.xml" />
+    <None Include="Assets\Assets\sounds\gomez\yawn.xml" />
+    <None Include="Assets\Assets\character animations\blue jay\takeoff.xml" />
+    <None Include="Assets\Assets\art objects\int_parlor_passageao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\wood\step06.xml" />
+    <None Include="Assets\Assets\levels\memory_core.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\wood\step01.xml" />
+    <None Include="Assets\Assets\art objects\lighthouse_platform_aao.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\motorstart1.xml" />
+    <None Include="Assets\Assets\art objects\library_deskao.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_base_graveao.xml" />
+    <None Include="Assets\Assets\background planes\grass_long.xml" />
+    <None Include="Assets\Assets\character animations\gomez\lowertoledge_nohat.xml" />
+    <None Include="Assets\Assets\art objects\sewer_lesser_gate_baseao.xml" />
+    <None Include="Assets\Assets\art objects\tracks0ao.xml" />
+    <None Include="Assets\Assets\art objects\mine_city_big_doorao.xml" />
+    <None Include="Assets\Assets\character animations\squirrel\turn.xml" />
+    <None Include="Assets\Assets\art objects\treasurebottomao.xml" />
+    <None Include="Assets\Assets\art objects\fractal_globe_baseao.xml" />
+    <None Include="Assets\Assets\character animations\lizard\metadata.xml" />
+    <None Include="Assets\Assets\art objects\telescope_seatao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_c3_maj.xml" />
+    <None Include="Assets\Assets\art objects\yu_statue_bao.xml" />
+    <None Include="Assets\Assets\sounds\intro\fezlogoglitch2.xml" />
+    <None Include="Assets\Assets\levels\observatory.xml" />
+    <None Include="Assets\Assets\background planes\bigbombexplosion.xml" />
+    <None Include="Assets\Assets\art objects\zu_stone_door_frameao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\dsharp3.xml" />
+    <None Include="Assets\Assets\art objects\spinblock_aao.xml" />
+    <None Include="Assets\Assets\art objects\int_potsao.xml" />
+    <None Include="Assets\Assets\levels\orrery.xml" />
+    <None Include="Assets\Assets\art objects\big_tombstone_baseao.xml" />
+    <None Include="Assets\Assets\art objects\trashcan_lidao.xml" />
+    <None Include="Assets\Assets\art objects\fractal_globe_topao.xml" />
+    <None Include="Assets\Assets\art objects\cmy_crystal_yao.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\thunderdistant03.xml" />
+    <None Include="Assets\Assets\art objects\number_cubeao.xml" />
+    <None Include="Assets\Assets\character animations\sewermouse\metadata.xml" />
+    <None Include="Assets\Assets\art objects\lava_skullao.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\forkactivate.xml" />
+    <None Include="Assets\Assets\art objects\zuish_monolith_aao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\gomezbeamappear.xml" />
+    <None Include="Assets\Assets\sounds\industrial\motorblockmove.xml" />
+    <None Include="Assets\Assets\fonts\korean big.xml" />
+    <None Include="Assets\Assets\art objects\4_side_blockao.xml" />
+    <None Include="Assets\Assets\music\poly.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdchirp1.xml" />
+    <None Include="Assets\Assets\skies\memory_grid.xml" />
+    <None Include="Assets\Assets\character animations\cat\turn.xml" />
+    <None Include="Assets\Assets\art objects\zu_bazaar_0ao.xml" />
+    <None Include="Assets\Assets\music\tree.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\confirm.xml" />
+    <None Include="Assets\Assets\sounds\ui\zoomout.xml" />
+    <None Include="Assets\Assets\art objects\hex_trigger_glowao.xml" />
+    <None Include="Assets\Assets\art objects\mine_big_crateao.xml" />
+    <None Include="Assets\Assets\background planes\dust_large.xml" />
+    <None Include="Assets\Assets\art objects\int_kitchen_stuff1ao.xml" />
+    <None Include="Assets\Assets\art objects\int_ceiling_lamp_1ao.xml" />
+    <None Include="Assets\Assets\art objects\zuhead_b_w_gao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\exitdoor.xml" />
+    <None Include="Assets\Assets\art objects\birdcage_aao.xml" />
+    <None Include="Assets\Assets\art objects\mausoleum_pillarsao.xml" />
+    <None Include="Assets\Assets\art objects\cmy_doorao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\jump.xml" />
+    <None Include="Assets\Assets\skies\waterwheel.xml" />
+    <None Include="Assets\Assets\sounds\gomez\wakeup.xml" />
+    <None Include="Assets\Assets\art objects\fps_post_wao.xml" />
+    <None Include="Assets\Assets\art objects\deathskull_bao.xml" />
+    <None Include="Assets\Assets\art objects\nuzu_big_doorao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\ledgepullupback.xml" />
+    <None Include="Assets\Assets\art objects\cube_tree_orangeao.xml" />
+    <None Include="Assets\Assets\character animations\ghost\talk.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\3x_04.xml" />
+    <None Include="Assets\Assets\art objects\giant_skullao.xml" />
+    <None Include="Assets\Assets\character animations\blonde\panic.xml" />
+    <None Include="Assets\Assets\art objects\secret_mineao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\fronttocornergrab.xml" />
+    <None Include="Assets\Assets\character animations\mouse\walk.xml" />
+    <None Include="Assets\Assets\art objects\watertower_owl_headao.xml" />
+    <None Include="Assets\Assets\character animations\tortoise\metadata.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\critterhide.xml" />
+    <None Include="Assets\Assets\art objects\secret_memoryao.xml" />
+    <None Include="Assets\Assets\art objects\lesser_gate_lavaao.xml" />
+    <None Include="Assets\Assets\background planes\lava\lava_smoke.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_boy\idle.xml" />
+    <None Include="Assets\Assets\sounds\gomez\ledgedrop.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_elderly\metadata.xml" />
+    <None Include="Assets\Assets\art objects\library_pyramidao.xml" />
+    <None Include="Assets\Assets\sounds\cmykave\b_8.xml" />
+    <None Include="Assets\Assets\art objects\pivot_base_redao.xml" />
+    <None Include="Assets\Assets\art objects\int_mop_bucketao.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\rayexplosion.xml" />
+    <None Include="Assets\Assets\sounds\gomez\footsteps\left.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_red\metadata.xml" />
+    <None Include="Assets\Assets\art objects\candles_bao.xml" />
+    <None Include="Assets\Assets\trile sets\xu.xml" />
+    <None Include="Assets\Assets\sounds\collects\collectcubeshard.xml" />
+    <None Include="Assets\Assets\art objects\hex_baseao.xml" />
+    <None Include="Assets\Assets\levels\showers.xml" />
+    <None Include="Assets\Assets\art objects\int_table_aao.xml" />
+    <None Include="Assets\Assets\character animations\gomez\lookleft.xml" />
+    <None Include="Assets\Assets\sounds\industrial\motorblockstartup.xml" />
+    <None Include="Assets\Assets\sounds\ui\menu\advancelevel.xml" />
+    <None Include="Assets\Assets\levels\zu_library.xml" />
+    <None Include="Assets\Assets\art objects\fake_emitter_lao.xml" />
+    <None Include="Assets\Assets\levels\water_wheel.xml" />
+    <None Include="Assets\Assets\sounds\miscactors\rotaterock.xml" />
+    <None Include="Assets\Assets\art objects\zuhead_aao.xml" />
+    <None Include="Assets\Assets\sounds\gomez\enterdoor.xml" />
+    <None Include="Assets\Assets\art objects\wallwindow_cao.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\e2.xml" />
+    <None Include="Assets\Assets\art objects\int_metal_tableao.xml" />
+    <None Include="Assets\Assets\art objects\code_machine_aao.xml" />
+    <None Include="Assets\Assets\sounds\industrial\motorblockstop.xml" />
+    <None Include="Assets\Assets\sounds\collects\splitupcube\assemble_b_maj.xml" />
+    <None Include="Assets\Assets\music\lava.xml" />
+    <None Include="Assets\Assets\music\love.xml" />
+    <None Include="Assets\Assets\art objects\tetris_puzzle_baseao.xml" />
+    <None Include="Assets\Assets\character animations\sewermouse\idle.xml" />
+    <None Include="Assets\Assets\music\fez.xml" />
+    <None Include="Assets\Assets\character animations\gomez\letgotombstone.xml" />
+    <None Include="Assets\Assets\art objects\fez_signao.xml" />
+    <None Include="Assets\Assets\skies\blue.xml" />
+    <None Include="Assets\Assets\sounds\ui\rotaterighthalfspeed.xml" />
+    <None Include="Assets\Assets\sounds\industrial\connectiveidle.xml" />
+    <None Include="Assets\Assets\character animations\gomez\unlockdoor.xml" />
+    <None Include="Assets\Assets\character animations\gomez\drums\drumstwirl.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_large_flow.xml" />
+    <None Include="Assets\Assets\art objects\stargate_ring_aao.xml" />
+    <None Include="Assets\Assets\levels\trial\memory_core.xml" />
+    <None Include="Assets\Assets\background planes\sewer\sewer_large_trickle.xml" />
+    <None Include="Assets\Assets\music\grave.xml" />
+    <None Include="Assets\Assets\sounds\ending\hexrebuild\ambientdrone.xml" />
+    <None Include="Assets\Assets\art objects\neon_foodao.xml" />
+    <None Include="Assets\Assets\art objects\grave_cabinao.xml" />
+    <None Include="Assets\Assets\art objects\big_tree_orangeao.xml" />
+    <None Include="Assets\Assets\art objects\moss_aao.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdhoot2.xml" />
+    <None Include="Assets\Assets\sounds\ui\zoomin.xml" />
+    <None Include="Assets\Assets\music\gomez.xml" />
+    <None Include="Assets\Assets\art objects\candles_cao.xml" />
+    <None Include="Assets\Assets\sounds\zu\hexawarpin.xml" />
+    <None Include="Assets\Assets\levels\waterfall_alt.xml" />
+    <None Include="Assets\Assets\art objects\windmill_int_dao.xml" />
+    <None Include="Assets\Assets\art objects\food_stuff_2ao.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdchirp2.xml" />
+    <None Include="Assets\Assets\sounds\ending\cutscene64\tvoff.xml" />
+    <None Include="Assets\Assets\character animations\gomez\grab.xml" />
+    <None Include="Assets\Assets\background planes\water\water_small_splash.xml" />
+    <None Include="Assets\Assets\sounds\gomez\hatthrow.xml" />
+    <None Include="Assets\Assets\art objects\nutbolt_base_underao.xml" />
+    <None Include="Assets\Assets\character animations\zufolk_girl\idle.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexdisappear.xml" />
+    <None Include="Assets\Assets\art objects\reservoirao.xml" />
+    <None Include="Assets\Assets\sounds\wildlife\miscbirds\birdcry1.xml" />
+    <None Include="Assets\Assets\art objects\gen_baseao.xml" />
+    <None Include="Assets\Assets\art objects\treasureao.xml" />
+    <None Include="Assets\Assets\character animations\blue jay\turn.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\timestretches\timestretch1.xml" />
+    <None Include="Assets\Assets\art objects\water_tower_legsao.xml" />
+    <None Include="Assets\Assets\character animations\ivy\walk.xml" />
+    <None Include="Assets\Assets\art objects\marker_oneao.xml" />
+    <None Include="Assets\Assets\character animations\snail\idle.xml" />
+    <None Include="Assets\Assets\levels\grave_cabin.xml" />
+    <None Include="Assets\Assets\sounds\graveyard\tombrotateright.xml" />
+    <None Include="Assets\Assets\levels\lava_skull.xml" />
+    <None Include="Assets\Assets\sounds\intro\elders\hexdrones\hexdrone3.xml" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/5_KGA_16/Documents/Minity Project/MEZ/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/5_KGA_16/Documents/Minity Project/MEZ/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CloudWebServicesModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FacebookModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FacebookModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticlesLegacyModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WebModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIAutomation">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>C:/Users/5_KGA_16/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>C:/Users/5_KGA_16/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StandardEvents">
+      <HintPath>C:/Users/5_KGA_16/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

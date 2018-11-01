@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Sky name="DRAPES" background="OUTERSPACE_BACK" windSpeed="1.0" density="1.0" fogDensity="0.019999999553" verticalTiling="True" horizontalScrolling="False" layerBaseHeight="0.5" interLayerVerticalDistance="0.20000000298" interLayerHorizontalDistance="0.20000000298" horizontalDistance="0.0" verticalDistance="0.0" layerBaseSpacing="0.0" windParallax="0.0" windDistance="0.0" cloudsParallax="1.0" shadowOpacity="0.699999988079" foliageShadows="False" noPerFaceLayerXOffset="False" layerBaseXOffset="0.0">
+  <Layers>
+    <SkyLayer name="OUTERSPACE_C" opacity="0.25" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="OUTERSPACE_B" opacity="0.5" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="OUTERSPACE_A" opacity="0.75" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="STARDRAPES_B" opacity="1.0" fogTint="0.0" inFront="False"/>
+    <SkyLayer name="STARDRAPES_A" opacity="1.0" fogTint="0.0" inFront="False"/>
+  </Layers>
+  <Clouds/>
+</Sky>

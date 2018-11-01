@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TrackedSong name="Villageville" tempo="65" timeSignature="4" randomOrdering="False">
+  <Chord>A_maj</Chord>
+  <Notes>
+    <Note>A2</Note>
+    <Note>B2</Note>
+    <Note>Csharp3</Note>
+    <Note>D3</Note>
+    <Note>E3</Note>
+    <Note>Fsharp3</Note>
+    <Note>Gsharp3</Note>
+    <Note>A3</Note>
+  </Notes>
+  <Loops>
+    <Loop name="Villageville ^ Bed" duration="25" loopTimesFrom="1" loopTimesTo="1" triggerFrom="0" triggerTo="0" delay="0" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+    <Loop name="Villageville ^ Drums" duration="24" loopTimesFrom="1" loopTimesTo="1" triggerFrom="1" triggerTo="1" delay="21" fractionalTime="False" oneAtATime="False" cutOffTail="False" night="True" day="True" dusk="True" dawn="True"/>
+  </Loops>
+</TrackedSong>

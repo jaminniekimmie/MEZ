@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<AnimatedTexturePC width="1024" height="512" actualWidth="128" actualHeight="24">
+  <Frames>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="0" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="25" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="50" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="75" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="100" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="125" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="150" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="175" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="200" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="225" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="0" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="25" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="50" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="75" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="100" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="125" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="0" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="150" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="25" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="175" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="50" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="200" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="75" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="225" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="100" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="125" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="150" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="175" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="200" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="225" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="250" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="275" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="300" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="325" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="350" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="375" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="250" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="400" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="275" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="425" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="300" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="0" y="450" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="325" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="350" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="375" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="250" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="400" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="275" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="425" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="300" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="129" y="450" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="325" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="350" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="375" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="400" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="425" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="258" y="450" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="387" y="0" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="387" y="25" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="387" y="50" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="387" y="75" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="387" y="100" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="387" y="125" w="128" h="24"/>
+    </FramePC>
+    <FramePC duration="1100000">
+      <Rectangle x="516" y="0" w="128" h="24"/>
+    </FramePC>
+  </Frames>
+</AnimatedTexturePC>
