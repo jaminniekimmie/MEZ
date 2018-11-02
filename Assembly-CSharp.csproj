@@ -61,8 +61,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\PlayerController2D.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ReturnPlayer.cs" />
     <None Include="Assets\Assets\sounds\sewer\valveunscrew.xml" />
     <None Include="Assets\Assets\art objects\tall_tree_aao.xml" />
     <None Include="Assets\Assets\sounds\ending\hexrebuild\raywhiteout.xml" />

@@ -9,12 +9,12 @@ public class PlayerMovement : MonoBehaviour {
     CharacterController controller;
     public float moveSpeed = 2f;
     public float gravity = 1f;
+    public bool isJumping = false;
 
     private bool isWalking = false;
-    private bool isJumping = false;
     private float degree = 0f;
 
-    float jumpForce = 680f;
+    float jumpHeight = 0f;
     float h = 0f;
     
     void Start()
@@ -26,7 +26,9 @@ public class PlayerMovement : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        h = Input.GetAxisRaw("Horizontal");
+        //h = Input.GetAxisRaw("Horizontal");
+        if (Input.GetKeyDown(KeyCode.RightArrow)) h = 1;
+        else if (Input.GetKeyDown(KeyCode.LeftArrow)) h = -1;
 
         if (Input.GetButtonDown("Jump") && !isJumping)
         {
@@ -43,12 +45,8 @@ public class PlayerMovement : MonoBehaviour {
 
     void FixedUpdate()
     {
-        Vector3 trans = Vector3.zero;
         //controller.Move(h * Time.fixedDeltaTime, false, false);
         //transform.Translate(h * Time.deltaTime * moveSpeed, 0, 0);
-        trans = new Vector3(h * Time.deltaTime * moveSpeed, -gravity * moveSpeed, 0f);
-
-        controller.SimpleMove(trans);
 
         if (h > 0.1f)
         {
@@ -65,6 +63,22 @@ public class PlayerMovement : MonoBehaviour {
             isWalking = false;
         }
 
+        float moveFactor = moveSpeed * Time.deltaTime * 10f;
+        MoveCharacter(moveFactor);
+
         transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0, degree, 0), 8 * Time.deltaTime);
+    }
+
+    private void MoveCharacter(float moveFactor)
+    {
+        Vector3 trans = Vector3.zero;
+        trans = new Vector3(h * Time.deltaTime * moveFactor, -gravity * moveFactor, 0f);
+
+        if(isJumping)
+        {
+            transform.Translate(Vector3.up * jumpHeight * Time.deltaTime);
+        }
+
+        controller.SimpleMove(trans);
     }
 }
