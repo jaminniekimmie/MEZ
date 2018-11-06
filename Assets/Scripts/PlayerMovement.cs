@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
-
+    
     SpriteRenderer sr;
     Animator anim;
     CharacterController controller;
@@ -13,10 +13,16 @@ public class PlayerMovement : MonoBehaviour {
 
     private bool isWalking = false;
     private float degree = 0f;
+    private FacingDirection facingDirection;
 
     float jumpHeight = 0f;
     float h = 0f;
     
+    public FacingDirection CmdFacingDirection
+    {
+        set { facingDirection = value; }
+    }
+
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -72,13 +78,34 @@ public class PlayerMovement : MonoBehaviour {
     private void MoveCharacter(float moveFactor)
     {
         Vector3 trans = Vector3.zero;
-        trans = new Vector3(h * Time.deltaTime * moveFactor, -gravity * moveFactor, 0f);
+
+        switch (facingDirection)
+        {
+            case FacingDirection.Front:
+                trans = new Vector3(h * moveFactor, -gravity * moveFactor, 0f);
+                break;
+            case FacingDirection.Right:
+                trans = new Vector3(0f, -gravity * moveFactor, h * moveFactor);
+                break;
+            case FacingDirection.Back:
+                trans = new Vector3(-h * moveFactor, -gravity * moveFactor, 0f);
+                break;
+            case FacingDirection.Left:
+                trans = new Vector3(0f, -gravity * moveFactor, -h * moveFactor);
+                break;
+        }
+        
+        //trans = new Vector3(h * Time.deltaTime * moveFactor, -gravity * moveFactor, 0f);
 
         if(isJumping)
-        {
             transform.Translate(Vector3.up * jumpHeight * Time.deltaTime);
-        }
 
         controller.SimpleMove(trans);
+    }
+
+    public void UpdateToFacingDirection(FacingDirection newDirection, float angle)
+    {
+        facingDirection = newDirection;
+        degree = angle;
     }
 }

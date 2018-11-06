@@ -80,7 +80,8 @@ public class GameManager : MonoBehaviour {
     {
         //We don't need to rebuild when facing direction and depth remains the same.
         if (!forceRebuild)
-            if (lastFacing == facingDirection && lastDepth == GetPlayerDepth())
+            if (lastFacing == facingDirection && 
+                lastDepth == GetPlayerDepth())
                 return;
         //Move old invisicubes away and eliminate
         foreach (Transform tr in invisiList)
@@ -92,9 +93,8 @@ public class GameManager : MonoBehaviour {
         invisiList.Clear();
 
         //Create new ones
-        float newDepth = 0f;
+        float newDepth = GetPlayerDepth();
 
-        newDepth = GetPlayerDepth();
         CreateInvisiCubesAtNewDepth(newDepth);
     }
     //Returns true if player is standing on an invisicube
@@ -138,11 +138,38 @@ public class GameManager : MonoBehaviour {
 
         return true;
     }
-
+    //move player to closest platform with the same height when player jumps onto an invisicube
     private bool MovePlayerDepthToClosestPlatform()
     {
-        return true;
+        foreach (Transform item in level)
+        {
+            if (facingDirection == FacingDirection.Front || facingDirection == FacingDirection.Back)
+            {
+                if (Mathf.Abs(item.position.x - playerMove.transform.position.x) < worldUnits + 0.1f)
+                {
+                    if (playerMove.transform.position.y - item.position.y <= worldUnits + 0.2f && 
+                        playerMove.transform.position.y - item.position.y > 0)
+                    {
+                        playerMove.transform.position = new Vector3(playerMove.transform.position.x, playerMove.transform.position.y, item.position.z);
+                        return true;
+                    }
+                }
+            }
+            else
+            {
+                if (Mathf.Abs(item.position.z - playerMove.transform.position.z) < worldUnits + 0.1f)
+                {
+                    if (playerMove.transform.position.y - item.position.y <= worldUnits + 0.2f && 
+                        playerMove.transform.position.y - item.position.y > 0)
+                    {
+                        playerMove.transform.position = new Vector3(item.position.x, playerMove.transform.position.y, playerMove.transform.position.z);
+                        return true;
+                    }
+                }
+            }
+        }
 
+        return false;
     }
 
     private Transform CreateInvisiCube(Vector3 position)
@@ -153,7 +180,7 @@ public class GameManager : MonoBehaviour {
 
         return go.transform;
     }
-
+    //creates invisible cubes for the player to move on
     private void CreateInvisiCubesAtNewDepth(float newDepth)
     {
         Vector3 tempCube = Vector3.zero;
@@ -189,6 +216,12 @@ public class GameManager : MonoBehaviour {
     private float GetPlayerDepth()
     {
         float ClosestPoint = 0f;
+
+        if (facingDirection == FacingDirection.Front || facingDirection == FacingDirection.Back)
+            ClosestPoint = playerMove.transform.position.z;
+        else if (facingDirection == FacingDirection.Right || facingDirection == FacingDirection.Left)
+            ClosestPoint = playerMove.transform.position.x;
+
         return Mathf.Round(ClosestPoint);
     }
 
