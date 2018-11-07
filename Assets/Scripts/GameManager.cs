@@ -4,11 +4,10 @@ using UnityEngine;
 
 public enum FacingDirection
 {
-    Front = 0,
-    Right = 1,
-    Back = 2,
-    Left = 3
-
+    Front,
+    Right,
+    Back,
+    Left
 }
 
 public class GameManager : MonoBehaviour {
@@ -115,9 +114,37 @@ public class GameManager : MonoBehaviour {
 
         return false;
     }
-
+    //Moves player to the closest platform with the same height
     private bool MoveToClosestPlatformToCamera()
     {
+        bool moveCloser = false;
+        
+        foreach(Transform item in level)
+        {
+            if (facingDirection == FacingDirection.Front || facingDirection == FacingDirection.Back)
+            {
+                if (Mathf.Abs(item.position.x - playerMove.transform.position.x) < worldUnits + 0.1f)
+                {
+                    if (playerMove.transform.position.y - item.position.y <= worldUnits + 0.2f &&
+                        playerMove.transform.position.y - item.position.y > 0 && !playerMove.isJumping)
+                    {
+                        if (playerMove.transform.position.y - item.position.y <= worldUnits + 0.2f && playerMove.transform.position.y - item.position.y > 0 && !fezMove._jumping)
+                        {
+                            if ((facingDirection == FacingDirection.Front && item.position.z < playerMove.transform.position.z) ||
+                                (facingDirection == FacingDirection.Back && item.position.z > playerMove.transform.position.z))
+                                moveCloser = true;
+
+                            if (moveCloser)
+                            {
+                                fezMove.transform.position = new Vector3(fezMove.transform.position.x, fezMove.transform.position.y, item.position.z);
+                                return true;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
         return true;
     }
 
