@@ -114,7 +114,7 @@ public class GameManager : MonoBehaviour {
 
         return false;
     }
-    //Moves player to the closest platform with the same height
+    //Moves player to the closest platform with the same height when facing the camera
     private bool MoveToClosestPlatformToCamera()
     {
         bool moveCloser = false;
@@ -128,18 +128,28 @@ public class GameManager : MonoBehaviour {
                     if (playerMove.transform.position.y - item.position.y <= worldUnits + 0.2f &&
                         playerMove.transform.position.y - item.position.y > 0 && !playerMove.isJumping)
                     {
-                        if (playerMove.transform.position.y - item.position.y <= worldUnits + 0.2f && playerMove.transform.position.y - item.position.y > 0 && !fezMove._jumping)
-                        {
-                            if ((facingDirection == FacingDirection.Front && item.position.z < playerMove.transform.position.z) ||
-                                (facingDirection == FacingDirection.Back && item.position.z > playerMove.transform.position.z))
-                                moveCloser = true;
+                        if ((facingDirection == FacingDirection.Front && item.position.z < playerMove.transform.position.z) ||
+                            (facingDirection == FacingDirection.Back && item.position.z > playerMove.transform.position.z))
+                            moveCloser = true;
 
-                            if (moveCloser)
-                            {
-                                fezMove.transform.position = new Vector3(fezMove.transform.position.x, fezMove.transform.position.y, item.position.z);
-                                return true;
-                            }
+                        if (moveCloser)
+                        {
+                            playerMove.transform.position = new Vector3(playerMove.transform.position.x, playerMove.transform.position.y, item.position.z);
+                            return true;
                         }
+                    }
+                }
+            }
+            else
+            {
+                if (Mathf.Abs (item.position.z - playerMove.transform.position.z) < worldUnits + 0.1f)
+                {
+                    if (playerMove.transform.position.y - item.position.y <= worldUnits + 0.2f &&
+                        playerMove.transform.position.y - item.position.y > 0 && !playerMove.isJumping)
+                    {
+                        if ((facingDirection == FacingDirection.Right && item.position.z < playerMove.transform.position.z) ||
+                            (facingDirection == FacingDirection.Left && item.position.z > playerMove.transform.position.z))
+                            moveCloser = true;
                     }
                 }
             }
