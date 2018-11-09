@@ -150,6 +150,12 @@ public class GameManager : MonoBehaviour {
                         if ((facingDirection == FacingDirection.Right && item.position.z < playerMove.transform.position.z) ||
                             (facingDirection == FacingDirection.Left && item.position.z > playerMove.transform.position.z))
                             moveCloser = true;
+
+                        if (moveCloser)
+                        {
+                            playerMove.transform.position = new Vector3(item.position.x, playerMove.transform.position.y, playerMove.transform.position.z);
+                            return true;
+                        }
                     }
                 }
             }
